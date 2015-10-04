@@ -1,0 +1,9 @@
+Dynamic title WOW
+
+<a href="http://www.joindota.com/en/start" target="_blank">Something on confluence, wow!</a> 
+
+This is a test to check if I can properly and safely open HTML files.<br /><br />
+
+as RTF format I might be able to add images. Let's give it a go: <br /><br />
+
+<img src="Archive\hermes.jpg" alt="Hermes" style="width:304px;height:228px;">

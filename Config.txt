@@ -1,0 +1,26 @@
+				@#### This is Ermes Configuration File! ####@
+			####If you can use it, great! Else, dont touch it.####
+			
+# Name			
+asd
+# Archive Directory 1 --- Always with one extra slash!
+C:\Users\Elohimir\Dropbox\BitBucket Projects\Reborn\Archive\
+# Archive Directory 2 --- Always with one extra slash!
+C:\Users\Elohimir\Dropbox\BitBucket Projects\Reborn\Archive\
+# Italian Folder Search Path	
+C:\Users\Elohimir\Dropbox\BitBucket Projects\Reborn\MyTemplates
+# UK Folder Search Path	
+D:\Reborn\Stuff\Reborn\MyTemplates
+# Swedish Folder Search Path	
+D:\Reborn\Stuff\Reborn\MyTemplates
+# Danish Folder Search Path	
+D:\Reborn\Stuff\Reborn\MyTemplates
+# Norwegian Folder Search Path	
+D:\Reborn\Stuff\Reborn\MyTemplates
+# Finnish Folder Search Path	
+D:\Reborn\Stuff\Reborn\MyTemplates
+# Polish Folder Search Path	
+D:\Reborn\Stuff\Reborn\MyTemplates
+# My Archive directory
+C:\Users\Elohimir\Dropbox\BitBucket Projects\Reborn\Archive\
+

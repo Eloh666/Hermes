@@ -1,0 +1,14 @@
+Richiesta assistenza nonna in cariola.
+
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 4 (PS4)
+
+Questo è un primo test, template ONLINE RMA. WOW IM SO GOOD
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+Grazie,
+
+
+Davide
+Supporto PlayStation

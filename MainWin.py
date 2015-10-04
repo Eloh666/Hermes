@@ -1,0 +1,593 @@
+# -*- coding: utf-8 -*-
+
+import re
+import sys
+import enchant
+import Rep
+import os
+import diag
+import sres
+import miniMEG
+import about
+import sharedFun
+
+from PyQt4 import QtCore, QtGui
+from PyQt4.Qt import *
+from PyQt4.QtCore import pyqtSignal
+
+
+sys.stderr = sys.stdout
+reload(sys)
+sys.setdefaultencoding('utf8')
+
+Config = open("Config.txt","r")
+lines=Config.readlines()
+Config.close()
+
+lng = 1
+Sresult = ""
+global lastPTR
+lastPTR = ""
+
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
+
+
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
+
+
+class Ui_MainWindow(QObject):
+    def setupUi(self, MainWindow):
+        MainWindow.setObjectName(_fromUtf8("MainWindow"))
+        MainWindow.resize(1127, 880)
+
+
+
+#            Text EDIT ------------------------------------------------------------------------------------------------------
+
+        self.centralwidget = QtGui.QWidget(MainWindow)
+        self.centralwidget.setObjectName(_fromUtf8("centralwidget"))
+        self.textEdit = QtGui.QTextEdit(self.centralwidget)
+        self.textEdit.setGeometry(QtCore.QRect(20, 150, 1081, 661))
+        self.textEdit.setObjectName(_fromUtf8("textEdit"))
+        self.textEdit.isUndoRedoEnabled ()
+
+            #Text EDIT ------------------------------------------------------------------------------------------------------
+
+        self.dict = enchant.Dict("it_IT")
+
+        self.highlighter = sharedFun.Highlighter(self.textEdit.document())
+        self.highlighter.setDict(self.dict)
+
+#            COMBO BOX ------------------------------------------------------------------------------------------------------
+
+
+        self.comboBox = QtGui.QComboBox(self.centralwidget)
+        self.comboBox.setGeometry(QtCore.QRect(20, 90, 251, 21))
+        self.comboBox.setObjectName(_fromUtf8("comboBox"))
+        icon1 = QtGui.QIcon()
+        icon1.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\PlayStation-4-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.comboBox.addItem(icon1, _fromUtf8(""))
+        icon2 = QtGui.QIcon()
+        icon2.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Sony-Playstation-2-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.comboBox.addItem(icon2, _fromUtf8(""))
+        icon3 = QtGui.QIcon()
+        icon3.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Games-Playstation-3-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.comboBox.addItem(icon3, _fromUtf8(""))
+        icon4 = QtGui.QIcon()
+        icon4.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Sony-Playstation-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.comboBox.addItem(icon4, _fromUtf8(""))
+        icon5 = QtGui.QIcon()
+        icon5.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\18j1fnh34eyqkjpg.jpg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.comboBox.addItem(icon5, _fromUtf8(""))
+        icon6 = QtGui.QIcon()
+        icon6.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Sony-Playstation-Portable-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.comboBox.addItem(icon6, _fromUtf8(""))
+        icon7 = QtGui.QIcon()
+        icon7.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\playstation-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.comboBox.addItem(icon7, _fromUtf8(""))
+        icon8 = QtGui.QIcon()
+        icon8.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Security-Question-Shield-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.comboBox.addItem(icon8, _fromUtf8(""))
+
+        leHand = lambda checked, :sharedFun.leHandler(self.comboBox,self.lineEdit)
+        self.comboBox.activated.connect(leHand)
+
+    #   RADIOBUTTONS ------------------------------------------------------------------------------------------------------
+
+        self.radioButton = QtGui.QRadioButton(self.centralwidget)
+        self.radioButton.setGeometry(QtCore.QRect(300, 90, 77, 51))
+        self.radioButton.setText(_fromUtf8(""))
+        icon9 = QtGui.QIcon()
+        icon9.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Italy-ico.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.radioButton.setIcon(icon9)
+        self.radioButton.setIconSize(QtCore.QSize(50, 50))
+        self.radioButton.setObjectName(_fromUtf8("radioButton"))
+        self.radioButton_2 = QtGui.QRadioButton(self.centralwidget)
+        self.radioButton_2.setGeometry(QtCore.QRect(390, 90, 77, 51))
+        self.radioButton_2.setText(_fromUtf8(""))
+        icon10 = QtGui.QIcon()
+        icon10.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\United-Kingdom-ico.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.radioButton_2.setIcon(icon10)
+        self.radioButton_2.setIconSize(QtCore.QSize(50, 50))
+        self.radioButton_2.setObjectName(_fromUtf8("radioButton_2"))
+        self.radioButton_3 = QtGui.QRadioButton(self.centralwidget)
+        self.radioButton_3.setGeometry(QtCore.QRect(480, 90, 77, 51))
+        self.radioButton_3.setText(_fromUtf8(""))
+        icon11 = QtGui.QIcon()
+        icon11.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Sweden-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.radioButton_3.setIcon(icon11)
+        self.radioButton_3.setIconSize(QtCore.QSize(50, 50))
+        self.radioButton_3.setObjectName(_fromUtf8("radioButton_3"))
+        self.radioButton_4 = QtGui.QRadioButton(self.centralwidget)
+        self.radioButton_4.setGeometry(QtCore.QRect(570, 90, 77, 51))
+        self.radioButton_4.setText(_fromUtf8(""))
+        icon12 = QtGui.QIcon()
+        icon12.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Denmark-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.radioButton_4.setIcon(icon12)
+        self.radioButton_4.setIconSize(QtCore.QSize(50, 50))
+        self.radioButton_4.setObjectName(_fromUtf8("radioButton_4"))
+        self.radioButton_5 = QtGui.QRadioButton(self.centralwidget)
+        self.radioButton_5.setGeometry(QtCore.QRect(750, 90, 77, 51))
+        self.radioButton_5.setText(_fromUtf8(""))
+        icon13 = QtGui.QIcon()
+        icon13.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Norway-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.radioButton_5.setIcon(icon13)
+        self.radioButton_5.setIconSize(QtCore.QSize(50, 50))
+        self.radioButton_5.setObjectName(_fromUtf8("radioButton_5"))
+        self.radioButton_6 = QtGui.QRadioButton(self.centralwidget)
+        self.radioButton_6.setGeometry(QtCore.QRect(660, 90, 77, 51))
+        self.radioButton_6.setText(_fromUtf8(""))
+        icon14 = QtGui.QIcon()
+        icon14.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Finland-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.radioButton_6.setIcon(icon14)
+        self.radioButton_6.setIconSize(QtCore.QSize(50, 50))
+        self.radioButton_6.setObjectName(_fromUtf8("radioButton_6"))
+        self.radioButton_7 = QtGui.QRadioButton(self.centralwidget)
+        self.radioButton_7.setGeometry(QtCore.QRect(840, 90, 77, 51))
+        self.radioButton_7.setText(_fromUtf8(""))
+        self.radioButton.setChecked(True)
+        icon15 = QtGui.QIcon()
+        icon15.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Poland-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.radioButton_7.setIcon(icon15)
+        self.radioButton_7.setIconSize(QtCore.QSize(50, 50))
+        self.radioButton_7.setObjectName(_fromUtf8("radioButton_7"))
+
+        itaLan = lambda checked,: self.r_clicked(1,"it_IT")
+        eUkLan = lambda checked,: self.r_clicked(2,"en_GB")
+        sweLan = lambda checked,: self.r_clicked(3,"sv_SE")
+        danLan = lambda checked,: self.r_clicked(4,"da_DK")
+        finLan = lambda checked,: self.r_clicked(5,"en_GB")
+        norLan = lambda checked,: self.r_clicked(6,"nb_NO")
+        polLan = lambda checked,: self.r_clicked(7,"pl_PL")
+        self.radioButton.toggled.connect(itaLan)
+        self.radioButton_2.toggled.connect(eUkLan)
+        self.radioButton_3.toggled.connect(sweLan)
+        self.radioButton_4.toggled.connect(danLan)
+        self.radioButton_6.toggled.connect(finLan)
+        self.radioButton_5.toggled.connect(norLan)
+        self.radioButton_7.toggled.connect(polLan)
+
+    #   PUSHBUTTONS ------------------------------------------------------------------------------------------------------
+
+        self.pushButton = QtGui.QPushButton(self.centralwidget)
+        self.pushButton.setGeometry(QtCore.QRect(990, 80, 111, 61))
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\edit-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton.setIcon(icon)
+        self.pushButton.setIconSize(QtCore.QSize(32, 32))
+        self.pushButton.setObjectName(_fromUtf8("pushButton"))
+
+        self.pushButton_2 = QtGui.QPushButton(self.centralwidget)
+        self.pushButton_2.setEnabled(True)
+        self.pushButton_2.setGeometry(QtCore.QRect(20, 0, 50, 50))
+        self.pushButton_2.setText(_fromUtf8(""))
+        icon16 = QtGui.QIcon()
+        icon16.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\document-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_2.setIcon(icon16)
+        self.pushButton_2.setIconSize(QtCore.QSize(50, 50))
+        self.pushButton_2.setObjectName(_fromUtf8("pushButton_2"))
+
+        self.pushButton_3 = QtGui.QPushButton(self.centralwidget)
+        self.pushButton_3.setEnabled(True)
+        self.pushButton_3.setGeometry(QtCore.QRect(70, 0, 50, 50))
+        self.pushButton_3.setText(_fromUtf8(""))
+        icon17 = QtGui.QIcon()
+        icon17.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\dolder-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_3.setIcon(icon17)
+        self.pushButton_3.setIconSize(QtCore.QSize(50, 50))
+        self.pushButton_3.setObjectName(_fromUtf8("pushButton_3"))
+
+        self.pushButton_4 = QtGui.QPushButton(self.centralwidget)
+        self.pushButton_4.setEnabled(True)
+        self.pushButton_4.setGeometry(QtCore.QRect(120, 0, 50, 50))
+        self.pushButton_4.setText(_fromUtf8(""))
+        icon18 = QtGui.QIcon()
+        icon18.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\disk-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_4.setIcon(icon18)
+        self.pushButton_4.setIconSize(QtCore.QSize(50, 50))
+        self.pushButton_4.setObjectName(_fromUtf8("pushButton_4"))
+
+        self.pushButton_5 = QtGui.QPushButton(self.centralwidget)
+        self.pushButton_5.setEnabled(True)
+        self.pushButton_5.setGeometry(QtCore.QRect(170, 0, 50, 50))
+        self.pushButton_5.setText(_fromUtf8(""))
+        icon19 = QtGui.QIcon()
+        icon19.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\mail-receive-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_5.setIcon(icon19)
+        self.pushButton_5.setIconSize(QtCore.QSize(50, 50))
+        self.pushButton_5.setObjectName(_fromUtf8("pushButton_5"))
+
+        self.pushButton_6 = QtGui.QPushButton(self.centralwidget)
+        self.pushButton_6.setEnabled(True)
+        self.pushButton_6.setGeometry(QtCore.QRect(220, 0, 50, 50))
+        self.pushButton_6.setText(_fromUtf8(""))
+        icon20 = QtGui.QIcon()
+        icon20.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\mail-send-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_6.setIcon(icon20)
+        self.pushButton_6.setIconSize(QtCore.QSize(50, 50))
+        self.pushButton_6.setObjectName(_fromUtf8("pushButton_6"))
+
+        self.pushButton_7 = QtGui.QPushButton(self.centralwidget)
+        self.pushButton_7.setEnabled(True)
+        self.pushButton_7.setGeometry(QtCore.QRect(270, 0, 50, 50))
+        self.pushButton_7.setText(_fromUtf8(""))
+        icon21 = QtGui.QIcon()
+        icon21.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\document-cross-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_7.setIcon(icon21)
+        self.pushButton_7.setIconSize(QtCore.QSize(50, 50))
+        self.pushButton_7.setObjectName(_fromUtf8("pushButton_7"))
+
+        self.pushButton_10 = QtGui.QPushButton(self.centralwidget)
+        self.pushButton_10.setGeometry(QtCore.QRect(610, 10, 121, 31))
+        self.pushButton_8 = QtGui.QPushButton(self.centralwidget)
+        self.pushButton_8.setEnabled(True)
+        self.pushButton_8.setGeometry(QtCore.QRect(929, 80, 61, 61))
+        self.pushButton_8.setText(_fromUtf8(""))
+        icon23 = QtGui.QIcon()
+        icon23.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\copy-xxl.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_8.setIcon(icon23)
+        self.pushButton_8.setIconSize(QtCore.QSize(50, 50))
+        self.pushButton_8.setObjectName(_fromUtf8("pushButton_8"))
+
+        self.pushButton_12 = QtGui.QPushButton(self.centralwidget)
+        self.pushButton_12.setGeometry(QtCore.QRect(1000, 10, 121, 32))
+        icon25 = QtGui.QIcon()
+        icon25.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\search-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_12.setIcon(icon25)
+        self.pushButton_12.setObjectName(_fromUtf8("pushButton_12"))
+
+        icon22 = QtGui.QIcon()
+        icon22.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\chive-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_10.setIcon(icon22)
+        self.pushButton_10.setObjectName(_fromUtf8("pushButton_10"))
+
+        self.pushButton_9 = QtGui.QPushButton(self.centralwidget)
+        self.pushButton_9.setGeometry(QtCore.QRect(20, 810, 91, 21))
+        icon26 = QtGui.QIcon()
+        icon26.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\green-document-plus-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_9.setIcon(icon26)
+        self.pushButton_9.setObjectName(_fromUtf8("pushButton_9"))
+
+        openConf = lambda checked, : sharedFun.confirmEvent(self.textEdit.clear,"This will delete your current work,\n\n Do you want to proceed?")
+        ripLastConf = lambda checked, : sharedFun.confirmEvent(self.Clear_Last,"This will remove your changes,\n\n Do you want to proceed?")
+        opFile = lambda checked, : sharedFun.OpenButton(lines[24],self.textEdit)
+        savFile = lambda checked, : sharedFun.SaveButton(lines[24],self.textEdit)
+        CopyButton = lambda checked, : sharedFun.CopyButton(self.textEdit)
+        MainButton = lambda checked, : sharedFun.AddTemplate(lng,lines[4],self.lineEdit,self.comboBox,self.textEdit)
+
+        self.pushButton.clicked.connect(MainButton) # sand
+        self.pushButton_5.clicked.connect(self.textEdit.undo) #undo
+        self.pushButton_6.clicked.connect(self.textEdit.redo) #redo
+        self.pushButton_2.clicked.connect(openConf) # new
+        self.pushButton_7.clicked.connect(ripLastConf) # clearlist
+        self.pushButton_3.clicked.connect(opFile) # open
+        self.pushButton_4.clicked.connect(savFile) # save
+        self.pushButton_10.clicked.connect(self.MainButton2) # archive
+        self.pushButton_8.clicked.connect(CopyButton) # copy
+        self.pushButton_12.clicked.connect(self.Search_Temp) # search
+        self.pushButton_9.clicked.connect(self.StartMiniMe) # minime
+
+
+#            LABEL -----------------------------------------------------------------------------------------------------
+
+        self.label = QtGui.QLabel(self.centralwidget)
+        self.label.setGeometry(QtCore.QRect(20, 70, 251, 20))
+        self.label.setObjectName(_fromUtf8("label"))
+
+#            LINE EDITS  -----------------------------------------------------------------------------------------------
+
+        self.lineEdit = QtGui.QLineEdit(self.centralwidget)
+        self.lineEdit.setGeometry(QtCore.QRect(20, 120, 251, 20))
+        self.lineEdit.setObjectName(_fromUtf8("lineEdit"))
+        self.lineEdit.setEnabled(False)
+
+        self.lineEdit_2 = QtGui.QLineEdit(self.centralwidget)
+        self.lineEdit_2.setGeometry(QtCore.QRect(740, 20, 251, 21))
+        self.lineEdit_2.setObjectName(_fromUtf8("lineEdit_2"))
+
+#            MENU ------------------------------------------------------------------------------------------------------
+
+        MainWindow.setCentralWidget(self.centralwidget)
+        self.menubar = QtGui.QMenuBar(MainWindow)
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1127, 21))
+        self.menubar.setObjectName(_fromUtf8("menubar"))
+        self.menuFile = QtGui.QMenu(self.menubar)
+        self.menuFile.setObjectName(_fromUtf8("menuFile"))
+        self.menuEdit = QtGui.QMenu(self.menubar)
+        self.menuEdit.setObjectName(_fromUtf8("menuEdit"))
+        self.menuTools = QtGui.QMenu(self.menubar)
+        self.menuTools.setObjectName(_fromUtf8("menuTools"))
+        self.menuAbout = QtGui.QMenu(self.menubar)
+        self.menuAbout.setObjectName(_fromUtf8("menuAbout"))
+        MainWindow.setMenuBar(self.menubar)
+        self.statusbar = QtGui.QStatusBar(MainWindow)
+        self.statusbar.setObjectName(_fromUtf8("statusbar"))
+        MainWindow.setStatusBar(self.statusbar)
+        self.newFile = QtGui.QAction(MainWindow)
+        self.newFile.setObjectName(_fromUtf8("newFile"))
+        self.openFile = QtGui.QAction(MainWindow)
+        self.openFile.setObjectName(_fromUtf8("openFile"))
+        self.saveFile = QtGui.QAction(MainWindow)
+        self.saveFile.setObjectName(_fromUtf8("saveFile"))
+        self.quitProgram = QtGui.QAction(MainWindow)
+        self.quitProgram.setObjectName(_fromUtf8("quitProgram"))
+        self.actionCut = QtGui.QAction(MainWindow)
+        self.actionCut.setObjectName(_fromUtf8("actionCut"))
+        self.actionCopy = QtGui.QAction(MainWindow)
+        self.actionCopy.setObjectName(_fromUtf8("actionCopy"))
+        self.actionChangeMN = QtGui.QAction(MainWindow)
+        self.actionChangeMN.setObjectName(_fromUtf8("actionChangeMN"))
+        self.actionPaste = QtGui.QAction(MainWindow)
+        self.actionPaste.setObjectName(_fromUtf8("actionPaste"))
+        self.actionSelect_all = QtGui.QAction(MainWindow)
+        self.actionSelect_all.setObjectName(_fromUtf8("actionSelect_all"))
+        self.actionConvert = QtGui.QAction(MainWindow)
+        self.actionConvert.setObjectName(_fromUtf8("actionConvert"))
+        self.actionMini_SpellCheck = QtGui.QAction(MainWindow)
+        self.actionMini_SpellCheck.setObjectName(_fromUtf8("actionMini_SpellCheck"))
+        self.actionUndo = QtGui.QAction(MainWindow)
+        self.actionUndo.setObjectName(_fromUtf8("actionUndo"))
+        self.actionRedo = QtGui.QAction(MainWindow)
+        self.actionRedo.setObjectName(_fromUtf8("actionRedo"))
+        self.actionBrowse_Premade_Templates = QtGui.QAction(MainWindow)
+        self.actionBrowse_Premade_Templates.setObjectName(_fromUtf8("actionBrowse_Premade_Templates"))
+        self.actionAbout = QtGui.QAction(MainWindow)
+        self.actionAbout.setObjectName(_fromUtf8("actionAbout"))
+        self.actionHelp = QtGui.QAction(MainWindow)
+        self.actionHelp.setObjectName(_fromUtf8("actionHelp"))
+        self.menuFile.addSeparator()
+        self.menuFile.addAction(self.newFile)
+        self.menuFile.addAction(self.openFile)
+        self.menuFile.addAction(self.saveFile)
+        self.menuFile.addSeparator()
+        self.menuFile.addAction(self.quitProgram)
+        self.menuEdit.addAction(self.actionUndo)
+        self.menuEdit.addAction(self.actionRedo)
+        self.menuEdit.addSeparator()
+        self.menuEdit.addAction(self.actionSelect_all)
+        self.menuEdit.addSeparator()
+        self.menuEdit.addAction(self.actionCut)
+        self.menuEdit.addAction(self.actionCopy)
+        self.menuEdit.addAction(self.actionPaste)
+        self.menuEdit.addSeparator()
+        self.menuEdit.addAction(self.actionMini_SpellCheck)
+        self.menuEdit.addAction(self.actionConvert)
+        self.menuTools.addAction(self.actionChangeMN)
+        self.menuTools.addSeparator()
+        self.menuTools.addAction(self.actionBrowse_Premade_Templates)
+        self.menuAbout.addAction(self.actionAbout)
+        self.menuAbout.addSeparator()
+        self.menuAbout.addAction(self.actionHelp)
+        self.menubar.addAction(self.menuFile.menuAction())
+        self.menubar.addAction(self.menuEdit.menuAction())
+        self.menubar.addAction(self.menuTools.menuAction())
+        self.menubar.addAction(self.menuAbout.menuAction())
+
+        self.quitProgram.triggered.connect(self.closeEvent)
+        self.newFile.triggered.connect(openConf)
+        self.openFile.triggered.connect(opFile)
+        self.saveFile.triggered.connect(savFile)
+        self.actionSelect_all.triggered.connect(self.textEdit.selectAll)
+        self.actionUndo.triggered.connect(self.textEdit.undo)
+        self.actionRedo.triggered.connect(self.textEdit.redo)
+        self.actionCut.triggered.connect(self.textEdit.cut)
+        self.actionCopy.triggered.connect(self.textEdit.copy)
+        self.actionPaste.triggered.connect(self.textEdit.paste)
+        self.actionConvert.triggered.connect(MainButton)
+        self.actionBrowse_Premade_Templates.triggered.connect(self.MainButton2)
+        self.actionChangeMN.triggered.connect(self.nameDiag)
+        self.actionAbout.triggered.connect(self.callAbout)
+
+
+        self.retranslateUi(MainWindow)
+        QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+    def retranslateUi(self, MainWindow):
+        MainWindow.setWindowTitle(_translate("Sandwich Reborn", "Hermes Beta 0.91C", None))
+        self.pushButton.setText(_translate("MainWindow", "Convert", None))
+        self.comboBox.setItemText(0, _translate("MainWindow", "PlayStation 4 (PS4)", None))
+        self.comboBox.setItemText(1, _translate("MainWindow", "DualShock 4", None))
+        self.comboBox.setItemText(2, _translate("MainWindow", "PlayStation 3 (PS3)", None))
+        self.comboBox.setItemText(3, _translate("MainWindow", "DualShock3", None))
+        self.comboBox.setItemText(4, _translate("MainWindow", "PlayStation Vita (PS Vita)", None))
+        self.comboBox.setItemText(5, _translate("MainWindow", "PlayStation Portable (PSP)", None))
+        self.comboBox.setItemText(6, _translate("MainWindow", "SEN Account", None))
+        self.comboBox.setItemText(7, _translate("MainWindow", "Other", None))
+        self.pushButton_2.setToolTip(_translate("MainWindow", "New", None))
+        self.pushButton_3.setToolTip(_translate("MainWindow", "Open", None))
+        self.pushButton_4.setToolTip(_translate("MainWindow", "Save", None))
+        self.pushButton_5.setToolTip(_translate("MainWindow", "Undo", None))
+        self.pushButton_6.setToolTip(_translate("MainWindow", "Redo", None))
+        self.pushButton_7.setToolTip(_translate("MainWindow", "Clear Last Change", None))
+        self.pushButton_10.setText(_translate("MainWindow", "Archive", None))
+        self.label.setText(_translate("MainWindow", "Topic", None))
+        self.textEdit.setDocumentTitle(_translate("MainWindow", "Sandwich", None))
+        self.pushButton_8.setToolTip(_translate("MainWindow", "Clear Last Change", None))
+        self.pushButton_12.setText(_translate("MainWindow", "Search", None))
+        self.menuFile.setTitle(_translate("MainWindow", "File", None))
+        self.menuEdit.setTitle(_translate("MainWindow", "Edit", None))
+        self.menuTools.setTitle(_translate("MainWindow", "Tools", None))
+        self.menuAbout.setTitle(_translate("MainWindow", "Help", None))
+        self.newFile.setText(_translate("MainWindow", "New", None))
+        self.openFile.setText(_translate("MainWindow", "Open", None))
+        self.saveFile.setText(_translate("MainWindow", "Save", None))
+        self.quitProgram.setText(_translate("MainWindow", "Quit", None))
+        self.actionCut.setText(_translate("MainWindow", "Cut", None))
+        self.actionCopy.setText(_translate("MainWindow", "Copy", None))
+        self.actionChangeMN.setText(_translate("MainWindow", "Change My name", None))
+        self.actionPaste.setText(_translate("MainWindow", "Paste", None))
+        self.actionSelect_all.setText(_translate("MainWindow", "Select all", None))
+        self.actionConvert.setText(_translate("MainWindow", "Convert", None))
+        self.actionMini_SpellCheck.setText(_translate("MainWindow", "Mini-SpellCheck", None))
+        self.actionUndo.setText(_translate("MainWindow", "Undo", None))
+        self.actionRedo.setText(_translate("MainWindow", "Redo", None))
+        self.actionBrowse_Premade_Templates.setText(_translate("MainWindow", "Browse Premade Templates", None))
+        self.actionAbout.setText(_translate("MainWindow", "About", None))
+        self.actionHelp.setText(_translate("MainWindow", "Help!", None))
+        self.pushButton_9.setText(_translate("MainWindow", "ExtraPad", None))
+
+        self.textEdit.installEventFilter(self)
+
+    def eventFilter(self, source, event):
+        if (event.type() == QtCore.QEvent.MouseButtonPress):
+            event = QMouseEvent(QEvent.MouseButtonPress, event.pos(),
+                Qt.LeftButton, Qt.LeftButton, Qt.NoModifier)
+            QTextEdit.mousePressEvent(self.textEdit, event)
+            self.contextMenuEvent(event)
+        return QtGui.QWidget.eventFilter(self, source, event)
+
+
+    def contextMenuEvent(self, event):
+        popup_menu = self.textEdit.createStandardContextMenu()
+        cursor = self.textEdit.textCursor()
+        cursor.select(QTextCursor.WordUnderCursor)
+        self.textEdit.setTextCursor(cursor)
+        if self.textEdit.textCursor().hasSelection():
+            text = unicode(self.textEdit.textCursor().selectedText())
+            if not self.dict.check(text):
+                spell_menu = QMenu('Spelling Suggestions')
+                for word in self.dict.suggest(text):
+                    action = sharedFun.SpellAction(word, spell_menu)
+                    action.correct.connect(self.correctWord)
+                    spell_menu.addAction(action)
+                if len(spell_menu.actions()) != 0:
+                    popup_menu.insertSeparator(popup_menu.actions()[0])
+                    popup_menu.insertMenu(popup_menu.actions()[0], spell_menu)
+
+        popup_menu.exec_(event.globalPos())
+
+    def correctWord(self, word):
+        cursor = self.textEdit.textCursor()
+        cursor.beginEditBlock()
+        cursor.removeSelectedText()
+        cursor.insertText(word)
+        cursor.endEditBlock()
+
+
+    def MainButton2(self):
+	    self.myOtherWindow = Rep.Archive(self.textEdit)
+	    self.myOtherWindow.show()
+
+    def callAbout(self):
+	    self.myOtherWindow = about.Ui_Ermes()
+	    self.myOtherWindow.show()
+
+    def r_clicked(self, num, dictionary):
+        global lng
+        lng = num
+        self.dict = enchant.Dict(dictionary)
+        self.highlighter = sharedFun.Highlighter(self.textEdit.document())
+        self.highlighter.setDict(self.dict)
+
+    def nameDiag(self):
+        text, ok = QtGui.QInputDialog.getText(None, 'Insert your name',
+            'Enter your name:')
+
+        if ok:
+            f1 = open("Config.txt", 'w')
+            lines[4] = text+"\n"
+            f1.writelines(lines)
+            f1.close
+            self.nameDiagConf()
+
+    def nameDiagConf(self):
+	    self.myOtherWindow = diag.changedDiag()
+	    self.myOtherWindow.show()
+
+    def Clear_Last(self):
+        self.textEdit.clear()
+        self.textEdit.insertPlainText(lastPTR)
+
+
+
+
+    def open_close(fullpath):
+        f1 = open(fullpath, 'r')
+        mail = f1.read()
+        f1.close()
+        return mail
+
+    def Search_Temp(self):
+        Scontent = self.lineEdit_2.displayText()
+        found = 0
+        global Sresult
+        Sresult = Scontent
+        if len(Scontent) < 3:
+            error = QtGui.QErrorMessage(None)
+            error.setWindowTitle(_translate("Length Error", "Length Error", None))
+            error.showMessage("The search parameter must be longer than 3 (three) characters.")
+            error.accept(self.close)
+        else:
+            self.myOtherWindow = sres.SreS()
+            self.myOtherWindow.show()
+
+
+
+    def StartMiniMe(self):
+	    self.myOtherWindow = miniMEG.MiniMe()
+	    self.myOtherWindow.show()
+
+    def closeEvent(self, event):
+        quit_msg = "Are you sure you want to quit" \
+                   "?"
+        reply = QtGui.QMessageBox.question(None, 'Message',
+                         quit_msg, QtGui.QMessageBox.Yes, QtGui.QMessageBox.No)
+
+        if reply == QtGui.QMessageBox.Yes:
+            QtGui.qApp.quit()
+        else:
+            event.ignore()
+
+
+
+
+
+
+
+
+
+
