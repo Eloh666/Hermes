@@ -5,6 +5,8 @@ import re
 from PyQt4 import QtGui
 from PyQt4.Qt import *
 
+lastPTR = ""
+
 def leHandler(comboBox,lineEdit):
     checkFlag = comboBox.currentText()
     if checkFlag == "Other":
@@ -99,6 +101,7 @@ def proofreader(lng, text):
 def AddTemplate(lng,name,lineEdit,comboBox, textEdit):
     data = textEdit.toPlainText()
     data = proofreader(lng, data)
+    global lastPTR
     lastPTR = data
     name = name.replace("\n","")
     newbody = ""

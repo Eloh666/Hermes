@@ -23,7 +23,7 @@ Config.close()
 
 global lng
 lng = 1
-lastPTR = ""
+
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
@@ -103,7 +103,7 @@ class MiniMe(QMainWindow):
         self.pushButton_5.setGeometry(QtCore.QRect(130, 0, 40, 40))
         self.pushButton_5.setText(_fromUtf8(""))
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Double-J-Design-Origami-Colored-Pencil-Green-document-cross.ico")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon4.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\green-document-cross-icon")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_5.setIcon(icon4)
         self.pushButton_5.setIconSize(QtCore.QSize(37, 37))
         self.pushButton_5.setObjectName(_fromUtf8("pushButton_5"))
@@ -171,7 +171,7 @@ class MiniMe(QMainWindow):
         icon17.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Sony-Playstation-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.comboBox_2.addItem(icon17, _fromUtf8(""))
         icon18 = QtGui.QIcon()
-        icon18.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\18j1fnh34eyqkjpg.jpg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon18.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\ita.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.comboBox_2.addItem(icon18, _fromUtf8(""))
         icon19 = QtGui.QIcon()
         icon19.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Sony-Playstation-Portable-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -314,7 +314,7 @@ class MiniMe(QMainWindow):
 
     def Clear_Last(self):
         self.textEdit.clear()
-        self.textEdit.insertPlainText(lastPTR)
+        self.textEdit.insertPlainText(sharedFun.lastPTR)
 
     def langSelect(self):
         global lng

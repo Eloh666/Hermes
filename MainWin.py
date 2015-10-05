@@ -26,8 +26,6 @@ Config.close()
 
 lng = 1
 Sresult = ""
-global lastPTR
-lastPTR = ""
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
@@ -101,7 +99,7 @@ class Ui_MainWindow(QObject):
         icon4.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Sony-Playstation-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.comboBox.addItem(icon4, _fromUtf8(""))
         icon5 = QtGui.QIcon()
-        icon5.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\18j1fnh34eyqkjpg.jpg")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        icon5.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\ita.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.comboBox.addItem(icon5, _fromUtf8(""))
         icon6 = QtGui.QIcon()
         icon6.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Sony-Playstation-Portable-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -430,9 +428,9 @@ class Ui_MainWindow(QObject):
         MainWindow.setWindowTitle(_translate("Sandwich Reborn", "Hermes Beta 0.91C", None))
         self.pushButton.setText(_translate("MainWindow", "Convert", None))
         self.comboBox.setItemText(0, _translate("MainWindow", "PlayStation 4 (PS4)", None))
-        self.comboBox.setItemText(1, _translate("MainWindow", "DualShock 4", None))
+        self.comboBox.setItemText(1, _translate("MainWindow", "DualShock 4 (DS4)", None))
         self.comboBox.setItemText(2, _translate("MainWindow", "PlayStation 3 (PS3)", None))
-        self.comboBox.setItemText(3, _translate("MainWindow", "DualShock3", None))
+        self.comboBox.setItemText(3, _translate("MainWindow", "DualShock3 (DS3)", None))
         self.comboBox.setItemText(4, _translate("MainWindow", "PlayStation Vita (PS Vita)", None))
         self.comboBox.setItemText(5, _translate("MainWindow", "PlayStation Portable (PSP)", None))
         self.comboBox.setItemText(6, _translate("MainWindow", "SEN Account", None))
@@ -540,7 +538,7 @@ class Ui_MainWindow(QObject):
 
     def Clear_Last(self):
         self.textEdit.clear()
-        self.textEdit.insertPlainText(lastPTR)
+        self.textEdit.insertPlainText(sharedFun.lastPTR)
 
 
 
