@@ -64,7 +64,7 @@ class SreS(QtGui.QWidget):
                 if name.endswith('.txt'):
                     fullpath = os.path.join(path, name)
                     mail = self.open_close(fullpath)
-                    if mail.find(data) != -1 and results<3:
+                    if mail.find(data) != -1 and results<64:
                         found = 1
                         self.buttonsStack.append(QtGui.QPushButton(self))
                         command = lambda checked, path=fullpath: webbrowser.open(path)
