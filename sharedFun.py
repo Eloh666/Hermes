@@ -21,7 +21,7 @@ def OpenButton(line,textEdit):
     f = open(fname, 'r')
     with f:
         data = f.read()
-        textEdit.setText(data)
+        textEdit.setText(unicode(data))
 
 def SaveButton(line,textEdit):
     path = line.replace("\n","")
@@ -31,7 +31,7 @@ def SaveButton(line,textEdit):
                         ("Text (*.txt *.rtf)"))
     f = open(fname, 'w')
     with f:
-        f.write(data)
+        f.write(unicode(data))
         f.close()
 
 def CopyButton(textEdit):
@@ -98,12 +98,11 @@ def proofreader(lng, text):
     text = text.replace('$ incidents.ref_no', '$incidents.ref_no')
     return text
 
-def AddTemplate(lng,name,lineEdit,comboBox, textEdit):
+def AddTemplate(lng,lineEdit,comboBox, textEdit):
     data = textEdit.toPlainText()
     data = proofreader(lng, data)
     global lastPTR
     lastPTR = data
-    name = name.replace("\n","")
     newbody = ""
     if lng == 1:
         newbody += 'Ciao $contacts.name.first,\n\n'
@@ -155,7 +154,10 @@ def AddTemplate(lng,name,lineEdit,comboBox, textEdit):
         newbody += '\n\nSerdecznie pozdrawiam,'
     newbody += '\n'
     newbody += '\n\n'
-    newbody += name
+    configFile = open("Config.txt","r")
+    lines = configFile.readlines()
+    configFile.close()
+    newbody += lines[4].replace("\n","")
     if lng == 1:
         newbody += '\nSupporto PlayStation'
     if lng == 2:

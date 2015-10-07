@@ -295,7 +295,7 @@ class Ui_MainWindow(QObject):
         opFile = lambda checked, : sharedFun.OpenButton(lines[24],self.textEdit)
         savFile = lambda checked, : sharedFun.SaveButton(lines[24],self.textEdit)
         CopyButton = lambda checked, : sharedFun.CopyButton(self.textEdit)
-        MainButton = lambda checked, : sharedFun.AddTemplate(lng,lines[4],self.lineEdit,self.comboBox,self.textEdit)
+        MainButton = lambda checked, : sharedFun.AddTemplate(lng,self.lineEdit,self.comboBox,self.textEdit)
 
         self.pushButton.clicked.connect(MainButton) # sand
         self.pushButton_5.clicked.connect(self.textEdit.undo) #undo
@@ -472,10 +472,12 @@ class Ui_MainWindow(QObject):
 
     def eventFilter(self, source, event):
         if (event.type() == QtCore.QEvent.MouseButtonPress):
-            event = QMouseEvent(QEvent.MouseButtonPress, event.pos(),
-                Qt.LeftButton, Qt.LeftButton, Qt.NoModifier)
-            QTextEdit.mousePressEvent(self.textEdit, event)
-            self.contextMenuEvent(event)
+            selected = unicode(self.textEdit.textCursor().selectedText())
+            if selected.find(" ") == -1:
+                event = QMouseEvent(QEvent.MouseButtonPress, event.pos(),
+                    Qt.LeftButton, Qt.LeftButton, Qt.NoModifier)
+                QTextEdit.mousePressEvent(self.textEdit, event)
+                self.contextMenuEvent(event)
         return QtGui.QWidget.eventFilter(self, source, event)
 
 

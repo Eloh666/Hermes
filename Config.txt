@@ -2,7 +2,7 @@
 			####If you can use it, great! Else, dont touch it.####
 			
 # Name			
-asd
+Test2
 # Archive Directory 1 --- Always with one extra slash!
 C:\Users\Elohimir\Dropbox\BitBucket Projects\Reborn\Archive\
 # Archive Directory 2 --- Always with one extra slash!

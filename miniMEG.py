@@ -226,7 +226,7 @@ class MiniMe(QMainWindow):
         CopyButton = lambda checked, : sharedFun.CopyButton(self.textEdit)
         openConf = lambda checked, : sharedFun.confirmEvent(self.textEdit.clear,"This will delete your current work,\n\n Do you want to proceed?")
         ripLastConf = lambda checked, : sharedFun.confirmEvent(self.Clear_Last,"This will remove your changes,\n\n Do you want to proceed?")
-        mainButton = lambda checked, : sharedFun.AddTemplate(lng,lines[4],self.lineEdit,self.comboBox_2,self.textEdit)
+        mainButton = lambda checked, : sharedFun.AddTemplate(lng,self.lineEdit,self.comboBox_2,self.textEdit)
 
         self.pushButton_3.clicked.connect(opFile) # open
         self.pushButton_4.clicked.connect(savFile) # save
