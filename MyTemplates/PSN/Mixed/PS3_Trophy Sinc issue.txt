@@ -1,0 +1,45 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 3 (PS3).
+
+Da questo si evince che hai avuto un problema con la sincronizzazione dei tuoi trofei ed alcuni trofei non sono visibili sul tuo profilo Sony EntertainmentNetwork (SEN).
+
+Per risolvere il tuo problema ti consiglio di seguire i seguenti passaggi:
+
+A) SINCRONIZZAZIONE ORARIO
+ 1) Vai su [IMPOSTAZIONI]--->[IMPOSTAZIONI DI DATA E ORA]--->[DATA E ORA]
+ 2) Seleziona [IMPOSTA TRAMITE INTERNET] e scegli [IMPOSTA ADESSO]
+ 3) Attiva l'opzione [IMPOSTA AUTOMATICAMENTE]
+ 
+B) RIPRISTINO LICENZE
+ 1) Vai al menù [PSN]
+ 2) Seleziona [GESTIONE ACCOUNT] e premi [X]
+ 3) Scegli [ATTIVAZIONE SISTEMA]--->[PS3]--->[GIOCO] e seleziona ATTIVA se disattivato.
+    Nel caso il sistema fosse ATTIVO, disattiva la tua PS3, per poi attivarla di nuovo, sempre dallo stesso percorso.
+ 
+C) SINCRONIZZAZIONE MANUALE TROFEI
+ 1) Accedi all'area [PSN] sulla tua PS3
+ 2) Seleziona l'opzione [BACHECA TROFEI] premendo il tasto Triangolo sul controller.
+ 3) Procedi alla [SINCRONIZZAZIONE CON IL SERVER]
+ 
+
+ N.B. Non é possibile per noi forzare la sincronizzazione dei trofei. Questa infatti avviene automaticamente e dipende dalle informazioni che il sogftware trasmette alla console e, di conseguenza, al tuo account. Nel caso non riuscissi ad ottenere i trofei in questo modo devi riottenerli rigiocando il titolo.
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza Sony Entertainment Network
+

@@ -1,0 +1,30 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda la tua PlayStation 3 (PS3).
+
+Da questa si evince che vorresti ricevere assistenza per la tua console.
+
+Dalle informazioni che ci hai fornito la tua console risulta essere stata utilizzata per la prima volta più di un anno fa; in questo caso ti devo informare che la garanzia offerta da Sony Computer Entertainment ha durata di 1(uno) anno, come riportato anche sul libretto di istruzioni denominato "Sicurezza e assistenza tecnica", conformemente alla legislazione italiana riguardante la garanzia del produttore.
+
+Dopo il primo anno comunque offriamo un servizio di assistenza fuori garanzia. Questo consiste nella sostituzione della sua console con una console rigenerata.
+
+Questo servizio ha al momento un costo di  € 115 che copre le varie parti, la forza lavoro, la spedizione e altri costi amministrativi associati al processo di rifabbricazione. Da notare che Sony Computer Entertainment Europe (SCEE) non trae profitto da questo servizio, al contrario sussidia il costo in modo da permettere ai nostri clienti di beneficiare del prezzo migliore. 
+
+Ti ricordo che durante il secondo anno dall'acquisto della console è ancora coperto da garanzia del venditore che, per la legislazione Europea ed Italiana ha durata di 2(due) anni, pertanto, se questa fosse la tua situazione, ti invito a recarti al punto vendita presso il quale hai acquistato la console.
+
+
+Per ulteriori informazioni ti invitiamo a contattarci al numero sotto indicato, citando il riferimento $incidents.ref_no, e un addetto del nostro team di assistenza sarà lieto di aiutarti. Inoltre, potremmo avere bisogno di maggiori informazioni sul sistema, per cui ti consigliamo di contattarci con il sistema a portata di mano.  
+
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta assistenza PlayStation

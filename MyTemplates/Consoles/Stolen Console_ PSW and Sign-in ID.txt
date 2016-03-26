@@ -1,0 +1,32 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+Ci spiace venire a conoscenza tu sia stato vittima di un furto della tua console.
+
+In primo luogo ti consigliamo di cambiare la password del tuo account Sony Entertainment Network (SEN), in modo da preventivare accessi non autorizzati.
+
+Segui le istruzioni riportate <as-html><b><a href="http://www.sonyentertainmentnetwork.com/it-it/support/questions/detail/show-question/account-management-reset-password/">qui</b></a></as-html>, per cambiare la chiave di accesso direttamente dal sito internet di SEN.
+
+Per ulteriore sicurezza sarebbe anche conveniente cambiare l'ID di accesso (indirizzo e-mail) associato al tuo account; puoi modificare anche questo dai Dettagli dell'account, come specificato nel link precendente. 
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_n, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+
+
+

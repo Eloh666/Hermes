@@ -1,0 +1,25 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation a proposito della tua PlayStation 3 (PS3).
+
+Da questa si evince che hai avuto un problema con un accessorio e che vorresti ripararlo da solo.
+Purtroppo non forniamo pezzi di ricambio per la PS3 e i relativi accessori; a causa della sua natura non è possibile sostituirne semplicemente un pezzo senza apportare modifiche al modo in cui il software riconosce le sue componenti.
+
+In caso il prodotto acquistato presenti un difetto, il negozio che ha venduto l'accessorio al cliente è tenuto ad effettuare una sostituzione immediata, previa disponibilità di magazzino, entro 12 mesi dalla data di acquisto come da accordi commerciali. 
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare l'Assistenza PlayStation citando il numero di Riferimento $incidents.ref_no, o usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, e un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta assistenza PlayStation

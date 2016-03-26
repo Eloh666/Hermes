@@ -1,0 +1,24 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation Network (PSN).
+
+Posso vedere dalla tua comunicazione che vorresti cambiare paese di residenza del tuo account Sony Entertainment Network (SEN). 
+Sfortunatamente una volta creato un account non é più possibile cambiare il paese di residenza associato. 
+Per usare un account SEN localizzato in un altro paese, avrai bisogno di creare un nuovo account SEN, potendo continuare a usare parallelamente entrambi gli account.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+

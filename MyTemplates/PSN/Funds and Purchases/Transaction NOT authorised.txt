@@ -1,0 +1,43 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il tuo account SONY ENTERTAINMENT NETWORK (SEN).
+
+Da quanto si evince dalla tua comunicazione ed in seguito ai controlli effettuati sul tuo account [ONLINE ID] non risultano modifiche e-mail non autorizzate,
+per tale motivo l'unico modo per effettuare l'accesso all'account è conoscere (o mettere a conoscenza) la password e l'ID di accesso.
+
+Pertanto tutte le transazioni effettuate con questo account sono di unica responsabilità del proprietario stesso, come specificato nei Termini di Servizio SEN, accettati in fase di registrazione. 
+Per ulteriori informazioni visita i TERMINI DI SERVIZIO e CONDIZIONI D'USO http://legaldoc.dl.playstation.net/ps3-eula/psn/e/e_tosua_it.html
+con attenzione al paragrafo 1 " REGISTRAZIONE DELL'ACCOUNT SONY ENTERTAINMENT NETWORK E DI ACCOUNT PER MINORI".
+
+A seguito delle ragioni esposte, siamo spiacenti ma non sono previsti rimborsi per transazioni non riconosciute.
+
+Ti inviamo alcuni suggerimenti utili per il controllo e la sicurezza dei tuoi dati:
+
+1- accedi al sito: https://account.sonyentertainmentnetwork.com/login.action ed immetti e-mail e password 
+
+2- clicca su CRONOLOGIA TRANSAZIONI per verificare tutte le transazioni 
+
+3- clicca su DISPOSITIVI> SISTEMI PLAYSTATION e verifica quanti dispositivi sono attivi e se non riconosci 1 o più 
+   dispositivi, vai sulla voce ACCOUNT (in alto a destra) > CONTENUTO MULTIMEDIALE E DISPOSITIVI > GIOCO e premi disattiva tutto.
+
+4- se i dispositivi PlayStation attivi sono di più di quelli in tuo possesso ti consigliamo di modificare password ed e-mail prima possibile.
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+
+

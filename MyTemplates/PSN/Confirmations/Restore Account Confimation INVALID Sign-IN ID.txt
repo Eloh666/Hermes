@@ -1,0 +1,41 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il tuo account Sony Entertainment Network (SEN).
+        
+
+        Ti informiamo che il tuo account Sony Entertainment Network (SEN) è stato ripristinato.
+
+        Per accedere dovrai utilizzare la mail alternativa fornita e reimpostare la password.
+    
+        Ti abbiamo già mandato una mail per poterla reimpostare, se dovessi leggerla dopo le 24 ore di validità
+        dovrai seguire le seguenti istruzioni:
+     	
+Opzione A
+
+   1. Seleziona l'icona PLAYSTATION Network sul menu principale della PS3 e selezionare "Accedi". 
+   2. Inserisci l'ID di accesso per cui desideri recuperare la password.
+   3. Seleziona "Password Smarrita"
+   4. Inserisci la data di nascita.
+   5. Segui le istruzioni visualizzate per ripristinare la password. (ricevute all'indirizzo di posta elettronica)
+
+Opzione B
+
+   1. cliccando sul seguente link:
+	https://account.sonyentertainmentnetwork.com/pc/login.action?request_locale=it_IT
+   2. Andare su "Password Smarrita?" e seguire le istruzioni riportate nel sito.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+

@@ -1,0 +1,26 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il tuo account Sony Entertainment Network (SEN).
+
+In riferimento alla tua richiesta di cambio ID di accesso (indirizzo e-mail), ti informiamo che abbiamo bisogno di una e-mail realmente esistente e NON associata a nessun account Sony Entertainment Network (SEN).
+
+L'indirizzo che ci hai comunicato risulta non disponibile, in quanto già in uso su un altro account. Ti chiediamo di ricontattarci per fornire un indirizzo che sia possibile utilizzare.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+

@@ -1,0 +1,31 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda [ISSUE].
+
+Da quanto si evince dalla tua comunicazione ti invitiamo a verificare i seguenti punti:
+
+Accertati di aver effettuato il login con lo stesso account tramite cui hai effettuato l'acquisto e controlla nella lista servizi la presenza del contenuto:
+
+PS3> PSN> GESTIONE ACCOUNT> GESTIONE TRANSAZIONI> LISTA SERVIZI
+
+PS4>IMPOSTAZIONI>PSN> INFORMAZIONI SULL'ACCOUNT> LISTA SERVIZI 
+
+Se il Season Pass è presente in questa lista, significa che rimane effettivamente attivo sul tuo account, ed i contenuti inclusi dovrebbero essere disponibili all'interno del gioco, o disponibili allo scaricamento gratuito dal PlayStation Store.
+
+Se così non fosse ti consiglio di contattare il produttore del gioco.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+

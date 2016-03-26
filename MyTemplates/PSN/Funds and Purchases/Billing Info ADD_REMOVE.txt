@@ -1,0 +1,45 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il tuo account Sony Entertainment Network.
+
+        Ti informiamo che è possibile cambiare gli estremi di fatturazione sia dalla console,
+        sia dal sito www.sonyentertainmentnetwork.com
+ 
+      Effettua quindi il log-in con l'account desiderato e segui i seguenti passaggi:
+
+      Selezionare la pagina Account -> Estremi di fatturazione -> Aggiungi
+      in alternativa
+      seziona Account -> Portafoglio -> Aggiungi Carta di Credito
+
+Da console PS3
+Per aggiungere o aggiornare gli estremi di fatturazione:
+
+Seleziona il tuo utente locale e dal menu XMB™ accedi a  (PSN) >   (Accedi) >   (Gestione account) >    (Informazioni sull'account) > Estremi di fatturazione e premi  (tasto X). 
+Immetti la tua password 
+Da qui potrai aggiungere, eliminare o modificare gli estremi di fatturazione del tuo account.
+
+
+Da console PS4
+
+Seleziona il tuo account utente locale ed una volta avuto accesso al menu principale vai a  (Impostazioni) > PSN > Informazioni sull'account > Portafoglio > Estremi di fatturazione. 
+Da qui potrai aggiungere, eliminare o modificare gli estremi di fatturazione del tuo account.
+
+Puoi inoltre confrontare la tua problematica con le domande frequenti sui problemi relativi all'uso della carta di credito o debito a questo link:
+http://faq.it.playstation.com/app/answers/detail/a_id/2477
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+

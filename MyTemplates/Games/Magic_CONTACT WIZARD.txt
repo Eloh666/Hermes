@@ -1,0 +1,33 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il gioco "Magic 2014 Duels of the Planeswalkers"
+	
+Come ben saprai, alcuni giochi per PlayStation vengono creati da diverse case produttrici e "Magic 2014 Duels of the Planeswalkers"
+	 è pubblicato da Wizards Of The Coast.  
+
+Potresti ricevere assistenza su questo gioco all’interno del loro sito web:
+
+
+wizardscusthelp@wizards.com 
+
+oppure
+	
+
+wpn@hasbro.it 
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza PlayStation

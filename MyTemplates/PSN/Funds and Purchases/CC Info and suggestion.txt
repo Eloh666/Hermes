@@ -1,0 +1,45 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il tuo account Sony Entertainment Network.
+
+Da questo si evince che stai avendo difficoltà ad inserire le informazioni di fatturazione nel profilo del tuo account Sony Entertainment Network
+
+Se il tuo accesso al sistema di fatturazione di Sony Entertainment Network è stato bloccato in seguito a vari tentativi di accesso non andati a buon fine, ti invitiamo di attendere almeno 48 ore prima di riprovare.
+
+Ulteriori suggerimenti per l'inserimento di informazioni di fatturazione in Sony Entertainment Network:
+
+Verifica con l'emittente che la tua carta di credito o di debito sia valida e attiva.
+Verifica con l'emittente che la tua carta di credito o di debito supporti il sistema AVS (Address Verification System).
+Se non lo supporta, la tua carta di credito o di debito potrebbe non essere accettata da Sony Entertainment Network.
+
+
+Assicurati di aver inserito tutte le informazioni di fatturazione (numeri di carta di credito, indirizzo di fatturazione, ecc.) in modo preciso e accurato.
+Se le informazioni che inserisci risultano diverse da quelle comunicate dalla banca, la registrazione verrà rifiutata.
+Prima di effettuare la registrazione, ti consigliamo di verificare che la tua banca o la società che ha emesso la tua carta di credito dispongano delle tue informazioni aggiornate.
+
+
+Usa una carta collegata ad un indirizzo di un luogo fisico, in quanto quelle collegate a una casella postale potrebbero non venire autorizzate.
+
+Sconsigliamo l'uso di carte di pagamento prepagate. Non ne garantiamo il funzionamento, specie se non dispongono di un indirizzo di fatturazione collegato all'account.
+
+Puoi usare solo carte di credito o di debito il cui indirizzo di fatturazione corrisponda all'indirizzo di residenza.
+
+Ti consigliamo anche di rimuovere eventuali caratteri speciali (come asterischi, trattini e barre) dal modulo di registrazione dell'account Sony Entertainment Network.
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+

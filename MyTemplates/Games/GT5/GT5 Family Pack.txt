@@ -1,0 +1,30 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda i Contenuti Aggiuntivi (DLC) di Gran Turismo 5 (GT5).
+ 
+	In riferimento al problema riscontrato ti invitiamo ad eseguire le seguenti indicazioni:
+
+1) Eliminare tutti i file di installazione inerenti a GT5
+2) Reinstallare prima il gioco e successivamente scaricare l'ultimo aggiornamento disponibile
+3) Scaricare ed Installare dal PS Store i pacchetti gratuiti denominati:
+
+	- Pacchetto famiglia pack tracciati
+	- Pacchetto famiglia pack auto da gara
+
+4) Scaricare i contenuti dei DLC dal "contenuto scaricabile situato all'interno del gioco stesso
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-----------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network

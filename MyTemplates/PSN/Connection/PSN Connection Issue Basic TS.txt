@@ -1,0 +1,44 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il PlayStation Network (PSN).
+
+Da quanto si evince dalla tua comunicazione hai riscontrato problemi con la connessione al PSN.
+
+Verifica che non sia in corso la manutenzione del server PSN: http://it.playstation.com/psn/support/ps3/detail/item716483/Stato-del-servizio-PSN%E2%84%A0/
+
+Nel caso I server PSN siano online, per cercare di risolvere il problema segui i passaggi qui descritti: 
+
+1 Spegni la Console, il router, il modem. 
+
+2 Lascia tutto spento per 15 minuti.
+
+3 Riaccendi il router / modem.
+
+4 Accendi la Console e cercare di accedere a PSN 
+
+
+Se il problema persiste
+
+1 Vai su Impostazioni> Impostazioni di rete> Verifica della connessione Internet 
+
+2 Rispondi a questa e-mail segnalandoci eventuali risultati della verifica di connessione.
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+

@@ -1,0 +1,26 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+In merito alla tua richiesta ti informiamo che puoi tracciare la spedizione del tuo prodotto PlayStation, tramite il sito del corriere UPS: 
+
+http://www.ups.com/
+
+Selezioni Ricerca > Ricerca Spedizioni e scegliere l'opzione di ricerca Tramite Riferimento.
+
+Inserisci il tuo riferimento RMA per l'assistenza Playstation che hai ricevuto nella e-mail dell'etichetta di spedizione, seleziona un intevallo di date per la spedizione coincidente all'invio della console e avvia la ricerca.
+
+Troverai il tracciamento della spedizione di andata e, quando attivata, quella di ritorno.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+-------------------------------------------------------
+
+Richiesta Assistenza PlayStation

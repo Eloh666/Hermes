@@ -1,0 +1,125 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation Network.
+
+Dalle informazioni da te fornite capisco che hai un problema nel conneterti al nostro server.
+
+Generalmente la difficoltà da te registrata é risolvibile impostando correttamente la connessione sulla console, pertanto sono sicuro che troverai le indicazioni più sotto utili alla risoluzione del tuo problema.
+
+
+CONFIGURAZIONE DI BASE
+
+1)  Nel menu principale della console seleziona 
+[IMPOSTAZIONI]--->[RETE]--->[IMPOSTA CONNESSIONE INTERNET]
+
+2)  Ti apparirà la prima pagina della configurazione guidata della rete
+
+3)  Scegli il tuo metodo di connessione [USA WIFI] o [USA CAVO DI RETE]
+
+4)  Nella schermata successiva seleziona [PERSONALIZZATA]
+
+5)  Se utilizzi il cavo di rete vai al passaggio 8 altrimenti continui 
+al punto 6
+
+6)  Attendi che la console completi la scansione delle reti WiFi e 
+seleziona la tua
+
+7)  inserisci la Chiave di Rete
+
+8)  Nella pagina della selezione dell'indirizzo IP seleziona [AUTOMATICO]
+
+9)  A questo punto ti apparirà la domanda relativa ai DNS, seleziona [MANUALE]
+
+10) imposta il DNS primario a 208.67.222.222 e quello secondario a 208.67.220.220
+
+
+11) Nella pagina seguente seleziona [MANUALE]---[MTU] per impostare il 
+parametro MTU
+
+12) inserisci il valore di 1473 e seleziona [AVANTI]
+
+13) Nella maschera relativa ai server proxy seleziona [NON USARE]
+
+14) La console ti richiederà di effettuare un test e dovrebbe connettersi al PSN, se ricevessi un messaggio di errore continua al punto successivo
+
+15) Torna al menu principale
+
+16) seleziona [IMPOSTAZIONI]--->[PSN]--->[ACCEDI] ed effettua il login
+
+17) A questo punto dovresti essere in grado di collegarsi al PSN, se ancora avessi delle difficoltà procedi con l'apertura delle porte sul tuo router, come spiegato più sotto.
+
+
+
+FASTWEB CONFIGURAZIONE AVANZATA
+
+1)  Nel menu principale della console seleziona 
+[IMPOSTAZIONI]--->[RETE]--->[IMPOSTA CONNESSIONE INTERNET]
+
+2)  Ti apparirà la prima pagina della configurazione guidata della rete
+
+3)  Scegli il tuo metodo di connessione [USA WIFI] o [USA CAVO DI RETE]
+
+4)  Nella schermata successiva seleziona [PERSONALIZZATA]
+
+5)  Se utilizzi il cavo di rete vai al passaggio 8 altrimenti continua al punto 6
+
+6)  Attendi che la console completi la scansione delle reti WiFi e seleziona la tua
+
+7)  Inserisci la Chiave di Rete
+
+8)  Nella pagina della selezione dell'indirizzo IP seleziona [MANUALE]
+
+9)  inserisci come indirizzo IP 192.168.1.101
+
+10) Imposta la Maschera di Sottorete a 255.255.255.0
+
+11) Inserisci come Gateway Predefinito 192.168.1.254
+
+12) Imposta il DNS primario a 208.67.222.222 e quello secondario a 208.67.220.220
+
+13) Nella pagina seguente seleziona [MANUALE]---[MTU] per impostare il parametro MTU
+
+14) Inserisci il valore di 1473 e seleziona [AVANTI]
+
+15) Nella maschera relativa ai server proxy seleziona [NON USARE]
+
+16) La console ti richiederà di effettuare un test e dovrebbe connettersi al PSN, se ricevessi un messaggio di errore continua al punto successivo
+
+17) Torna al menu principale
+
+18) Seleziona [IMPOSTAZIONI]--->[PSN]--->[ACCEDI] ed effettua il login
+
+18) A questo punto dovresti essere in grado di collegarsi al PSN, se ancora avessi delle difficoltà procedi con l'apertura delle porte sul tuo router, come spiegato più sotto.
+
+
+PORTE TCP/UDP
+
+Il problema di connessione da te riscontrato potrebbe nascere anche dal settaggio delle porte TCP e UDP sul tuo router che, sulla connessione utilizzata dalla console, dovranno essere sempre aperte.
+
+Queste le porte che ti suggeriamo di comunicare al tuo gestore telefonico, richiedendo espressamente che vengano lasciate sempre aperte:
+
+TCP 80, 443, 3478, 3479, 3480, 5223, dalla 10070 alla 10080;
+
+UDP 3478, 3479, 3480, 3658, 10070
+
+Dovessi trovare difficoltà nelle impostazioni del modem-router, ti consigliamo di contattare il produttore del router stesso.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+
+

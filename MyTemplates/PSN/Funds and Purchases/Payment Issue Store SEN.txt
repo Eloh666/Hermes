@@ -1,0 +1,40 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda Sony Entertainment Network (SEN).
+
+Da quanto si evince dalla tua comunicazione, al fine di risolvere l'anomalia da te riscontrata, ti consigliamo di seguire le istruzioni riportate al seguente link:
+
+http://faq.it.playstation.com/app/answers/detail/a_id/2477/p/491
+
+o eventualmente, di utilizzare metodi di pagamento alternativi:
+
+http://faq.it.playstation.com/app/answers/detail/a_id/9945/p/491
+http://faq.it.playstation.com/app/answers/detail/a_id/6949/p/491
+http://it.support.sonyentertainmentnetwork.com/app/answers/detail/a_id/1982/session/L2F2LzEvdGltZS8xNDExMDQ4NTA0L3NpZC9PZDdmQkkybQ%3D%3D
+
+
+Nota:
+
+- Per poter essere associate all'account di SEN, le carte di credito o di debito devono essere compatibili con il sistema di verifica dell'indirizzo AVS (Address Verification System). Per scoprire se la tua carta per il pagamento è compatibile, rivolgiti all'istituito bancario di emissione
+
+- Puoi utilizzare delle carte prepagate per aggiungere fondi al portafoglio dell'account SEN senza utilizzare una carta di credito. Recati presso il rivenditore autorizzato PlayStation® o Sony Entertainment Network della tua zona per acquistare una carta prepagata "PSN" o Sony Entertainment Network. 
+Le carte prepagate sono disponibili per l'utilizzo su account registrati nel paese di acquisto.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+
+

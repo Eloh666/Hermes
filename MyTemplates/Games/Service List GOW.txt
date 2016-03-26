@@ -1,0 +1,37 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il gioco God Of War.
+	
+Ti informiamo che il codice voucher XXX è stato riscattato sul suo Account in data: XXXX
+
+Il Voucher comprende:
+
+Achilles Armor 
+Blade of Judgment 
+Odysseus Armor 
+Orion Armor 
+Perseus Armor 
+DLC Season Pass 
+
+Questi contenuti potrai visualizzarli all'interno della seguente sessione   
+
+Playstation network > gestione account > gestione transazioni > Lista Servizi > God Of War Ascension
+
+I contenuti sono usufruibili all'interno della sessione Multiplayer all'interno del gioco stesso.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza PlayStation

@@ -1,0 +1,28 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda Playstation 3 (PS3). 
+
+Siamo spiacenti per il tuo disappunto circa il fatto che non sia più possibile installare un altro sistema operativo a seguito dell'istallazione del nuovo firmware 3.21. La decisione di Sony Computer Entertainment Incorporated (SCEI) è dettata solo ed esclusivamente dalla salvaguardia della sicurezza del sistema PS3. 
+
+Come avrai certamente notato lo scopo degli aggiornamenti del firmare di PS3, che periodicamente SCEI propone, è quello di garantire una continua evoluzione del sistema. Conseguentemente nel manuale di istruzione è indicato che ".. il design e le specifiche tecniche sono soggette a variazione..". 
+  
+In questi otto anni sono state implementate molte nuove funzioni come Play TV, VidZone e Home che ampliano e sviluppano le capacità della console. Parte integrante di questo sviluppo è la sicurezza del sistema PS3, e con questo obbiettivo in mente in questo raro caso abbiamo preso la decisione di rimuovere una funzione. 
+
+Sebbene solo una piccola parte degli utenti Playstation3 utilizzi questa opzione, è stata comunque una decisione difficile da prendere, tuttavia ci è sembrato importante garantire l'adeguato grado sicurezza del prodotto e salvaguardare quindi la totalità degli utenti Playstation. 
+
+Comprendiamo la tua frustrazione per questo problema ma crediamo, per quanto sopra esposto, nella correttezza della nostra azione, quindi siamo spiacenti ma non potremo in nessun caso provvedere a nessuna forma di rimborso o compensazione. 
+
+Crediamo che quanto sopra chiarifichi la nostra posizione in merito. Restiamo a disposizione per ulteriori chiarimenti e saremo lieti di aiutarti per qualsiasi altra richiesta di supporto sui prodotti Playstation. 
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza PlayStation

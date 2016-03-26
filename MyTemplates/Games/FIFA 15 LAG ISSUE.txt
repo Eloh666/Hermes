@@ -1,0 +1,25 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda FIFA 15.
+
+Da quanto si evince dalla tua comunicazione sembra che tu stia riscontrando problemi all'interno del gioco.
+
+Siamo al corrente del problema da te riscontrato e possiamo confermare che non è dovuto ad un malfunzionamento della tua console.
+
+Ti consigliamo di contattare Electronic Arts al numero 02 89877571 oppure di visitare la pagina del forum ufficiale dove potrai trovare delle soluzioni temporanee per il problema.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza PlayStation
+

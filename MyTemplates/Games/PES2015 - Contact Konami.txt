@@ -1,0 +1,33 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda Pro Evolution Soccer 2015.
+
+Come ben saprai, alcuni giochi per PlayStation [PLATFORM] vengono creati da diverse case produttrici e PES 2015 è pubblicato da Konami.  
+
+Potresti ricevere aiuto su questo gioco all’interno del loro sito web: 
+
+<as-html><b><a href="https://it.games.konami-europe.com/">Sito Konami</b></a></as-html> 
+
+Oppure contattandoli allo: 02. 41 30 345
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza PlayStation
+
+
+
+
+

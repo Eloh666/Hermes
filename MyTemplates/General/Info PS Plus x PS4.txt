@@ -1,0 +1,28 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation Plus (PS PLUS).
+
+Da questo si evince che vorresti informazioni sull'utilizzo del nostro abbonamento.
+
+Al seguente link puoi visualizzare tutti i vantaggi legati al servizio PS PLUS:
+
+INFO PS PLUS: http://it.playstation.com/playstationplus/
+
+Inoltre, nel caso di un utente PS PLUS in uso su una PS4 attivata come propria console principale, gli altri account ospiti della stessa console potranno
+a loro volta utilizzare alcuni vantaggi dell'abbonamento PS PLUS stipulato dall'account principale, nonostante questi non siano abbonati al servizio,
+come il gaming online o l'utilizzo dei giochi presenti nella Instant Game Collection (se precedentemente scaricati sulla PS4 dall'utente PLUS).
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network

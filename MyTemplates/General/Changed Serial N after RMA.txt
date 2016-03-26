@@ -1,0 +1,28 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+Con la presente ti confermiamo che in data GG/MM/AAAA, nel corso della procedura di assistenza con numero RMA (RMA NUMBER), la tua console PlayStation Vita/PORTABLE/3/4 con seriale: 
+
+xx-xxxxxxxx-xxxxxx 
+
+è stata sostituita con la console con seriale:
+
+xx-xxxxxxxx-xxxxxxx.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza PlayStation
+

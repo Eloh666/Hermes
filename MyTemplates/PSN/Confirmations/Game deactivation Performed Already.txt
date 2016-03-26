@@ -1,0 +1,44 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda Sony Entertainment Network (SEN).
+
+In merito alla tua richiesta ed in seguito ai controlli effettuati sul tuo account, non risultano modifiche e-mail non autorizzate,
+per tale motivo l'unico modo per effettuare l'accesso con il tuo account sarebbe stato conoscere (o aver messo a conoscenza) e-mail e password dell'account. 
+Ne consegue una condivisione, NON consentita dai termini di utilizzo del PlayStation Network da te accettati in fase di sottoscrizione, dei dettagli su un account Sony Entertainment Network.
+
+La disattivazione dei dispositivi di gioco risulta esser stata effettuata il giorno [DD/MM/YYYY], da tale data è dunque necessario attendere 6 mesi per procedere nuovamente ad una disattivazione remota.
+
+Ti inviamo alcuni suggerimenti utili per il controllo e la sicurezza dei tuoi dati:
+
+1) accedere al sito: https://account.sonyentertainmentnetwork.com/login.action ed immettere e-mail e password
+
+2) cliccare su CRONOLOGIA TRANSAZIONI per verificare eventuali transazioni non volute
+
+3) se i dispositivi PlayStation attivi sono di più di quelli in possesso ti consigliamo di modificare Password ed e-mail prima possibile
+
+4) se hai inserito ed attivato il suo account su PlayStation non di tuo possesso, potresti eventulamente andare sul menù principale dei dispositivi in questione
+  e disattivare il sistema direttamente dalla console (PSN> GESTIONE ACCOUNT> ATTIVAZIONE SISTEMA> SISTEMA PS3 > GIOCO dISATTIVA)
+
+Tale limitazione non influirà sulle attività di gioco online, tuttavia
+non ti sarà consentito scaricare qualsiasi contenuto prima 6 mesi dalla data di disattivazione su una console non attivata.
+
+
+Ti invitiamo in futuro a comunicarci se qualche utente dovesse chiederti dati personali,
+codici o password ed in ogni caso a non condividere MAI le informazioni personali dell'account, ricordati inoltre che un addetto PlayStation non chiederebbe mai la password del tuo account SEN.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+

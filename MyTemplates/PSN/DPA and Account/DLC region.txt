@@ -1,0 +1,26 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda Sony Entertainment Network (SEN).
+
+In merito alla tua richiesta ti informiamo che i DLC sul Playstation Store sono compatibili solo con giochi acquistati nel Playstation Store della stessa regione in cui risulta Localizzato il tuo account.
+
+Se la tua copia fisica fosse Italiana sarebbe compatibile solo con i contenuti acquistati dal Playstation Store italiano, con un account localizzato in Italia.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+

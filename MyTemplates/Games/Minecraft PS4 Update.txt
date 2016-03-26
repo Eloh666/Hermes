@@ -1,0 +1,27 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda Minecraft.
+
+Da quanto si evince dalla tua comunicazione sembra che tu abbia riscontrato problemi con l'upgrade di Minecraft. 
+
+Al fine di risolvere l'anomalia, ti consigliamo di accedere allo Store dalla PS4, selezionare la voce "Giochi" sul lato sinistro dello schermo e poi "tutti i giochi”. 
+Filtra i risultati in ordine alfabetico e quindi individua Minecraft. 
+Vedrai due file, uno acquistato / installato (questo si riferisce alla Demo) e uno prezzato ed etichettato come il file di sblocco a 3, 99€: sarai in grado di acquistare l'upgrade scontato da qui a 3, 99€.
+
+Alternativamente, puoi accedere al web store, dove troverai l'upgrade di Minecraft per PS4 al seguente link:
+https://store.sonyentertainmentnetwork.com/#!/it-it/minecraft-playstation4-edition/cid=EP4433-CUSA00265_00-MINECRAFTPS4ED02
+Ti basterà effettuare l'accesso con il tuo account e procedere all'acquisto dell'upgrade a 3, 99€.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network

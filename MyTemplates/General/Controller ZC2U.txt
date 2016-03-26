@@ -1,0 +1,48 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda DualShock 3 (DS3).
+
+        Ti informiamo che il controller in tuo possesso risulta essere Americano/Canadese
+        (Model: CECH ZC2U) reperibile quindi al di fuori del nostro mercato europeo. Nulla vieta i 
+        rivenditori di venderli nello stesso.
+
+	Tuttavia tale prodotto fa riferimento ai termini di garanzia del paese di produzione
+         (Stati Uniti e Canada) la quale limitano la validità della stessa soltanto nel territorio
+         sopra citato.
+
+	Di seguito ti riportiamo il link del sito ufficiale americano:
+
+	us.playstation.com/support/warranties/ps3/index.htm
+
+          facendo attenzione al segue paragrafo:
+
+"This warranty gives you specific legal rights, and you may also have other rights which vary
+from state to state or province to province. This warranty is valid only in the United State and
+Canada. The warranty offered by Sony Computer Entertainment America on your PS3 hardware
+is the same wheter or not you register your product."
+
+"Questa garanzia ti da specifici diritti legali, e puoi aver altri diritti che variano di stato in stato
+e da provincia in provincia. Questa garanzia è valida soltanto negli Stati Uniti e in canada.
+La garanzia offerta da Sony Computer Entertainment America sul tuo hardware PS3 è la stessa
+sia che tu abbia registrato il prodotto o no."
+
+Siamo quindi spiacenti di confermarti quindi che come Produttori siamo impossibilitati a sostituire il tuo controller.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza PlayStation
+
+
+

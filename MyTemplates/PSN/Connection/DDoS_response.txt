@@ -1,0 +1,33 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation Network (PSN).
+
+Ti comunichiamo che sussiste al momento un errore tecnico all'interno del server, stiamo già lavorando per trovare una tempestiva soluzione al problema.
+
+Il network è stato momentaneamente messo offline a causa di un sovraccarico di accessi dovuto ad un protocollo DDoS (distributed denial-of-service). 
+Non vi è alcuna prova di intrusione nella rete o di alcun accesso non autorizzato alle informazioni personali degli utenti. 
+Ci scusiamo per il disagio causato da questo problema.
+
+Grazie per la tua pazienza e il tuo supporto, appena il Network sarà di nuovo operativo riuscirai ad accedere al PSN.
+Continua a controllare il nostro sito per maggiori informazioni sullo status del server PSN:
+ 
+https://www.playstation.com/it-it/explore/playstation-network/playstation-network-status/
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+

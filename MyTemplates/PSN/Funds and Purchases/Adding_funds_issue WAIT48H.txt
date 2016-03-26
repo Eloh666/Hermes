@@ -1,0 +1,61 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il tuo account Sony Entertainment Network.
+
+Da questo sembra che tu stia avendo problemi a procedere all'acquisto su PlayStation Store.
+
+Ti consigliamo di controllare che la Carta che stai usando sia compatibile con quelle accettate:
+
+ <as-html><b><a href="http://it.support.sonyentertainmentnetwork.com/app/answers/detail/a_id/3661">Metodi di pagamento accettati</b></a></as-html>
+
+E che contenga fondi sufficienti all'acquisto, oltre ad essere esente da un blocco sul circuito che SEN utilizza.
+
+Nel caso il problema persistesse ti consigliamo di rimuovere gli estremi di fatturazione dal tuo account, tramite le istruzioni qui di seguito:
+
+Attraverso il seguente sito https://account.sonyentertainmentnetwork.com/login.action
+ 
+      Effettua quindi il log-in con l'account desiderato e segui questi passaggi:
+
+      Selezionare la pagina Account -> Estremi di fatturazione -> Aggiungi
+      in alternativa
+      sezione Account -> Portafoglio -> Aggiungi Carta di Credito
+
+Da console PS3
+Per aggiungere o aggiornare gli estremi di fatturazione:
+
+Seleziona il tuo utente locale e dal menu XMB™ accedi a  (PSN) >   (Accedi) >   (Gestione account) >    (Informazioni sull'account) > Estremi di fatturazione e premi  (tasto X). 
+Immetti la tua password 
+Da qui potrai aggiungere, eliminare o modificare gli estremi di fatturazione del tuo account.
+
+
+Da console PS4
+
+Seleziona il tuo account utente locale ed una volta avuto accesso al menu principale vai a  (Impostazioni) > PSN > Informazioni sull'account > Portafoglio > Estremi di fatturazione. 
+Da qui potrai aggiungere, eliminare o modificare gli estremi di fatturazione del tuo account.
+
+Dopo aver effettuato tale operazione, prima di poter reinserire dei dati di fatturazione dovrai attendere 48 ore per consentire al server di poter riassociare la stessa carta o una differente.	
+
+
+Puoi, inoltre, confrontare la tua problematica con le domande frequenti sui problemi relativi all'uso della carta di credito o debito a questo link:
+http://faq.it.playstation.com/app/answers/detail/a_id/2477
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+
+
+
+

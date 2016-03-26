@@ -1,0 +1,129 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation Network.
+
+Dalle informazioni che ci hai dato capisco che hai un problema a conneterti al nostro server; sono sicuro che troverai le indicazioni qui sotto utili alla risoluzione del tuo problema.
+
+
+
+CONFIGURAZIONE DI BASE
+
+1)  Nel menu principale della console seleziona 
+[IMPOSTAZIONI]--->[RETE]--->[IMPOSTA CONNESSIONE INTERNET]
+
+2)  Ti apparirà la prima pagina della configurazione guidata della rete
+
+3)  Scegli il tuo metodo di connessione [USA WIFI] o [USA CAVO DI RETE]
+
+4)  Nella schermata successiva seleziona [PERSONALIZZATA]
+
+5)  Se utilizzi il cavo di rete vai al passaggio 8 altrimenti continua al punto 6
+
+6)  Attendi che la console completi la scansione delle reti WiFi e seleziona la tua
+
+7)  Inserisci la Chiave di Rete
+
+8)  Nella pagina della selezione dell'indirizzo IP seleziona [AUTOMATICO]
+
+9)  A questo punto apparirà la domanda relativa ai DNS, seleziona [MANUALE]
+
+10) Imposta il DNS primario a 208.67.222.222 e quello secondario a 208.67.220.220
+
+11) Nella pagina seguente seleziona [MANUALE]---[MTU] per impostare il parametro MTU
+
+12) Inserisci il valore di 1492 e seleziona [AVANTI] (Se la connessione non dovesse riuscire prova ad inserire prima 1473 e, in caso di ulteriore fallimento 1463 -NB se ricevessi un messaggio relativo all'eccessiva frammentrazione dei pacchetti reimpostalo in [AUTOMATICO])
+
+13) Nella maschera relativa ai server proxy seleziona [NON USARE]
+
+14) La console ti richiederà di effettuare un test e dovrebbe connettersi al PSN, se ricevessi un messaggio di errore continua al punto successivo
+
+15) Torna al menu principale
+
+16) Seleziona [IMPOSTAZIONI]--->[PSN]--->[ACCEDI] ed effettua il login
+
+17) A questo punto dovresti essere in grado di collegarti al PSN, se ancora avessi delle difficoltà procedi con l'apertura delle porte sul tuo router, come spiegato più sotto.
+
+
+CONFIGURAZIONE AVANZATA
+
+
+A) VERIFICA L'INDIRIZZO IP DEL TUO ROUTER/GATEWAY
+
+1)  Nel menu principale della console seleziona 
+[IMPOSTAZIONI]--->[RETE]--->[VISUALIZZA STATO DELLA CONNESSIONE]
+
+2) Alla voce GATEWAY PREDEFINITO, annota il parametro che vedi visualizzato.
+
+
+B)  IMPOSTA LA TUA CONNESSIONE
+
+1)  Nel menu principale della console seleziona 
+[IMPOSTAZIONI]--->[RETE]--->[IMPOSTA CONNESSIONE INTERNET]
+
+2)  Ti apparirà la prima pagina della configurazione guidata della rete
+
+3)  Scegli il tuo metodo di connessione [USA WIFI] o [USA CAVO DI RETE]
+
+4)  Nella schermata successiva seleziona [PERSONALIZZATA]
+
+5)  Se utilizzi il cavo di rete vai al passaggio 8 altrimenti continua 
+al punto 6
+
+6)  Attendi che la console completi la scansione delle reti WiFi e 
+seleziona la tua
+
+7)  Inserisci la Chiave di Rete
+
+8)  Nella pagina della selezione dell'indirizzo IP seleziona [MANUALE]
+
+9)  Copia i primi tre gruppi di numeri che hai annotato nella fase "A" e 
+sostituisci i numeri dopo l'ultimo punto con 101
+     Dovresti avere un valore simile a 192.168.1.101
+
+10) Imposta la Maschera di Sottorete a 255.255.255.0
+
+11) Inserisci come Gateway Predefinito il valore che hai annotato nella 
+fase "A"
+
+12) Imposta il DNS primario a 208.67.222.222 e quello secondario a 
+208.67.220.220
+
+13) Nella pagina seguente seleziona [MANUALE]---[MTU] per impostare il 
+parametro MTU
+
+14) Inserisci il valore di 1492 e seleziona [AVANTI] (Se la connessione 
+non dovessi riuscire prova ad inserire prima 1473 e, in caso di ulteriore fallimento 1463 -NB se ricevessi un messaggio relativo all'eccessiva frammentrazione dei pacchetti reimpostalo in [AUTOMATICO])
+
+15) Nella maschera relativa ai server proxy seleziona [NON USARE]
+
+
+PORTE TCP/UDP
+
+Il problema di connessione da te riscontrato potrebbe nascere anche dal settaggio delle porte TCP e UDP sul tuo router che, sulla connessione utilizzata dalla console, dovranno essere sempre aperte.
+
+Queste le porte che ti suggeriamo di comunicare al tuo gestore telefonico, richiedendo espressamente che vengano lasciate sempre aperte:
+
+TCP 80, 443, 3478, 3479, 3480, 5223, dalla 10070 alla 10080;
+
+UDP 3478, 3479, 3480, 3658, 10070
+
+Dovessi trovare difficoltà nelle impostazioni del modem-router, ti consigliamo di contattare il produttore del router stesso.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+
+

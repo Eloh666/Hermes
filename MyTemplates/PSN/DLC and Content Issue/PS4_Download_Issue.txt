@@ -1,0 +1,97 @@
+
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda [inserisci nome gioco] per PlayStation 4 (PS4).
+
+Da questa si evince che hai problemi nello scaricare il prodotto sulla tua console.
+
+
+Per ovviare al problema segui la procedura qui sotto.
+
+
+A) CANCELLAZIONE (se hai installato il gioco, anche parzialmente, in digitale o da disco)
+
+ 1) Nel menù principale della console seleziona l'icona del gioco
+
+ 2) Premi il tasto [OPTIONS] sul tuo DualShock 4 (DS4)
+
+ 3) Dal menù che comparirà sullo schermo seleziona [ELIMINA] e conferma
+
+ 4) Vai al menù [IMPOSTAZIONI]---[GESTIONE DEI DATI SALVATI DELL'APPLICAZIONE]---[MEMORIA DI ARCHIVIAZIONE DEL SISTEMA]---[ELIMINA]
+  
+ 5) Elimina tutti i dati correlati al gioco in questione
+
+
+B) PREPARAZIONE
+
+ 1) Vai al menù [IMPOSTAZIONI]--->[PSN]
+
+ 2) Seleziona [RIPRISTINA LICENZE] e premi [X]
+
+ 3) Conferma l'operazione e attendi il completamento.
+
+ 4) Torna al menù [IMPOSTAZIONI]--->[PSN]
+
+ 5) Seleziona [ATTIVA COME CONSOLE PRINCIPALE]--->[ATTIVA] (se l'opzione non fosse selezionabile, seleziona [DISATTIVA] e poi riprova)
+
+ 5) Spegni la console completamente (la luce sul dispositivo deve essere spenta e non rossa o altro)
+
+ 6) Manda la console in modalità provvisoria (Le istruzioni per accedere e utilizzare la modalità protetta si trovano <as-html><b><a href="http://faq.it.playstation.com/app/answers/detail/a_id/9555/">a questo indirizzo</b></a></as-html>.
+
+ 7) Scegli l'opzione [Ricostruisci Database] premi [X] e attendi la conclusione della procedura. NB. La procedura non comporta la perdita di dati a meno che non siano già corrotti e, quindi già inutilizzabili; la procedura potrebbe anche richiedere parecchie ore!)
+
+ 8) Al termine la console si riavvierà normalmente
+
+ 9) Se sei collegato in wireless ed hai la possibilità di usare, anche solo per questo download, un cavo Ethernet, per favore utilizzalo per migliorare la qualità del segnale.
+
+
+C) DOWNLOAD
+
+ 1) Recati sul sito https://store.sonyentertainmentnetwork.com/#!/it
+
+ 2) In alto a destra vedrai l'opzione per effettuare l'accesso, cliccaci sopra e inserisci i dati dell'account PSN con cui hai acquistato il prodotto
+
+ 3) Una volta effettuato il log-in vedrai il tuo Online_ID in alto a destra
+
+ 4) Cliccaci per far apparire il menù a tendina
+
+ 5) Clicca su [ELENCO DI DOWNLOAD]
+
+ 6) Ti apparirà un elenco di tutti i titoli che hai acquistato
+
+ 7) Cerca quello del gioco che vuoi scaricare e clicca su [SCARICA SULLA TUA PS4]
+
+ 8) Il download partirà non appena la console sarà accesa e il tuo account di cui sopra sarà connesso al PSN
+
+
+Nel caso acora non riasca a scaricare o installare il gioco, prima di contattarci per una richiesta di assistenza o di rimborso, esegui i passi seguenti
+
+D) ALTRE COSE DA FARE
+
+ 1) Prendi nota di tutti i messaggi d'errore
+
+ 2) Prova le procedure A, B e C utilizzando un'altra connessione, possibilmente di un diverso Internet Provider
+
+ 3) Prova, se possibile, a scaricare il prodotto su un altra console
+
+ 4) Contatta il distributore del gioco spiegando il problema che stai avendo e annota il numero di riferimento
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+
+

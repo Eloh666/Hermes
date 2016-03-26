@@ -1,0 +1,33 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+Ti informiamo che il problema riscontrato potrebbe essere riconducibile a dei dati corrotti all'interno della tua console (dati salvati all'interno del HDD).
+Qui di seguito ti riportiamo la procedura per cancellare i suddetti dati:
+
+Dal menu della Playstation->Impostazioni->Impostazioni del Sistema->Ripristina il Sistema PS3->Formattazione completa
+
+- Quando si esegue questa operazione, tutti i dati nella memoria di sistema verranno eliminati. Vengono inoltre ripristinate le impostazioni   predefinite del software di sistema. Èconsigliato porre molta attenzione a non eliminare accidentalmente dati importanti, poiché non è possibile annullare le modifiche. 
+
+- Non spegnere il sistema PS3™ durante questa operazione. Se l'operazione viene annullata prima del completamento, il software di sistema può   risultare danneggiato e potrebbe essere necessario riparare o cambiare il sistema. 
+
+- Durante questa operazione il tasto di accensione situato sulla parte anteriore del sistema e il tasto PS sul controller wireless non sono attivi. 
+  Non è possibile utilizzare questa funzione per ripristinare una versione precedente del software di sistema. 
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza PlayStation
+

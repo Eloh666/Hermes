@@ -1,0 +1,24 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+	In merito alla tua richiesta siamo spiacenti di confermarti l'impossibilità di prendere in carico la tua console in    
+	garanzia per i problemi indicati dall'assistenza telefonica. 
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza PlayStation
+

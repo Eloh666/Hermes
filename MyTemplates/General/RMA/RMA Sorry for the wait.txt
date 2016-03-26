@@ -1,0 +1,32 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+	in merito alla tua richiesta ti informiamo che la tua console è in gestione presso il mostro magazzino.
+
+	La tempistica fornita via telefono per la sostituzione (10 - 15 giorni lavorativi) della console è del tutto indicativa, e si riferisce ad una media per eccesso.
+
+	Questa è determinata da una procedura tecnica di magazzino nella quale intercorrono ritiro, giacenza, e
+                 consegna di un prodotto di pari modello, per le quali pratiche possono intercorrere vari giorni l'una dall'altra.
+
+	Non vi è quindi una tempistica ufficialmente riconosciuta, ma provvederemo a sollecitare la spedizione della tua Playstation.
+
+Ci scusiamo con te dell'attesa e di eventuali disagi creati.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza PlayStation
+

@@ -1,0 +1,50 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il tuo account Sony Entertainment Network (SEN).
+ 
+Dal momento in cui la richiesta riguarda il tuo account SEN, dobbiamo assicurarci che la stiamo ricevendo dal vero proprietario dell’account prima di offrire ulteriore supporto. 
+
+Nel frattempo ti segnaliamo che le promozioni relative al PS+ non sono cumulabili, quindi qualora avessi già usufruito in passato di un periodo di utilizzo gratuito del PS+ il voucher non risulterebbe utilizzabile sul tuo account.
+
+Se hai ancora bisogno di assistenza, saremo lieti di offrirti supporto anche via email. Nota che per ragioni di sicurezza, saremo in grado di rispondere a domande riguardo l’account SEN con il quale ci stai contattando, perciò assicurati che l’indirizzo di posta elettronica del tuo account SEN corrisponda con questo:
+
+$contacts.email.addr
+
+Se la tua richiesta di aiuto riguarda l’account SEN associato a questo indirizzo di posta elettronica, abbiamo bisogno anche di questi dati:
+
+
+• ID online (username) del tuo account SEN.
+• La tua data di nascita.
+• le cifre del codice voucher e un allegato con la copia del voucher stesso e lo scontrino.
+
+Prendiamo molto seriamente la sicurezza degli account SEN, pertanto se non potrai fornirci questi dati o se i dati saranno incorretti, non saremo in grado di fornire supporto alla tua richiesta di aiuto.  
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+
+
+
+
+
+
+
+
+
+
+
+Richiesta assistenza Sony Entertainment Network 

@@ -1,0 +1,30 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda Uncharted 3.
+
+In merito alla tua richiesta ti informiamo che per fare in modo di giocare ad Uncharted 3 (sia dal PS Store sia per la versione GOTY), si deve installare il gioco nel seguente ordine:
+
+1. Multiplayer
+2. Single player
+3. Video (dovrebbero essere opzionali, tuttavia nel caso il gioco non funzioni, ti consigliamo di scaricare anche questi pachetti)
+
+Trovi i suddetti pacchetti direttamente dalla tua Lista Contenuto Scaricabile, direttamente sul PlayStation Store oppure seguendo il percorso [PSN]>[Gestione Account]>[Gestione transazioni]>[Contenuto scaricato].
+
+Il solo pacchetto single-player non funziona in quanto non possiede i file necessari al lancio del gioco.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza PlayStation
+

@@ -1,0 +1,30 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda [ISSUE].
+
+Da quanto si evince dalla tua comunicazione, ti informiamo che qualsiasi trofeo sbloccato a livello locale viene memorizzato nella PlayStation 4 (PS4) ma necessita comunque di sincronizzarsi col server.
+Per poter sbloccare dunque i trofei "sbloccati localmente" dovrai effettuare l'accesso con il tuo account ed andare sul menù PS4:
+
+- Profilo > Collezione trofei (a destra) e premere "x" per sincronizzare i trofei. 
+
+Tutti i trofei raggiunti verranno sincronizzati con il server. Se alcuni trofei sono "scomparsi" dopo la sincronizzazione ciò significa che essi non sono stati raggiunti.
+
+Per qualsiasi informazione relativa al trofeo, contatta pure il produttore del gioco stesso. 
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-----------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+

@@ -1,0 +1,29 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 3 (PS3).
+
+Dalla tua comunicazione risulta che hai riscontrato problemi con il tuo sistema, che sembra non dare alcun segnale video.
+
+Potrebbe semplicemente darsi che la tua console non stia utilizzando l'uscita video corretta.
+Nel caso, ti basterebbe procedere a resettare l'impostazione di uscita video standard della PS3. Segui le istruzioni che trovi al link:
+
+http://community.eu.playstation.com/t5/Assistenza-PS3/Guida-Ripristino-Immagine-HD-PS3/td-p/16042481
+
+Se nessuna delle procedure dovesse funzionare, dovresti cercare di accedere alla tua PS3 tramite Modalità Provvisoria, e provare le opzioni che vedi elencate.
+Le istruzioni sulla Modalità Provvisoria si trovano <as-html><b><a href="http://faq.it.playstation.com/app/answers/detail/a_id/8995/">qui</b></a></as-html>.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza PlayStation

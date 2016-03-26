@@ -1,0 +1,31 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda [ISSUE].
+
+Da quanto si evince dalla tua comunicazione hai riscontrato problemi nel download di contenuti dal PlayStation Store.
+
+Ti suggeriamo di seguire le indicazioni qui riportate:
+
+- La console PS4/PS3 deve essere accesa e collegata al psn con l'account giusto.
+- accedi al web store tramite il pc:    https://store.sonyentertainmentnetwork.com/#!/it-it/
+- effettua l'accesso anche sullo store con lo stesso account
+- sposta il mouse sull'id online e su "elenco di download "
+- Identifica il titolo da scaricare
+- clicca su scarica sulla tua PS4/PS3
+
+Automaticamente partirà il download sulla console.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta assistenza Sony Entertainment Network

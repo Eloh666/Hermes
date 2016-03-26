@@ -1,0 +1,28 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+Siamo sinceramente dispiaciuti per quanto accaduto.
+
+Ti assicuriamo che la sicurezza nelle spedizioni è un requisito essenziale per Sony Computer Entertainment Inc. 
+Per questo ti chiediamo cortesemente di inviarci via e-mail le foto del danno ricevuto dalla console e della confezione in cui era imballata.
+
+Inviaci le foto richieste direttamente rispondendo a questa e-mail, in modo da visualizzare il danno e poter agire di conseguenza.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza PlayStation
+

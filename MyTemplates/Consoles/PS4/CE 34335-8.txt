@@ -1,0 +1,37 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda la tua Play Station 4 (PS4).
+
+Per verificare che il disco fisso della tua Console sia inserito correttamente ti consiglio di seguire queste semplici istruzioni:
+
+1) Assicurati di aver spento completamente la PS4. Quando l'indicatore di accensione non si illumina più il sistema è completamente spento.
+    Se l'indicatore di accensione presenta il colore arancione lampeggiante, il sistema è in modalità standby.
+
+2) Scollega il cavo di alimentazione AC e scollega gli altri cavi dal sistema.
+
+3) Fai scorrere il coperchio di plastica lucida verso l'esterno per rimuoverlo come mostrato nelle immagini che vedi al seguente Link:
+   
+   http://community.eu.playstation.com/t5/Assistenza-PS4/Cambio-Hard-Disk-interno-PS4-GUIDA/td-p/20193237 
+
+4) Rimuovi la vite.
+
+5) Tira l'unità disco fisso verso la parte anteriore del sistema per rimuoverla.
+
+
+Una volta completata questa procedura inserisci nuovamente il disco, e prova ad accendere la Console.
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+(IL TUO NOME)
+Supporto PlayStation
+
+
+
+
+-------------------------------------------------------------------------------------------------------------
+
+Richiesta assistenza PlayStation

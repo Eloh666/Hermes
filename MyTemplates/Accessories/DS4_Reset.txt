@@ -1,0 +1,33 @@
+﻿Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il controller DualShock 4 (DS4).
+
+Da questo si evince che tu abbia riscontrato problemi con il tuo DS4.
+
+Prima di valutare un eventuale difetto del controller, ti invitiamo ad eseguire un ripristino del controller.
+
+Per effettuarlo, avrai bisogno di qualcosa di sottile come uno stuzzicadenti.
+
+ 1)Collega il controller alla console con il suo cavo USB
+ 2)Assicurati che entrambi i dispositivi siano accesi
+ 3)Individua il pulsante [RESET] sul retro del tuo DS4 (in alto a destra vicino alla vite) 
+ 4)Inserisci qualcosa nel forellino per fare pressione sul pulsante presente all'interno. 
+ 5)Il controller si spegnerà.
+ 6)Riaccendi il DS4 premendo il tasto PS e verificane il corretto funzionamento.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza PlayStation
+

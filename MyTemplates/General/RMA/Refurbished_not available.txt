@@ -1,0 +1,30 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+	Purtroppo la disponibilità del tuo prodotto rigenerato è al momento limitata a causa di 
+      difficoltà di tipo tecnico e non dipendenti dalla volontà di Sony Computer Entertainment Europa.
+
+	Tali difficoltà, sulle quali si sta costantemente lavorando, hanno dilatato sensibilmente i 
+       tempi d’attesa per i nostri Clienti, che normalmente non superano le due settimane lavorative.
+
+	Nello scusarci per il disagio e nel ribadire il nostro impegno per risolvere il problema che lo 
+      ha provocato, non possiamo purtroppo ancora confermare la data di arrivo del tuo prodotto 
+      sostitutivo.
+
+Non appena sarà in consegna verrai immediatamente contattato dal centro di assistenza stesso.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza PlayStation

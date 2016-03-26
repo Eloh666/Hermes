@@ -1,0 +1,20 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+In merito alla tua richiesta, ti informiamo che sulla PS3 gli acquisti effettuati tramite un Account PSN, vengono scaricati e installati sull'HDD interno, per questo motivo tutti gli utenti presenti sul sistema PS3 possono usufruire dei contenuti installati. Per gli Account secondari potrebbero esserci delle limitazioni sull'utilizzo dei contenuti in base al livello PEGI indicato.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network

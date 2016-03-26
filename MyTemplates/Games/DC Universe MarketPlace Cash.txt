@@ -1,0 +1,34 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+in merito alla tua richiesta ed in seguito ai controlli effettuati ti informiamo che dopo l'acquisto Marketplace cash, 
+se il saldo non si aggiorna automaticamente entro un breve periodo di tempo, ti consigliamo di attenerti alla seguente procedura: 
+
+· Esci fuori dal gioco DC Universe attraverso il tasto PS, e scegli Esci dal gioco 
+· Attendi sul menù principale per 5 minuti 
+· Lancia DC Universe Online e quando arrivi alla Selezione/Creazione personaggio resta fermo sullo schermo dell'interfaccia utente per 2 minuti 
+· Seleziona il tuo personaggio e premi X 
+· Dopo questi passaggi il bilancio Marketplace cash sarà aggiornato
+
+Se il problema persiste ti invitiamo a contattare direttamente il supporto Sony Online Entertainment (SOE) al seguente sito:
+
+https://www.soe.com/home
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+

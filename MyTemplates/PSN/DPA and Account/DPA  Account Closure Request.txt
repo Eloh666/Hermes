@@ -1,0 +1,35 @@
+Ciao $ ontacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il tuo account Sony Entertainment Network (SEN).
+ 
+Dal momento in cui la richiesta riguarda il tuo account SEN, dobbiamo assicurarci che la stiamo ricevendo dal vero proprietario dell’account prima di offrire ulteriore supporto.
+Nota che per ragioni di sicurezza, saremo in grado di rispondere a domande riguardo l’account SEN solo se l’indirizzo di posta elettronica del tuo account SEN corrisponda con questo:
+
+$contacts.email.addr
+
+Se la tua richiesta di aiuto riguarda l’account SEN associato a questo indirizzo di posta elettronica, abbiamo bisogno anche di questi dati:
+
+• ID online (username) del tuo account SEN.
+• La tua data di nascita.
+• Motivazione della richiesta di cancellazione
+
+Ti ricordiamo che una volta cancellato l'account, tale operazione non sarà revocabile, per cui tutti i salvataggi online, trofei ed acquisti non saranno più usufruibili.
+
+Prendiamo molto seriamente la sicurezza degli account SEN, pertanto se non potrai fornirci questi dati o se i dati saranno incorretti, non saremo in grado di fornire supporto alla tua richiesta di aiuto.  
+
+Una volta che avremo ricevuto queste informazioni, saremo in grado di evadere la tua richiesta di aiuto nel più breve tempo possibile.  
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network

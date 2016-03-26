@@ -1,0 +1,47 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda [ISSUE/PRODUCT].
+
+Da quanto si evince dalla tua comunicazione ti informiamo che la transazione é andata a buon fine ed il contenuto [NOME CONTENUTO]non presenta alcun difetto. 
+
+Trattandosi di un contenuto di grosse dimensioni il download potrebbe non essersi concluso.
+
+Per questo motivo si visualizza al momento del lancio soltanto la demo del gioco. 
+
+Ti consigliamo di verificare lo stato di avanzamento del download seguendo queste istruzioni: 
+
+- dal menù principale della PS4 seleziona l'icona del gioco e premi il tasto  "options" sul controller.
+- seleziona "informazioni" e verifica lo "stato del download" 
+
+Oppure da:
+
+Impostazioni -> Gestione della Memoria di Archiviazione -> Applicazioni -> Gioco in questione>Stato del download
+
+
+
+Per poter utilizzare il gioco in tutte le sue funzioni bisogna attendere che venga scaricato completamente; a seconda della connessione e del provider potrebbe impiegare anche alcuni giorni. 
+
+
+
+Se il problema persiste ti consigliamo di contattare il tuo provider per verificare l'efficienza della tua linea internet in download. 
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+
+

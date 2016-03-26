@@ -1,0 +1,32 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda EA SPORTS™ Season Ticket.
+
+Ti informiamo che per verificare se il tuo EA SPORTS™ Season Ticket è attivo dovrai recarti nella seguente sessione:   
+
+Playstation network > gestione account > gestione transazioni > Lista Servizi > EA Sports EA SPORTS™ Season Ticket 
+
+Per ulteriori informazioni su cosa comprende il Season Ticket di consigliamo di riferirti direttamente ad Electronic Arts (EA), la casa produttrice.
+
+Potresti ricevere aiuto su questo gioco all’interno del loro sito web: 
+
+<as-html><b><a href="https://help.ea.com/">https://help.ea.com/</b></a></as-html> 
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+

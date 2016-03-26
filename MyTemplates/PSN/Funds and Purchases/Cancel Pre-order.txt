@@ -1,0 +1,46 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il tuo account Sony Entertainment Network (SEN).
+
+
+Da quanto si evince dalla tua comunicazione sembrerebbe che tu voglia annullare un pre-ordine effettuato sul PlayStation Store.
+
+La procedura da effettuare è la seguente:
+
+PLAYSTATION 4 (PS4)
+
+ - Seleziona Impostazioni -> PlayStation Network -> Informazioni sull'account->Portafoglio-> Cronologia transazioni
+ - Specifica l'intervallo di tempo in cui è avvenuta la transazione
+ - Seleziona il prodotto e premi il tasto X
+ - Annulla il pre-ordine selezionando [Annulla pre-ordine] e premendo il tasto X. 
+
+PLAYSTATION 3 (PS3)
+
+ - Seleziona PlayStation®Network > [Gestione account] dal menu XMB™ e premi il tasto X del tuo controller wireless.
+ - Scorri il menu e seleziona [Gestione transazioni], premi il tasto X, seleziona [Cronologia transazioni] e premi nuovamente il tasto X.
+ - Specifica l'intervallo di tempo che desideri visualizzare; il periodo deve comprendere la data di pre-ordine del prodotto. Seleziona [Continua] e premi il tasto X.
+ - Seleziona l'acquisto del prodotto relativo al tuo pre-ordine e premi il tasto X. Nota: la data di acquisto del prodotto corrisponde alla data in cui hai pre-ordinato il prodotto.
+ - Annulla il tuo pre-ordine
+
+
+Per annullare il tuo pre-ordine, seleziona [Annulla pre-ordine] e premi il tasto X. Ti sarà richiesto di confermare l'annullamento del pre-ordine. Seleziona [Conferma] e premi di nuovo il tasto X. Il tuo pre-ordine è stato annullato e non ti sarà addebitato il costo dell'acquisto. Riceverai un'e-mail di conferma dell'annullamento del pre-ordine.
+
+Ti sarà richiesto di confermare l'annullamento del pre-ordine. Seleziona [Conferma] e premi di nuovo il tasto X. Il tuo pre-ordine sarà annullato e non ti sarà addebitato il costo dell'acquisto. 
+
+Riceverai anche un'e-mail di conferma dell'annullamento del pre-ordine.
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network

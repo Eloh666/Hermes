@@ -1,0 +1,40 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 4 (PS4).
+
+Da quanto si evince dalla tua comunicazione stai riscontrando l'errore NW-31456-9 sulla tua console.
+
+Ti inviamo le istruzioni per una possibile risoluzioni al codice di errore menzionato.
+
+1. Accedi alla pagina del tuo router utilizzando un computer
+2. Effettua il log in
+3. Seleziona Menu Opzioni Avanzate
+4. Seleziona Impostazioni Firewell dal Menu 
+5. Verifica che il DMZ Host sia disattivato
+6. Inserisci l'IP della PS4 nell'IP del DMZ 
+7. Salva
+
+Essendo queste impostazioni da modificare sul tuo router le istruzioni potrebbero non essere complete, ti consigliamo quindi di contattare anche il tuo IP (Internet Provider) per poter essere guidato al meglio nel menu del tuo router.
+Le istruzioni che trovi di seguito sono abbastanza avanzate e permettono di rimuovere qualsiasi Firewall presente neella connessione ad internet dalla PlayStation e se non approvato dal tuo IP non ti consigliamo di procedere.
+Non siamo responabili di alcun tipo di danno nel caso si decida di procedere alla rimozione di qualsiasi firewall dalla sua connessione internet.
+
+* Puoi ottenere l'IP di connessione della tua console facendo una verifica dello Stato di Connessione da Impostazioni->Rete
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+

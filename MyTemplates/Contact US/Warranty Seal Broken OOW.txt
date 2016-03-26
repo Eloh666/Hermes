@@ -1,0 +1,28 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+Ti contattiamo in riferimento alla pratica  (RMA Number)    per la sostituzione della tua console. 
+Abbiamo ricevuto notifica dal magazzino che il sigillo di garanzia risulta alterato;
+
+In questa situazione non possiamo procedere alla riparazione della tua console in garanzia, in quanto un danneggiamento del sigillo porta alla decandenza della stessa.
+
+Possiamo presentarti a questo punto due opzioni:
+
+_Un intervento, previa compensazione, Fuori Garanzia sulla tua PlayStation (contattaci telefonicamente per un preventivo).
+_Una restituzione del prodotto nello stato in cui lo abbiamo ricevuto.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza PlayStation

@@ -1,0 +1,34 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 4(PS4).
+
+In merito alla tua richiesta ti informiamo che l'errore CE 34878-0 di solito si riferisce ad una corruzione dei dati dell'applicazione, non ad un errore hardware.
+
+Dovresti chiudere l'applicazione, installare (se disponibili) gli ultimi aggiornamenti del software di sistema e del gioco e quindi riavviare il sistema.
+
+Nel caso il problema persista dovresti cancellare l'installazione del gioco tramite pulsante "Options" sopra l'icona del gioco.
+
+Cancella anche i dati dell'applicazione tramite Impostazioni > Dati salvati dell'applicazione > Gestione dati Salvati nella memoria di archiviazione del sistema > Elimina > Salvataggi del gioco in questione.
+
+Togli il gioco dalla console e spegni la PS4. Una volta riaccesa prova di nuovo i giochi che presentavano il problema.
+
+Se l'errore si ripete vai su [Impostazioni]> [Inizializzazione] e scegli [Inizializza PS4].
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+

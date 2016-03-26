@@ -1,0 +1,26 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 3 (PS3).
+
+Abbiamo appurato che l’orologio incorporato nei modelli di PS3 non facenti parte della categoria slim, Playstation (120GB e 250GB) ha erroneamente considerato il 2010 come anno bisestile. Una volta cambiata la data dell’orologio interno dal 29 febbraio all’1 marzo (entrambi GMT), abbiamo verificato che i problemi si sono risolti e che gli utenti sono in grado di usare le loro PS3 normalmente. 
+  
+Se l’orario visualizzato sulla XMB è ancora errato, può essere impostato manualmente o attraverso internet   
+Se vi saranno ulteriori informazioni saranno disponibili sul Blog ufficiale (http://blog.it.playstation.com/) o PlayStation.com.  
+ 
+Ci scusiamo per qualsiasi inconveniente che questo problema possa aver causato.  
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza PlayStation

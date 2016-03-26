@@ -1,0 +1,44 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+In riferimento al problema che stai riscontrando sulla tua PlayStation 4 (PS4) ti chiediamo di effettuare un paio di operazioni per aiutarci a identificare ed isolare se possibile il problema.
+
+Ti chiediamo di seguire le indicazioni riportate di seguito, dove possibile, una alla volta e riprovando ad avviare il gioco ad ogni passo eseguito:
+
+1) Cancella e ri-scarica il contenuto, utilizzando una connessione via cavo nel caso tu stia utilizzando di norma una connessione senza fili.
+
+2) Entra in Modalità Provvisoria ed effettua una Ricostruzione del Database della PS4 
+   Trovi le istruzioni su come entrare in questa Modalità al link: 
+   http://faq.it.playstation.com/app/answers/detail/a_id/9555/~/modalit%C3%A0-protetta-nella-ps4
+   
+3) Effettua un Ripristino delle Licenze sul tuo account (da Impostazioni > PSN) ed assicurati che la tua console sia attiva come Principale (sempre da Impostazioni > PSN)
+
+4) Formatta la console dal menù
+
+	 Impostazioni -> Ripristino -> Ripristina la PS4 -> Completa
+     ed effettuare nuovamente il download del contenuto;  
+
+5) Effettua l'accesso da un altra console, e scaricare lo stesso contenuto;
+
+         Se anche dopo aver eseguito tali procedure il problema dovesse persistere, ti invitiamo ad inoltrarci
+         una foto dello schermo, riportante il messaggio di errore/codice errore che ti appare durante l'utilizzo del gioco.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+

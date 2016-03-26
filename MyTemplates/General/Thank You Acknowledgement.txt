@@ -1,0 +1,26 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+Èfantastico accogliere feedback da i nostri clienti che hanno riportato un'esperienza positiva con il servizio ricevuto attraverso il Supporto PlayStation. Sony Computer Entertainment Italia ha sempre come scopo quello di fornire il più alto livello di servizio possibile e ci fa immensamente piacere sapere che tu ti sia preso del tempo per informarci di come siano andate le cose.
+Metterò al corrente dei tuoi commenti i membri del team coinvolti in questa occasione.
+ 
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+

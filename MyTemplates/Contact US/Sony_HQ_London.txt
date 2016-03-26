@@ -1,0 +1,27 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+	Ti forniamo di seguito l'indirizzo della sede legale di
+          Londra alla quale potrai effettuare, tramite raccomandata e citando il numero di pratica, il tuo reclamo / la tua richiesta:
+
+Sony Network Entertainment Europe Ltd 
+10 Great Marlborough Street, Londra W1F 7LP, Regno Unito 
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+

@@ -1,0 +1,33 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il tuo account Sony Entertainment Network (SEN).
+
+	In riferimento alla tua richiesta siamo spiacenti di informarti che non è possibile effettuare nessun rimborso per
+         l'acquisto di contenuti errati.
+            
+            Infatti, come specificato nei "Termini di servizio e Condizioni d'uso" di Sony Entertainment Network (SEN), accettati in fase di registrazione, non è concesso 
+        un periodo di "ripensamento" o un rimborso per l'acquisto di contenuti per piattaforme diverse da quella in proprio possesso.
+
+	Di seguito ti riportiamo il link inerente ai nostri termini:
+
+	http://legaldoc.dl.playstation.net/ps3-eula/psn/e/e_tosua_it.html
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+

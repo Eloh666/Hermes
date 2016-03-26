@@ -1,0 +1,42 @@
+
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda ProEvolution Soccer 2015 (PES2015)
+
+In merito alla tua richiesta ti informiamo che la PlayStation 4 (PS4) lascia la possibilità, nel caso di far partire i primi livelli dei giochi prima che questi siano completamente scaricati.
+
+Nel caso solo alcune parti del gioco siano disponibili potrebbe essere che l'installazzione del gioco non sia completa ed il download sia ancora in corso.
+
+Per essere sicuro che il contenuto sia stato scaricato in maniera completa, controlla in Notifiche > Download e nelle Informazioni dell'applicazione, accessibile premendo il pulsante "Options" sull'icona del contenuto.
+
+Nel tuo caso il file del gioco "PES 2015" deve essere grande circa "20.4 GB".
+
+Nel caso il problema persistesse ti consigliamo di cancellare l'applicazione, selezionando con il tasto "Options" l'icona del contenuto sulla schermata principale.
+
+Cancella anche eventuali dati salvati dal gioco seguendo il percorso Impostazioni > Gestione Dati Salvati dell'Applicazione, in entrambi i sistemi di archiviazione Online e del Sistema..
+
+Ripristina le Licenze del suo account tramite IMPOSTAZIONI > PSN e riscarica il contenuto.
+
+Nel caso avessi altri dubbi sul gioco in questione ti invitiamo a contattare "Konami", la Casa Produttrice del gioco stesso.
+
+Trovi tutte le informazioni sul loro sito internet: 
+
+
+https://it.games.konami-europe.com/
+
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza PlayStation

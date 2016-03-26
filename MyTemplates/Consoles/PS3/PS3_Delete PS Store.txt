@@ -1,0 +1,34 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 3 (PS3).
+
+Da questo si evince che stai avendo problematiche di accesso al PlayStation Store.
+
+Ti consigliamo di procedere all'eliminazione dell'applicazione, sotto il gruppo PSN, cliccando con il pulsante triangolo sull'icona del PS Store e scegliendo elimina. 
+Spegni la console, ed una volta riaccesa seleziona nuovamente il Playstation Store per re-installare l'applicazione.
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta assistenza PlayStation
+
+
+
+
+Suggested:
+
+
+Per risolvere il problema ti consigliamo di procedere all'eliminizione dell'applicazione in questione.
+Troverai il PlayStation store sotto il gruppo PSN.
+Una volta raggiunta l'icona per procedere all'eliminazione dovrai premere il pulsante triangolo sul tuo controller e scegliere l'opzione elimina.

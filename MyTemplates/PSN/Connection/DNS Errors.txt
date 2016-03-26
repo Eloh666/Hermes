@@ -1,0 +1,86 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+	Il codice errore da te riscontrato è dovuto ad un problema di DNS.
+
+Di seguito ti riportiamo un esempio di impostazioni standard da dover impostare sulla console.
+
+Entrando nel menù "Impostazioni" -> "impostazioni di rete" -> "Impostazioni della connessione internet"
+
+premere "OK", selezionare come metodo di impostazione "personalizzate" e successivamente scegliere il
+tipo di connessione preferito (via cavo o wireless)
+
+A - CONFIGURAZIONE VIA CAVO
+
+- Selezionare modalità di funzionamento:	Rilevamento automatico
+- Impostazione dell'IP:			Manuale*
+- Imposta nome dell'host DHCP:		Non impostare
+- Impostazione del DNS:			Manuale*
+- MTU:					Automatico
+- Server proxy:				Non usare
+- UPnP:					Disabilita
+
+effettuare quindi la verifica della connessione e salvare le impostazioni.
+
+B - CONFIGURAZIONE WIRELESS
+
+- Impostazioni WLAN:			Scandisci
+
+individuare e selezionare il proprio punto di accesso facendo attenzione all'intensità del segnale
+(consigliabile almeno 80%) e il tipo di sicurezza.
+
+Dal Impostazione sicurezza WLAN dovrai inserire la chiave di rete (WEP/WPA/WPA2) fornita dal 
+provider telefonico.
+
+- Impostazione dell'IP:			Manuale*
+- Imposta nome dell'host DHCP:		Non impostare
+- Impostazione del DNS:			Manuale*
+- MTU:					Automatico
+- Server proxy:				Non usare
+- UPnP:					Disabilita
+
+Effettua quindi la verifica della connessione e salvare le impostazioni.
+
+*Ad esclusione della maschera di sottorete (255.255.255.0) tutti gli altri paramentri potranno essere reperiti con l'ausilio del tuo operatore telefonico.
+
+*I DNS, primario e secondario, potrai reperirli chiamando il tuo operatore telefonico, o direttamente
+sul web inserendo "DNS" e poi il nome dell'operatore telefonico su un qualsiasi motore di ricerca.
+Alcuni dei valori che consigliamo sono i seguenti:
+
+Primario:        8.8.8.8 
+Secondario:      8.8.4.4
+
+o in alternativa
+
+Primario:        208.67.222.222
+Secondario:      208.67.220.220
+
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+
+
+
+ERRORI DNS:	80710102 - 80710092 o cmq 80710... in generale
+
+
+Richiesta assistenza PlayStation
+
+

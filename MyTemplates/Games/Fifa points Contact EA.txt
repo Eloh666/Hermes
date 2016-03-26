@@ -1,0 +1,27 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda FIFA.
+
+Come ben saprai, alcuni giochi per PlayStation vengono creati da diverse case produttrici e FIFA è pubblicato da Electronic Arts (EA).  
+
+Se nella lista transazioni del tuo account, l'acquisto di Fifa Points figura, potresti ricevere aiuto su questo gioco all’interno del loro sito web: 
+
+<as-html><b><a href="https://help.ea.com/">https://help.ea.com/</b></a></as-html> 
+
+Oppure contattando la linea di supporto allo: 02.89 87 75 71
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+

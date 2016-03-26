@@ -1,0 +1,51 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 3 (PS3).
+
+Da quanto si evince ti consigliamo di procedere manualmente all'aggiornamento del software di sistema della tua PS3.
+
+Procedi seguendo in dettaglio le indicazioni che trovi qui di seguito:
+
+
+DOWNLOAD FILE E CREAZIONE CHIAVETTA
+
+PROCEDURA: http://it.playstation.com/ps3/support/network/detail/item49478/Aggiornamenti-del-software-di-sistema-PS3/
+
+FILE AGGIORNAMENTO: http://it.playstation.com/systemsoftwareps3/
+
+
+Il file di aggiornamento dovrà essere inserito in una chiavetta formattata in FAT32, inserito nel percorso PS3 > UPDATE (cartella e sottocartella andranno nominate in maiuscolo)
+
+
+SAFE MODE E AGGIORNAMENTO
+
+1)Verifica che la spia di accensione del sistema PS3 sia accesa e di colore rosso fisso (Stand-By).
+
+2)Tieni premuto il tasto di accensione per circa 15 secondi, noterai che la luce diventerà verde per poi tornare rossa (ad indicare che il sistema si accende e si rispegne)
+  A questo punto rilascia il pulsante.    
+
+3)Tieni nuovamente premuto il tasto di accensione.
+
+4)Rilascia il tasto dopo l'emissione di due brevi segnali acustici ravvicinati.
+
+5)Segui le istruzioni a schermo collegando il Dual Shock 3 mediante cavo USB e premi il tasto PS per avviare il sistema in Modalità Protetta
+
+
+A questo punto ti si aprirà un menù con differenti voci tra cui scegliere. Dovrai ora selezionare l'opzione numero 6.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza PlayStation
+

@@ -108,13 +108,9 @@ class Archive(QtGui.QWidget):
         self.treeWidget.setObjectName(_fromUtf8("treeWidget"))
         self.treeWidget.headerItem().setText(0, _translate("self", "Topics", None))
 
-        templates, categories = self.initializeLists()
+        locations = self.initializeLists(self.treeWidget, self.selLang().replace("\n",""))
 
-        for i in templates:
-            item = QTreeWidgetItem([i.replace(".txt", "")])
-            self.treeWidget.addTopLevelItem(item)
-
-        command = lambda : self.loadAllMessagesProper(self.treeWidget.selectedItems(),6)
+        command = lambda : self.loadAllMessagesProper(self.treeWidget.selectedItems(),6, locations)
         self.treeWidget.itemSelectionChanged.connect(command)
 
 
@@ -132,7 +128,7 @@ class Archive(QtGui.QWidget):
         item_1 = QtGui.QTreeWidgetItem(item_0)
         item_2 = QtGui.QTreeWidgetItem(item_1)
 
-        command2 = lambda : self.loadAllMessagesProper(self.treeWidget_2.selectedItems(),8)
+        command2 = lambda : self.loadAllMessagesProper(self.treeWidget_2.selectedItems(), 8, [])
         self.treeWidget_2.itemSelectionChanged.connect(command2)
 
         self.retranslateUi()
@@ -195,55 +191,70 @@ class Archive(QtGui.QWidget):
         if MainWin.lng == 7:
             return MainWin.lines[22]
 
-    def initializeLists(self):
-        path = self.selLang()
-        path = path.replace("\n","")
-        templates = []
-        categories = []
-        for root, dirs, files in os.walk(path):
-            for mail in files:
-                templates.append(mail)
-                for fold in dirs:
-                    if not (categories.__contains__(fold)):
-                        categories.append(fold)
-        return templates, categories
-
-    def loadAllMessagesProper(self, tree, num):
-            global currentNum
-            currentNum = num
-            if num == 8:
-                self.pushButton_2.setEnabled(False)
-                self.pushButton_7.setEnabled(False)
-                prePath = lines[num].replace("\n","\\")
+    def initializeLists(self, tree, path):
+        locationTuples = []
+        for files in os.listdir(path):
+            item = QTreeWidgetItem([files.replace(".txt", "")])
+            if os.path.isdir(os.path.join(path, files)):
+                locationTuples = self.addSubItems(tree, item, path+"\\"+files, locationTuples)
             else:
-                prePath = self.selLang()
+                locationTuples.append((path,files))
+            tree.addTopLevelItem(item)
+        return locationTuples
 
-            getSelected = tree
-            baseNode = getSelected[0]
-            Node = baseNode.text(0)
-            Node = str(Node)
-            self.label.setText("Please select a category")
-            prePath = prePath.replace("\n","\\")
 
-            try:
-                NodePath = prePath+Node+".txt"
-                f1 = open(NodePath, 'r')
-                title = f1.readline(-1)
-                title = title.replace("\n","")
-                f1.readline(-1)
-                global htmlData
-                htmlData = f1.read()
-                self.pushButton_7.setEnabled(True)
-                if num == 8:
-                    self.textBrowser.setHtml(htmlData)
-                if num == 6:
-                    self.textBrowser.setText(htmlData)
-                    self.pushButton_2.setEnabled(True)
+    def addSubItems(self, tree, item, path, locationTuples):
+        addedDirectories = []
+        for files in os.listdir(path):
+                newItem = QTreeWidgetItem([files.replace(".txt", "")])
+                if os.path.isdir(os.path.join(path, files)):
+                    locationTuples = self.addSubItems(tree, newItem, path+"\\"+files, locationTuples)
+                else:
+                    locationTuples.append((path,files))
+                item.addChild(newItem)
+        return locationTuples
+
+    def loadAllMessagesProper(self, tree, num, locations):
+        global currentNum
+        currentNum = num
+        baseNode = tree[0]
+        Node = baseNode.text(0)
+        Node = str(Node)
+        self.label.setText("Please select a category")
+        if num == 6:
+            for i,j in locations:
+                if j == Node+".txt":
+                    value = i+"\\"+Node+".txt"
+                    self.openTemplate(value, num)
+                    break
+        else:
+            self.pushButton_2.setEnabled(False)
+            self.pushButton_7.setEnabled(False)
+            prePath = lines[num].replace("\n","\\")
+            self.openTemplate(prePath+Node+".txt", num)
+
+
+    def openTemplate(self, value, num):
+        try:
+            f1 = open(value, 'r')
+            title = f1.readline(-1)
+            title = title.replace("\n","")
+            f1.readline(-1)
+            global htmlData
+            htmlData = f1.read()
+            self.pushButton_7.setEnabled(True)
+            if num == 8:
+                self.textBrowser.setHtml(htmlData)
+            if num == 6:
+                self.textBrowser.setText(htmlData)
+                self.pushButton_2.setEnabled(True)
                 self.label.setText(title)
                 f1.close()
-            except:
-                txt = ""
-                self.textBrowser.setPlainText("")
-                self.label.setText("Please select a template")
-                self.pushButton_2.setEnabled(False)
-                self.pushButton_2.setEnabled(False)
+            return True
+        except:
+            txt = ""
+            self.textBrowser.setPlainText("")
+            self.label.setText("Please select a template")
+            self.pushButton_2.setEnabled(False)
+            self.pushButton_2.setEnabled(False)
+            return False

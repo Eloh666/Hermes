@@ -1,0 +1,31 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+Da questo si evince che, una volta avviato il gioco ti compare ancora in versione demo.
+
+Questa situazioni si presenta in quanto il file di (NBA 2K15, MOTO GP, ASSASSIN CREED etc) non é ancora stato scaricato del tutto.
+
+Per monitorare lo stato del download del gioco acquistato é sufficiente andare sul menù della PS4, selezionare l'icona del gioco in questione e premere il tasto "Options" sul controller.
+
+Nel menu a tendina che compare, seleziona "Informazioni" e vedrai l'effettivo status di download del gioco.
+
+Quando la dimensione sarà completa avrai accesso al gioco completo.
+
+Questa situazione si presenta in quanto la PlayStation 4 (PS4) lascia la possibilità, nel caso il gioco supporti questa funzionalità, di far partire i primi livelli dei giochi prima che siano completamente scaricati.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza PlayStation
+

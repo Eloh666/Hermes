@@ -1,0 +1,29 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda i Contenuti Aggiuntivi (DLC) di Gran Turismo 5 (GT5).
+ 
+Ti forniamo le istruzioni per usufruire del contenuto che hai scelto:
+
+	1- Selezionare dal menu della XMB l'icona PlayStation Network;
+	2- Effettuare L'accesso;
+	3- Inserire il Disco di gioco di GT5;
+	4- Verificare che sia aggiornato alla versione 2.0 (o successiva);;
+	5- Selezionare dall'interno del gioco in basso a destra l'icona denominata "contenuto scaricabile";
+	6- Effettuare il Download del contenuto desiderato.
+
+	
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-----------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+

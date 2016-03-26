@@ -1,0 +1,21 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+Dalla tua e-mail risulta che stai avendo problemi con (PRODOTTO). Purtroppo Sony non certifica nessun Centro Assistenza nel territorio Italiano, non possiamo quindi indirizzarti a nessun centro in particolare. 
+Le riparazioni e sostituzioni dei prodotti difettosi vengono presi in carico direttamente dall'Assistenza PlayStation.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza PlayStation

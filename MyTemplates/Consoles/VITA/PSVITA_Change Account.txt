@@ -1,0 +1,35 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation Vita (PS Vita).
+
+In riferimento alla tua segnalazione ti comunichiamo che sul sistema Ps Vita è possibile registrare ed utilizzare un solo account alla volta.
+Nel caso tu abbia deciso di passare da un account ad un altro, di seguito trovi le istruzioni su come procedere:
+
+- nel menù principale della PsVita selezionare IMPOSTAZIONI
+
+- selezionare FORMATTAZIONE e RIPRISTINA SISTEMA PS Vita e seguire le indicazioni
+
+- una volta ripristinato tornare sul menù IMPOSTAZIONI digitare PLAYSTATION NETWORK e selezionare ISCRIVITI > ACCEDI CON UN ACCOUNT ESISTENTE e inserire e-mail e password dell'altro account.
+
+N.B. Ti ricordiamo che durante la fase di ripristino viene richiesto se formattare anche la scheda di memoria, non è necessario formattarla ma potrà essere utilizzata solo dall'utente che si è registrato inizialmente (non verrà vista col nuovo utente se non formattandola perdendo però tutti i salvataggi e progressi di gioco)
+
+La stessa operazione è da effettuare nel caso volessi tornare ad usare l'account precedente.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+

@@ -1,0 +1,70 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation Vita (PS VITA).
+
+Dalla tua comunicazione si evince che stai cercando di trasferire dati (foto, video, musica) da pc a PS Vita.
+
+Qui di seguito trovi tutti passaggi esatti per effettuare il trasferimento di contenuti musicali:
+
+_ Crea una cartella nel desktop sul suo pc e copia all'interno i brani musicali da trasferire su Ps_Vita
+
+_ Installa il Content Manager Assistant (CMA) che puoi scaricare direttamente dal link: http://cma.dl.playstation.net/cma/win/it/.
+
+_ Apri la gestione contenuto, che hai installato sul tuo pc, seleziona "sfoglia" e seleziona la cartella creata in precedenza.
+
+_ Solo ora collega la PS VITA al pc tramite il cavo USB dato in dotazione.
+
+_ Dal menu del sistema ps vita seleziona:
+
+ Gestione Contenuto->Avvia ->da pc a sistema Ps_Vita->Musica-> cliccare "copia" dopo aver spuntato i brani che vuoi trasferire.
+
+
+
+Con questi passaggi la procedura di trasferimento contenuto è conclusa, e potrai trovare i file trasferiti nel percorso Musica->Avvia->Brani.
+
+
+
+Per il trasferimento video la procedura è la seguente:
+
+
+- Crea una cartella nel desktop sul suo pc e copia all'interno i video da trasferire su Ps_Vita
+ 
+- Installa il CMA
+
+- Apri la gestione contenuto, che hai installato sul tuo pc, seleziona "sfoglia" e seleziona la cartella creata in precedenza
+
+- Solo ora collega la PS VITA al pc tramite cavo usb dato in dotazione
+
+- Dal menu del sistema PS VITA seleziona:
+
+ Gestione Contenuto->Avvia ->da pc a sistema Ps_Vita->Video-> cliccare "copia" dopo aver spuntato i Video che vuoi trasferire.
+
+
+Con questi passaggi la procedura di trasferimento contenuto è conclusa, e potrai trovare i file trasferiti nel percorso in Video->Avvia->Tutto.
+
+
+*formati supportati: 
+
+musica: MP3, MPEG-1/2, Audio Layer3, MP4(MPEG-4 AAC), WAVE(PCM Lineare)
+video: profilo Semplice MPEG-4(AAC), H.264/MPEG-4, AVC, HI (Principale, baseline Profilo)AAC
+foto: JPEG(exif 2.2.1), TIFF, BMP, GIF, PNG
+
+Eventuali formati non elencati potrebero non essere riprodotti/visualizzati.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza PlayStation
+
+

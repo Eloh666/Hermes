@@ -1,0 +1,27 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il tuo account Sony Entertainment Network (SEN).
+
+         Volevamo informarti che la tua richiesta riguardante la disattivazione Video della console
+          è andata a buon fine.
+
+	Per attivare la nuova console dovrai andare in:
+
+	Gestione Account --> Attivazione Sistema --> Sistema PS3 --> Video --> Attiva
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+

@@ -1,0 +1,26 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda [ISSUE/PRODUCT].
+
+Con riferimento a quanto segnalato, ti informiamo che è attivo il Servizio Clienti telefonico al quale fa riferimento l'unico centro assistenza autorizzato Sony PlayStation.
+Con una telefonata al n. 02 3600 9081, è possibile attivare il servizio di sostituzione della propria console in modo semplice e veloce e di usufruire dei seguenti servizi: 
+
+        Ritiro gratuito a cura di un corriere all’indirizzo desiderato. 
+        Sostituzione con console rigenerata e revisionata dai tecnici specializzati Playstation con riconsegna gratuita sempre tramite corriere; 
+        Pagamento dell’eventuale costo del fuori garanzia tramite carta di credito (Visa, Mastercard, American Express, Postepay). 
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta assistenza PlayStation 

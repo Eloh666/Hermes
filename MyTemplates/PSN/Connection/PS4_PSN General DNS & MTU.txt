@@ -1,0 +1,40 @@
+Ciao $contacts.name.first,
+
+           Ti informiamo che il problema di connessione da te rilevato potrebbe essere relativo al settaggio
+delle porte TCP e UDP sul tuo router.
+
+Queste le porte che ti suggeriamo di comunicare al tuo gestore telefonico, richiedendo espressamente che vengano lasciate sempre aperte:
+   
+TCP 80, 443, 5223, dalla 10070 alla 10080;
+
+UDP 3478, 3479, 3658 e 10070
+
+Nel caso dovessi trovare difficoltà nelle impostazioni del tuo modem-router, ti invitiamo a contattare il produttore del router stesso.
+
+
+Sulla tua PlayStation 4 (PS4) 
+
+1)	Vai su [IMPOSTAZIONI]----->[RETE]---->[IMPOSTA CONNESSIONE INTERNET]
+2)	Seleziona il tipo di connessione che utilizza per la console (WiFi o LAN)
+3)	Scegli di impostare manualemnte la connessione
+4)	Lascia l'indirizzo IP automatico (a meno che il suo operatore telefonico non le suggerisca diversamente)
+5)	DHCP ----> NON USARE
+6)	Imposta manualmente i DNS impostandoli cone di seguito
+
+DNS Primario 	8.8.8.8
+DNS Secondario	8.8.4.4
+
+7)	MTU se connessione ethernet 1476, altrimenti 1473 per wifi
+8)	Proxy Server scegli non usare
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+[TUO NOME]
+Supporto PlayStation
+
+--------------------------------------
+
+
+Richiesta assistenza PlayStation

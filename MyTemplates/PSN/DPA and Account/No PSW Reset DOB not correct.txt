@@ -1,0 +1,27 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il tuo account Sony Entertainment Network.
+
+        In riferimento alla tua richiesta siamo spiacenti di comunicarti che non è  stato possibile aiutarti nella richiesta
+        di recupero password in quanto la data di nascita è un dato fondamentale per il recupero di essa.
+        Infatti, se al momento della registrazione, vengono inseriti dati/informazioni non corretti (veritieri) si violano 
+        "Termini di servizio e Condizioni d'uso" di Sony Entertainment Network (SEN), pertanto la richiesta non può essere accettata.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+

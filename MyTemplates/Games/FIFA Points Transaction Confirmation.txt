@@ -1,0 +1,24 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda FIFA 15.
+
+Da quanto si evince dalla tua comunicazione e in base a controlli effettuati sul tuo account, ti confermiamo che la transazione è  andata a buon fine e che i Fifa points sono stati aggiunti al tuo account.
+Puoi verificare queste informazioni accedendo alla lista servizi: PS4>IMPOSTAZIONI>PSN> INFORMAZIONI SULL'ACCOUNT> LISTA SERVIZI 
+Per informazioni più accurate sull'utilizzo del servizio, ti consigliamo di contattare Electronic Arts al numero 02 89877571 oppure visitare la pagina del forum ufficiale dove potrà trovare delle soluzioni temporanee per il problema. 
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network

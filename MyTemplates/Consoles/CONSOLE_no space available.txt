@@ -1,0 +1,28 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT)
+
+ Per la problematica da te riscontrata ti informiamo che i prodotti scaricati dal nostro Store necessitano sempre di uno spazio libero sulla console in uso di almeno il doppio rispetto alle dimensioni del prodotto stesso:
+ spazio che viene poi liberato automaticamente una volta conclusa l'installazione ma che ne impedisce l'installazione stessa se lo spazio non risulta disponibile sulla console.
+
+Al momento dell'acquisto ti sarà uscito un messaggio di avviso relativo al fatto che sulla tua console al momento non era disponibile tale spazio.
+Confermando la presa visione di tale avviso, il sistema ti ha fatto comunque scaricare il prodotto in quanto potresti avere un altra console su cui scaricarlo e installarlo in seguito.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+

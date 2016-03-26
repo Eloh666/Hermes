@@ -1,0 +1,30 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda Sony Entertainment Network (SEN).
+
+Da quanto si evince dalla tua comunicazione, vorresti impostare la richiesta di password al check-out per gli acquisti.
+Troverai tutte le informazioni a riguardo cliccando sul seguente link:
+
+http://manuals.playstation.net/document/it/ps3/current/store/purchasehistory.html
+
+Per rimuovere gli estremi di fatturazione, visita:
+
+http://faq.it.playstation.com/app/answers/detail/a_id/2172/~/aggiornare-o-eliminare-le-informazioni-della-tua-carta-di-credito-o-debito
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+

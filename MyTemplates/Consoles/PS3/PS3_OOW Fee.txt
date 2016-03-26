@@ -1,0 +1,24 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 3 (PS3).
+
+Ti informiamo che La garanzia offerta da Sony Computer Entertainment è, come riportato anche sul libretto di istruzioni denominato "Sicurezza e assistenza tecnica", totalmente conforme alle norme vigenti sul territorio Italiano, ed ha durata di 1 (uno) anno, in qualità di costruttore.
+
+Dopo il primo anno, offriamo un servizio di assistenza fuori garanzia.
+Questo servizio ha al momento un costo di  € 115 che copre le varie parti, la forza lavoro, la spedizione e altri costi amministrativi associati al processo di rifabbricazione. Da notare che Sony Computer Entertainment Europe (SCEE) non trae profitto da questo servizio, al contrario sussidia il costo in modo da permettere ai nostri clienti di beneficiare del prezzo migliore. 
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza PlayStation

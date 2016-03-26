@@ -1,0 +1,37 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda [ISSUE].
+ 
+Da quanto si evince dalla tua comunicazione ti consiglio di provare i seguenti passaggi:
+
+1. Ripristinare la licenza 
+       Impostazione > PSN > Ripristina Licenza > Ripristino 
+2. Impostare la data e l'ora utilizzando internet. 
+      Impostazione > data e ora Impostazione > Imposta Utilizzo di Internet > Imposta ora
+
+Nel caso ancora non riuscissi ad utilizzare i DLC, prova i seguenti passaggi:
+
+1. Dalle impostazioni PS4> Gestione dati salvati> Dati salvati nella memoria. 
+2. Da qui elimina tutti i contenuti relativi a [GIOCO]. 
+3. Ripristina le Impostazioni Predefinite della PS4 da Impostazioni > Inizializzazione, quindi installa di nuovo [GIOCO] e il contenuto dovrebbe essere disponibile per il download.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+
+

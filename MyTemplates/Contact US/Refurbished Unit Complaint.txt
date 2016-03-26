@@ -1,0 +1,24 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+siamo spiacenti per la percezione negativa che hai avuto del nostro servizio di assistenza ma ti assicuriamo che le console rigenerate vengono controllate in tutte le loro funzioni presso i nostri laboratori centrali europei, con le più avanzate attrezzature e secondo standard qualitativi molto elevati. 
+I componenti interni soggetti ad usura vengono debitamente sostituiti se trovati in condizioni non idonee, come anche la scocca esterna viene cambiata se non in perfette condizioni. 
+Questa procedura ci permette di garantire le console rigenerate in tutte le loro funzioni e non solo per quanto riguarda il difetto manifestato. 
+Possiamo così dire che il processo di rigenerazione è ben più efficace di una normale riparazione e definire queste console "usate" non è proprio il termine secondo noi più adatto.  
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza PlayStation

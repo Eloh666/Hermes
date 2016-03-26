@@ -1,0 +1,28 @@
+﻿Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 4 (PS4).
+
+Da questo si evince che vorresti maggiori informazioni sulla possibilità di utilizzare la sua console all'estero.
+
+Non dovresti avere difficolta ad utilizzare giochi venduti in Regioni differenti da quella di origine della console, ma alcune incompatibilità possono verificarsi con DLC acquistati dal PlayStation Store di una diversa Regione.
+Contenuti addizionali acquistati con un account Italiano potrebbero non essere compatibili con una versione del disco di gioco estera.
+
+Per questo tipo di contenuti è consigliato continuare ad usare lo store e l'account italiano a cui dovrai sempre associare eventuale carta di credito/debito rilasciata in Italia.
+
+Inoltre, per usufruire del servizio di assistenza su una console acquistata in una Regione differente, dovrai contattare il centro di supporto della Regione in cui la console è stata acquistata.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+-------------------------------------------------------
+
+
+
+
+Richiesta Assistenza PlayStation
+

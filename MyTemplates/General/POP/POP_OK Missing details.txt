@@ -1,0 +1,32 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+Ti confermiamo che abbiamo ricevuto e verificato la prova di acquisto del tuo prodotto PlayStation.
+
+Ci mancano purtroppo alcune informazioni per compilare la tua Richiesta di Assistenza. 
+Ti chiediamo di fornirci le seguenti informazioni:
+
+_Nome e Cognome del destinatario
+_Indirizzo di spedizione completo (CAP incluso)
+_Contatto telefonico
+_Numero di Serie (scritto sotto al codice a barre) del prodotto in questione
+_SOLO SE PLAYSTATION PORTABLE anche numero di modello e colore.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+

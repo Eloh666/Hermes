@@ -1,0 +1,26 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il tuo Dualshock.
+
+Dopo aver visionato le foto del controller inviateci, siamo spiacenti di informarti che il danno causato risulta essere fuori garanzia. 
+
+In quanto può essere stato causato da un urto o più probabilmente da una eccessiva pressione esercitata sulle levette analogiche.
+
+Per quanto sopra esposto quindi ci dispiace informarla che non possiamo intervenire in garanzia sul joypad.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza PlayStation
+

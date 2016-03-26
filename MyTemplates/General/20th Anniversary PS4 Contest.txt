@@ -1,0 +1,31 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 4 (PS4).
+
+In merito alla tua richiesta sappi che tutte le informazioni sulle promozioni del 20esimo Anniversario PlayStation si trovano al seguente Link:
+
+http://blog.it.playstation.com/2014/12/23/playstation-4-20th-anniversary-edition-due-concorsi-per-voi/
+
+Per le istruzioni su come procedere al concorso riferisciti invece alle informazioni che trovi:
+
+http://wheretheplayerswin.it/REGOLAMENTO%20WHERE%20THE%20PLAYERS%20WIN%20def.pdf
+
+http://www.4playstationlovers.it/doc/Regolamento%204%20PLAYSTATION%20LOVERS.pdf
+
+Ti invitiamo quindi a rimanere aggiornato sui nostri prodotti tramite il nostro blog ufficiale: http://blog.it.playstation.com
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+-------------------------------------------------------
+
+
+
+
+Richiesta Assistenza PlayStation
+

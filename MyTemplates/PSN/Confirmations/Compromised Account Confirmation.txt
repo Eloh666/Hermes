@@ -1,0 +1,30 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il tuo account Sony Entertainment Network (SEN).
+
+	Ti informiamo che la tua pratica è stata inoltrata presso gli uffici di Londra.
+        Effettuati i controlli necessari, l'account sarà ripristinato sull'indirizzo e-mail
+        utilizzato in fase di registrazione, pertanto nell'attesa ti invitiamo a NON creare
+        nessun altro account con lo stesso indirizzo.
+
+L'account è stato momentaneamente bloccato per evitare accessi non autorizzati.
+
+	Ti informeremo non appena avremo ulteriori notizie in merito.
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+

@@ -1,0 +1,40 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il tuo account Sony Entertainment Network(SEN).
+
+	In mancanza dei dati corretti siamo spiacenti di comunicarti che non è possibile darti ulteriore aiuto nel recupero del tuo account.
+
+        Per poter continuare ad usufruire del nostro servizio PS Network ti suggeriamo di creare un nuovo account e ti invitiamo a conservare la relativa mail di conferma
+        di avvenuta registrazione che riceverai al termine della procedura stessa.
+
+	Di seguito ti riportiamo i passaggi che dovrai seguire per poter creare un nuovo account:
+
+        Selezionare PSN dopo aver creato un nuovo utente utente locale sulla console ed effettuare la registrazione.
+        Sul menu PSN troverai la voce "Iscriviti al PS Network"
+
+        Successivamente basterà seguire tutte Le istruzioni che vedrai riportate sullo schermo.
+         
+        Puoi anche effettuare la registrazione direttamente dal nostro sito Internet:
+
+        https://account.sonyentertainmentnetwork.com/liquid/reg/account/create-account!input.action
+
+        Ricordati di utilizzare dati reali durante la creazione e di salvare tutti i dettagli essenziali del tuo account (ID di accesso, ID Online)       
+       
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+

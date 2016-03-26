@@ -1,0 +1,31 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda la tua PlayStation 4 (PS4)
+
+Da quanto si evince dalla tua comunicazione ti consigliamo di cancellare l'applicazione selezionando con il tasto "Options" l'icona del contenuto sulla schermata principale.
+
+Cancella anche eventuali dati salvati dal gioco seguendo il percorso Impostazioni > Gestione Dati Salvati dell'Applicazione, in entrambi i sistemi di archiviazione Online e del Sistema.
+
+Fai ripartire il download del gioco ma metti in pausa i file che appariranno in scaricamento sotto [Notifiche] > [Download] fino a che il download del file principale del gioco non sarà stato completato.
+
+Per essere sicuro che il contenuto sia stato scaricato in maniera completa, controlla spostandoti sull'icona del gioco all'interno della dashboard premendo il tasto "Options" sul controller. Dal menu che apparirà sulla destra scegli [Informazioni]. Il gioco sarà completamente scaricato quando lo stato del download ti apparirà come [Completato]. A questo punto sblocca il download dei file prima messi in pausa nell'area [Notifiche].
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza PlayStation

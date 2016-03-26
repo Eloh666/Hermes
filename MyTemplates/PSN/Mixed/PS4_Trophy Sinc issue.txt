@@ -1,0 +1,42 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 4 (PS4).
+
+Da questo si evince che hai avuto un problema con la sincronizzazione dei tuoi trofei ed alcuni trofei non sono visibili sul tuo profilo Sony EntertainmentNetwork (SEN).
+
+Per risolvere il tuo problema ti consiglio di seguire i seguenti passaggi:
+
+A) SINCRONIZZAZIONE ORARIO
+ 1) Vai su [IMPOSTAZIONI]--->[DATA E ORA]--->[IMPOSTAZIONI DI DATA E ORA]
+ 2) Seleziona [IMPOSTA TRAMITE INTERNET] e scelga [IMPOSTA ADESSO]
+ 
+B) RIPRISTINO LICENZE
+ 1) Vai al menù [IMPOSTAZIONI]--->[PSN]
+ 2) Seleziona [RIPRISTINA LICENZE] e premi [X]
+ 3) Conferma l'operazione e attendi il completamento.
+ 
+C) SINCRONIZZAZIONE MANUALE TROFEI
+ 1) Accedi all'area [TROFEI] sulla tua PS4
+ 2) Premi il tasto [OPTIONS] sul tuo DualShock4 (DS4)
+ 
+
+ N.B. Non é possibile per noi forzare la sincronizzazione dei trofei. Questa infatti avviene automaticamente e dipende dalle informazioni che il sogftware trasmette alla console e, di conseguenza, al suo account. Nel caso non riuscissi ad ottenere i trofei in questo modo devi riottenerli rigiocando il titolo.
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza Sony Entertainment Network
+

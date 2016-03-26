@@ -1,0 +1,44 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 3 (PS3).
+
+Da quanto si evince dalla tua comunicazione risulta che hai riscontrato problemi con la lettura dei dischi sulla tua PS3.
+
+Per cercare di risolvere, puoi provare a seguire i passi descritti  <as-html><b><a href="http://faq.it.playstation.com/app/answers/detail/a_id/8986">qui</b></a></as-html>.
+
+Potrebbe esserti utile seguire le istruzioni riportate <as-html><b><a href="http://faq.it.playstation.com/app/answers/detail/a_id/5338/p/491">qui</b></a></as-html>, procedendo per prima cosa con l'opzione numero 2. 
+
+Se questo non fosse abbastanza, puoi provare le opzioni 3, 4 e 5, ricordandoti, se possibile, di effettuare un back-up di tutti i dati che altrimenti andranno persi. 
+
+
+
+Ti consigliamo anche di seguire la procedura per aggiornare correttamente il software di sistema della sua PS3 (opzione 6), nel caso la tua console non fosse aggiornata.
+
+Segui nel dettaglio le indicazioni fornite dalla seguente documentazione. 
+
+
+
+
+PROCEDURA: http://faq.it.playstation.com/app/answers/detail/a_id/9230/~/aggiornare-il-firmware-ps3-attraverso-il-men%C3%B9-safe-mode
+
+
+
+FILE AGGIORNAMENTO: http://it.playstation.com/ps3/support/system-software/detail/item680395/Funzioni-aggiornamento-%28versione-4-55%29/ 
+
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+-------------------------------------------------------
+
+
+Richiesta assistenza PlayStation

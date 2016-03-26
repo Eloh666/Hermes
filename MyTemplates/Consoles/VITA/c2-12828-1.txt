@@ -1,0 +1,39 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation Vita (PS VITA).
+
+Trovi al seguente link le istruzioni sull'uso ed il download del Content Manager Assistant (CMA) per PS VITA.
+
+http://cma.dl.playstation.net/cma/win/it/
+
+Una volta salvati i tuoi dati sul tuo computer procedi con i vari ripristini della PS Vita dalla modalità provvisoria.
+ 
+1 - Una volta spenta la PS Vita > accedere alla SAFE MODE usando i tasti Power, PS ed R contemporaneamente per circa 5-6 secondi.
+
+2 - Dalla SAFE MODE (modalità provvisoria) selezionare l'opzione (3) Formattazione Memory Card
+
+3 - Una volta completato il processo riaccendere la PS Vita in SAFE MODE, e selezionare l'opzione (4) Rispristino Sistema PS Vita.
+
+4 - Ancora una volta accedere di nuovo PS Vita in SAFE MODE e selezionare l'opzione (2) per il Ripristino Database.
+
+5 - Collegare la PS Vita al computer, aprire l'applicazione CMA su entrambi i dispositivi ed effettuare il Back-Up sulla console.
+
+Trovi di seguito le istruzioni sul Back-up dei contenuti:
+
+http://manuals.playstation.net/document/it/psvita/cm/index.html
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza PlayStation
+

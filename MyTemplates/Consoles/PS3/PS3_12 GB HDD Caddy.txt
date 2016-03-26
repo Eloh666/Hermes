@@ -1,0 +1,32 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 3 (PS3).
+
+Ti informiamo che il modello di PS3 da te acquistato è stato creato appositamente senza un disco fisso ma con una memoria interna minima di 12 GB.
+Questa scelta di design ha l'obbiettivo di andare incontro alla necessità degli utenti che non hanno bisogno di installare una grande quantità di dati, e che ora possono acquistare una PS3 a costo ridotto.
+
+Nel caso il prodotto venga erroneamente acquistato da chi ha esigenze diverse, è stato creato un kit apposito solo per questo modello di PS3, che comprende una guida chiamata "caddy".
+Questa permette di inserire all'interno della console un disco fisso di dimensioni variabili fino a 500GB.
+Tale kit è acquistabile o ordinabile presso qualsiasi rivenditore dei nostri prodotti.
+
+Al seguente link, anche se non risulta acquistabile, puoi visualizzare il prodotto in questione: http://www.100x100playstation.it/prodotti/view/1312.
+Le caratteristiche degli Hard Disk supportati sono:
+
+Modello SATA da 2, 5 pollici e 5400 rpm.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza PlayStation
+
+

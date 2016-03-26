@@ -1,0 +1,50 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation Network (PSN).
+
+Siamo al corrente dei problemi presenti durante l'accesso ai nostri server che sembra colpire parte degli utenti del nostro Servizio.
+
+Ci scusiamo per qualsiasi inconveniente questa situazione ti possa aver causato e ti assicuriamo che i nostri tecnici sono già alla ricerca di una tempestiva soluzione alla problematica in questione.
+Sicuri della tua comprensione e supporto, ti chiediamo di pazientare fino a che lo status dei server PSN non sia tornato completamente alla normalità.
+
+Continua a controllare lo status del PSN direttamente dal nostro sito ufficiale, cliccando sul seguente link:
+
+https://www.playstation.com/it-it/explore/playstation-network/playstation-network-status/
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+
+
+
+
+
+DA AGGIUNGERE IN CASO DI CLIENTI PERSISTENTI:
+
+
+
+Per riferimento sappi che stando ai Termini Legali del Servizio Sony Entertainment Network, un rimborso viene preso in considerazione solo in caso di totale chiusura del servizio.
+
+16.Manutenzione e chiusura di Sony Entertainment Network
+
+La nostra azienda potrebbe sospendere SEN e/o qualsiasi prodotto ad esso collegato in qualunque momento e per qualsiasi periodo e motivo, inclusa l'indagine relativa a incidenti che mettano a repentaglio la sicurezza o per eseguire manutenzione e aggiornamento del sistema. 
+Se il servizio SEN dovesse essere del tutto terminato, l'utente potrà ottenere su richiesta un rimborso per eventuali fondi inutilizzati presenti nel proprio portafoglio e per qualsiasi periodo di abbonamento non ancora scaduto. L'utente non ha diritto ad alcun rimborso per Valuta virtuale o altri prodotti non utilizzati.
+
+Per maggiori informazioni, i Termini di Servizio Completi, accettati in fase di registrazione, si trovano anche al seguente link:
+
+http://legaldoc.dl.playstation.net/ps3-eula/psn/e/e_tosua_it.html
+

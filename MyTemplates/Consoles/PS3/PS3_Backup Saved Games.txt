@@ -1,0 +1,29 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 3 (PS3)
+
+Ti informiamo che non è possibile passare dati da un account PS Network ad un altro.
+
+Per passare i salvataggi dei giochi che hai sulla PS3 su una chiavetta USB dovresti eseguire le seguenti operazioni:
+
+1) Effettuare l'accesso con l'utente del quale desideri copiare i salvataggi;
+2) Inserire una chiavetta USB (formattata in FAT32);
+3) Andare in utilità dei dati salvati, premere il tasto triangolo sull'icona del salvataggio di gioco desiderato, e selezionare copia;
+4) Seleziona infine come destinazione la cartella USB che hai inserito.
+
+Non ti possiamo assicurare che questa procedura funzioni con tutti i giochi in quanto alcuni di questi sono protetti da Copyright.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+Richiesta Assistenza PlayStation
+

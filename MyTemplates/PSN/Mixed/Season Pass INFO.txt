@@ -1,0 +1,28 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+In merito alla tua richiesta ti informiamo che il Season Pass non necessita di un download, in quanto solo Licenza e non contenuto scaricabile (DLC)+.
+
+Quanto acquistato intitola il tuo account allo scaricamento gratuito dei DLC contenuti nello stesso.
+
+Nel caso di (NOME GIOCO) i DLC non sono ancora stati rilasciati dalla casa produttrice.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+

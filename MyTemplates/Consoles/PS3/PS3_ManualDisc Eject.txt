@@ -1,0 +1,25 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda la tua PlayStation 3 (PS3).
+
+Da questa si evince che hai problemi nell'espellere di un disco dalla tua console.
+
+Per espellere manualmente il disco segui le istruzioni riportate nel link qui di seguito:
+
+http://faq.it.playstation.com/app/answers/detail/a_id/8999/~/%EF%BB%BFdisco-bloccato-nel-sistema-ps3
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+-------------------------------------------------------
+
+
+Richiesta assistenza PlayStation 

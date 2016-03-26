@@ -1,0 +1,36 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il tuo account Sony Entertainment Network (SEN).
+
+Ti informiamo che tutti i servizi in abbonamento, quale il (NOME ABBONAMENTO), sottintendono il rinnovo automatico dello stesso, come riportato all'interno dei "Termini di servizio e condizioni d'uso" del servizio SEN, da te accettati durante la creazione del tuo account.
+Inoltre l'attivazione del rinnovo automatico dell'abbonamento viene specificato anche al momento dell'acquisto dal PlayStation Store.
+
+Per questo motivo ci spiace, ma non possiamo accettare la tua richiesta di rimborso sul rinnovo automatico della sottoscrizione acquisita.
+
+Per riferimento ti riportiamo di seguito i nostri termini legali dove potrai leggere tutte le indicazioni riguardo all'indice "10. SERVIZI DI ABBONAMENTO":
+
+http://legaldoc.dl.playstation.net/ps3-eula/psn/e/e_tosua_it.html
+
+Ti ricordiamo che la disattivazione del rinnovo è possibile in qualsiasi momento, seguendo le istruzioni che trovi al seguente link:
+
+http://faq.it.playstation.com/app/answers/detail/a_id/5215
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+

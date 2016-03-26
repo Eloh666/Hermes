@@ -1,0 +1,46 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda (ISSUE/PRODUCT).
+
+In riferimento al problema che stai riscontrando sulla tua PlayStation 3 (PS3) ti chiediamo di effettuare un paio di operazioni per aiutarci a identificare ed isolare il problema.
+
+Ti chiediamo quindi di seguire le indicazioni riportate di seguito, dove possibile, una alla volta e riprovando ad avviare il gioco ad ogni passo eseguito:
+
+1) Cancella e ri-scarica il contenuto, utilizzando una connessione via cavo nel caso tu utilizzi normalmente una connessione senza fili (Wi-Fi).
+
+2) Entra in Modalità Provvisoria ed effettua una Ricostruzione del Database della PS3 
+   Trovi le istruzioni su come entrare in questa Modalità al link: 
+   http://faq.it.playstation.com/app/answers/detail/a_id/8995/~/%EF%BB%BFutilizzare-il-menu-della-modalit%C3%A0-provvisoria
+   
+3) Entra di nuovo in Modalità Provvisoria ed effettua una Ricostruzione del File System della PS3 
+
+4) Formatta la console dal menù
+
+	 Impostazioni -> Impostazioni del Sistema -> Ripristina sistema PS3 -> Completa
+     ed effettua nuovamente il download del contenuto;
+
+5) Prova ad effettuare il download del contenuto dalla propria console utilizzando un altro provider (a casa di un amico o parente);
+
+6) Effettua l'accesso da un altra console, e scarica lo stesso contenuto;
+
+           Se anche dopo aver eseguito tali procedure il problema dovesse persistere, ti invitiamo a inoltrarci
+         una foto dello schermo riportante il messaggio di errore/codice errore che ti appare durante l'utilizzo del gioco.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+

@@ -1,0 +1,30 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation Vita (PSVita).
+
+Da quanto si evince dalla tua comunicazione hai riscontrato problemi con alcuni contenuti sulla tua PS Vita. Al fine di risolvere il problema ti suggeriamo di seguire le istruzioni riportate al seguente link:
+
+
+http://faq.it.playstation.com/app/answers/detail/a_id/8601/p/2920 
+
+
+Scegli le opzioni:
+
+2. Ricostruisci Database
+3. Formatta memory Card
+4. Ripristina il sistema PS Vita
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+-------------------------------------------------------
+
+
+Richiesta assistenza PlayStation - 

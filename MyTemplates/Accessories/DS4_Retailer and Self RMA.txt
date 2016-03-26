@@ -1,0 +1,29 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda il tuo Dualshock 4 (DS4).
+
+Siamo spiacenti che tu abbia riscontrato problemi con il DualShock che accompagnava la tua PlayStation 4. Se il prodotto acquistato presenta un difetto, il negozio che ha venduto l'accessorio al cliente è tenuto ad effettuare una sostituzione immediata entro 12 mesi dalla data di acquisto come da accordi commerciali. 
+
+Dovesse il negozio negare la sostituzione per indisponibilità del prodotto, siamo lieti di prendere in carico la sostituzione del controller.
+
+Infatti, di recente abbiamo introdotto un servizio online che ti permetterà di diagnosticare autonomamente il problema e trovare una soluzione per il tuo accessorio, offrendoti anche la possibilità di sostituirlo se il problema risultasse irriparabile. 
+
+Per utilizzare questo servizio <as-html><b><a href="https://hardware.support.eu.playstation.com/?smcid=rma_email_it_it">clicca qui</b></a></as-html> e segui le istruzioni a video. Avrai bisogno del seriale della tua console e di quello del tuo controller DualShock4.
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+
+Richiesta Assistenza PlayStation
+

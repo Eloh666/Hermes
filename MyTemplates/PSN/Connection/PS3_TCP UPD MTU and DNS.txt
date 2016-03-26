@@ -1,0 +1,58 @@
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 3 (PS3).
+
+Dalla tua comunicazione si evince che stai avendo problemi di connessione al PlayStation Network (PSN).
+
+La situazione potrebbe derivare dal settaggio sul tuo router delle porte TCP e UDP che la console utilizza sulla connessione per connettersi ai server PSN.
+
+Ti suggeriamo quindi di contattare il tuo gestore telefonico, richiedendo espressamente che vengano lasciate sempre aperte:
+   
+TCP 80, 443, 3478, 3479, 3480, 5223, dalla 10070 alla 10080;
+
+UDP 3478, 3479, 3658, 10070
+
+Nel caso ti trovassi in difficoltà nelle impostazioni del tuo modem-router, ti consigliamo di contattare il produttore del router stesso.
+
+Se ancora sperimenti delle problematiche di connessione alla linea Internet od al PSN, ti consigliamo di impostare la connessione in maniera manuale.
+
+Nelle Impostazioni della PS3 seleziona Impostazioni di Rete > Imposta Connessione Internet e scegli Personalizzata.
+
+Prova ad inserire manualmente i seguenti valori:
+
+- Impostazione dell'IP:			Automatico
+- Imposta nome dell'host DHCP:		Non impostare
+- Impostazione del DNS:			Manuale *
+- MTU:					Manuale *
+- Server proxy:				Non usare
+- UPnP:					Abilita (deve risultare abilitato anche sul router)
+
+
+* DNS PRIMARIO 8.8.8.8
+  DNS SECONDARIO 8.8.4.4
+
+  oppure 
+
+  DNS PRIMARIO 208.67.222.222
+  DNS SECONDARIO 208.67.220.220
+
+* Se ancora riscontri problemi prova ad abbassare l'impostazione dell'MTU utilizzato con valori noti come 1473, o 1472 (o in alternativa 1492).
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+
+
+
+-------------------------------------------------------
+
+
+Richiesta Assistenza Sony Entertainment Network
+
+
+Richiesta Assistenza PlayStation
+
