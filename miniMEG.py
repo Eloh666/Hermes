@@ -1,21 +1,12 @@
 # -*- coding: utf-8 -*-
 
-# Form implementation generated from reading ui file 'miniME.ui'
-#
-# Created by: PyQt4 UI code generator 4.11.4
-#
-# WARNING! All changes made in this file will be lost!
-
-
 import Rep
 import sharedFun
 import enchant
 
-from PyQt4 import QtCore, QtGui
 from PyQt4.Qt import *
 from PyQt4 import QtCore, QtGui
 from PyQt4.QtGui import *
-from PyQt4.QtCore import pyqtSignal
 
 Config = open("Config.txt","r")
 lines=Config.readlines()

@@ -1,26 +1,26 @@
 				@#### This is Ermes Configuration File! ####@
-			####If you can use it, great! Else, dont touch it.####
+			    ####If you can use it, great! Else, dont touch it.####
 			
 # Name			
 Test2
-# Archive Directory 1 --- Always with one extra slash!
-C:\Users\Elohimir\Dropbox\BitBucket Projects\Reborn\Archive\
-# Archive Directory 2 --- Always with one extra slash!
-C:\Users\Elohimir\Dropbox\BitBucket Projects\Reborn\Archive\
+# Archive Directory 1
+C:\Users\Eloh\Documents\GitHub\Hermes\Archive
+# Archive Directory 2
+C:\Users\Eloh\Documents\GitHub\Hermes\Archive
 # Italian Folder Search Path	
-C:\Users\Elohimir\Dropbox\BitBucket Projects\Reborn\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # UK Folder Search Path	
-D:\Reborn\Stuff\Reborn\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Swedish Folder Search Path	
-D:\Reborn\Stuff\Reborn\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Danish Folder Search Path	
-D:\Reborn\Stuff\Reborn\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Norwegian Folder Search Path	
-D:\Reborn\Stuff\Reborn\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Finnish Folder Search Path	
-D:\Reborn\Stuff\Reborn\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Polish Folder Search Path	
-D:\Reborn\Stuff\Reborn\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # My Archive directory
-C:\Users\Elohimir\Dropbox\BitBucket Projects\Reborn\Archive\
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 

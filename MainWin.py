@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 
-import re
 import sys
 import enchant
 import Rep
-import os
 import diag
 import sres
 import miniMEG
@@ -13,7 +11,6 @@ import sharedFun
 
 from PyQt4 import QtCore, QtGui
 from PyQt4.Qt import *
-from PyQt4.QtCore import pyqtSignal
 
 
 sys.stderr = sys.stdout

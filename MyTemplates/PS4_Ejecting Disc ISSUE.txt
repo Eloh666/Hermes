@@ -1,0 +1,80 @@
+Richiesta Assistenza PlayStation
+
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 4 (PS4).
+
+Da quanto si evince dalla tua comunicazione Vedo che hai un problema con l'eiettore della tua PS4.
+
+Di seguito puoi trovare una serie di istruzioni per la risoluzione dello stesso. 
+
+Eseguili nell'ordine indicato e verifica, prima di passare al punto successivo, se il problema si sia risolto o meno.
+
+
+    Spegni la PS4, togli la spina dalla presa, e lascia la console senza corrente per almeno 5 minuti; quindi riconnetti 
+la PS4 alla corrente e riavvia.
+
+
+    Nel caso in cui la PS4 non funzionasse ancora correttamente, segui queste indicazioni per 
+accedere alla modalità provvisoria: <as-html><b><a href="http://faq.it.playstation.com/app/answers/detail/a_id/9555/p/3668">clicca qui</b></a></as-html>.
+
+        Ti consigliamo di eseguire dapprima le opzioni 4 [Ripristina Impostazioni Predefinite] e, in caso, 5 [Ricostruisci Database]
+
+        Segui le istruzioni sottostanti per il Back-Up dei Dati.
+
+        Segui anche quelle per la Creazione Di Un Supporto Di Memorizzazione Esterno Contenete L'ultimo Aggiornamento Di Sistema.
+
+        Riavvia la console in modalità provvisoria ed esegua l'opzione 7 (NB QUESTA OPERAZIONE CANCELLERÀ TUTTI I DATI SULLA TUA CONSOLE)
+
+
+
+BACK UP DEI DATI.
+
+
+
+    Vai su [IMPOSTAZIONI] --> GESTIONI DEI DATI SALVATI DELL'APPLICAZIONE]--> [DATI SALVATI NELLA MEMORIA DI ARCHIVIAZIONE DI SISTEMA]
+
+
+    Scelgi il supporto per il backup:
+
+    _ PlayStation PLUS (PSPlus)
+      
+      Se hai un abbonamento PSPLUS scelgi [CARICA I DATI NELLA MEMORIA DI ARCHIVIAZIONE ONLINE]
+
+    _ USB 
+
+      Se non hai PSPlus collega un supporto di memorizzazione esterno USB vuoto al sistema [COPIA NEL DISPOSITIVO DI ARCHIVIAZIONE ONLINE]
+
+
+    Seleziona Gioco poi seleziona [ SELEZIONA TUTTI]---> [CARICA]
+
+
+
+CREAZIONE DI UN SUPPORTO DI MEMORIZZAZIONE ESTERNO CONTENENTE L'ULTIMO AGGIORNAMENTO DI SISTEMA  (OPZIONE 7)
+
+
+Segui la procedura al seguente link per creare un supporto di memorizzazione esterno USB contenente l'ultimo software di sistema:
+
+http://it.playstation.com/home/news/articles/detail/item663749/Inizializzazione-del-sistema-PS4/
+
+NB: Ricordati che il supporto di memorizzazione esterno deve essere formattato in formato FAT32, di creare una cartella nominata PS4 ed una sottocartella UPDATE e di mettere il file di installazione dentro quest'ultima.
+
+
+SERVIZIO DI ASSISTENZA ONLINE
+
+
+Se ancora la console non dovesse funzionare correttamente, abbiamo appena lanciato un nuovo servizio online che ti consentirà di individuare e risolvere le problematiche riscontrate con la tua PS4 ed eventualmente effettuare una sostituzione se la problematica non potrà essere risolta.
+
+Per utilizzare questo servizio <as-html><b><a href="https://hardware.support.eu.playstation.com/it_IT#/">clicca qui</b></a></as-html> e segui le istruzioni riportate sullo schermo.  
+
+Avrai bisogno del numero seriale della tua console al momento della compilazione, quindi assicurati di avere questi dati a portata di mano!
+
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
+

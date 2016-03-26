@@ -2,10 +2,9 @@
 
 from PyQt4 import QtCore, QtGui
 from PyQt4.QtGui import *
+import MainWin
 import viewer
-
-
-
+import os
 
 Config = open("Config.txt","r")
 lines=Config.readlines()
@@ -34,6 +33,8 @@ class Archive(QtGui.QWidget):
         QMainWindow.__init__(self)
         self.setObjectName(_fromUtf8("self"))
         self.resize(1198, 636)
+
+
 
 
 #            TEXT BROWSER
@@ -105,16 +106,17 @@ class Archive(QtGui.QWidget):
         self.treeWidget = QtGui.QTreeWidget(self)
         self.treeWidget.setGeometry(QtCore.QRect(10, 10, 261, 621))
         self.treeWidget.setObjectName(_fromUtf8("treeWidget"))
-        item_0 = QtGui.QTreeWidgetItem(self.treeWidget)
-        item_1 = QtGui.QTreeWidgetItem(item_0)
-        item_2 = QtGui.QTreeWidgetItem(item_1)
-        item_2 = QtGui.QTreeWidgetItem(item_1)
-        item_2 = QtGui.QTreeWidgetItem(item_1)
-        item_1 = QtGui.QTreeWidgetItem(item_0)
-        item_2 = QtGui.QTreeWidgetItem(item_1)
+        self.treeWidget.headerItem().setText(0, _translate("self", "Topics", None))
 
-        command = lambda : self.loadAllMessages(self.treeWidget.selectedItems(),6)
+        templates, categories = self.initializeLists()
+
+        for i in templates:
+            item = QTreeWidgetItem([i.replace(".txt", "")])
+            self.treeWidget.addTopLevelItem(item)
+
+        command = lambda : self.loadAllMessagesProper(self.treeWidget.selectedItems(),6)
         self.treeWidget.itemSelectionChanged.connect(command)
+
 
 
 #            TREE WIDGET 2
@@ -130,7 +132,7 @@ class Archive(QtGui.QWidget):
         item_1 = QtGui.QTreeWidgetItem(item_0)
         item_2 = QtGui.QTreeWidgetItem(item_1)
 
-        command2 = lambda : self.loadAllMessages(self.treeWidget_2.selectedItems(),8)
+        command2 = lambda : self.loadAllMessagesProper(self.treeWidget_2.selectedItems(),8)
         self.treeWidget_2.itemSelectionChanged.connect(command2)
 
         self.retranslateUi()
@@ -138,19 +140,6 @@ class Archive(QtGui.QWidget):
 
     def retranslateUi(self):
         self.setWindowTitle(_translate("Archive", "Archive", None))
-
-#Tree Widget 1
-        self.treeWidget.headerItem().setText(0, _translate("self", "Topics", None))
-        __sortingEnabled = self.treeWidget.isSortingEnabled()
-        self.treeWidget.setSortingEnabled(False)
-        self.treeWidget.topLevelItem(0).setText(0, _translate("self", "Templates UK", None))
-        self.treeWidget.topLevelItem(0).child(0).setText(0, _translate("self", "PlayStation 4", None))
-        self.treeWidget.topLevelItem(0).child(0).child(0).setText(0, _translate("self", "Online RMA", None))
-        self.treeWidget.topLevelItem(0).child(0).child(1).setText(0, _translate("self", "Safemode PS4", None))
-        self.treeWidget.topLevelItem(0).child(0).child(2).setText(0, _translate("self", "And all the other templates", None))
-        self.treeWidget.topLevelItem(0).child(1).setText(0, _translate("self", "PlayStation 3", None))
-        self.treeWidget.topLevelItem(0).child(1).child(0).setText(0, _translate("self", "Safemode PS3", None))
-        self.treeWidget.setSortingEnabled(__sortingEnabled)
 
 #Tree Widget 2
         self.treeWidget_2.headerItem().setText(0, _translate("self", "Topics", None))
@@ -175,20 +164,66 @@ class Archive(QtGui.QWidget):
 #Label
         self.label.setText(_translate("self", "Welcome to the Archive! Please select a template.", None))
 
+    def copyTemplate(self):
+        data = self.textBrowser.toPlainText()
+        data = unicode(data)
+        cb = QtGui.QApplication.clipboard()
+        cb.clear(mode=cb.Clipboard )
+        cb.setText(data, mode=cb.Clipboard)
 
-    def loadAllMessages(self, tree, num):
-        global currentNum
-        currentNum = num
-        if num == 8:
-            self.pushButton_2.setEnabled(False)
-            self.pushButton_7.setEnabled(False)
-        getSelected = tree
-        if getSelected:
+    def zoomTemplate(self):
+        self.myOtherWindow = viewer.Ui_zoomTem(htmlData, currentNum)
+        self.myOtherWindow.show()
+
+    def addTemplate(self,editor,data):
+        editor.setText(data)
+        self.close()
+
+    def selLang(self):
+        if MainWin.lng == 1:
+            return MainWin.lines[10]
+        if MainWin.lng == 2:
+            return MainWin.lines[12]
+        if MainWin.lng == 3:
+            return MainWin.lines[14]
+        if MainWin.lng == 4:
+            return MainWin.lines[16]
+        if MainWin.lng == 5:
+            return MainWin.lines[18]
+        if MainWin.lng == 6:
+            return MainWin.lines[20]
+        if MainWin.lng == 7:
+            return MainWin.lines[22]
+
+    def initializeLists(self):
+        path = self.selLang()
+        path = path.replace("\n","")
+        templates = []
+        categories = []
+        for root, dirs, files in os.walk(path):
+            for mail in files:
+                templates.append(mail)
+                for fold in dirs:
+                    if not (categories.__contains__(fold)):
+                        categories.append(fold)
+        return templates, categories
+
+    def loadAllMessagesProper(self, tree, num):
+            global currentNum
+            currentNum = num
+            if num == 8:
+                self.pushButton_2.setEnabled(False)
+                self.pushButton_7.setEnabled(False)
+                prePath = lines[num].replace("\n","\\")
+            else:
+                prePath = self.selLang()
+
+            getSelected = tree
             baseNode = getSelected[0]
             Node = baseNode.text(0)
             Node = str(Node)
             self.label.setText("Please select a category")
-            prePath = lines[num].replace("\n","")
+            prePath = prePath.replace("\n","\\")
 
             try:
                 NodePath = prePath+Node+".txt"
@@ -212,19 +247,3 @@ class Archive(QtGui.QWidget):
                 self.label.setText("Please select a template")
                 self.pushButton_2.setEnabled(False)
                 self.pushButton_2.setEnabled(False)
-
-
-    def copyTemplate(self):
-        data = self.textBrowser.toPlainText()
-        data = unicode(data)
-        cb = QtGui.QApplication.clipboard()
-        cb.clear(mode=cb.Clipboard )
-        cb.setText(data, mode=cb.Clipboard)
-
-    def zoomTemplate(self):
-        self.myOtherWindow = viewer.Ui_zoomTem(htmlData, currentNum)
-        self.myOtherWindow.show()
-
-    def addTemplate(self,editor,data):
-        editor.setText(data)
-        self.close()

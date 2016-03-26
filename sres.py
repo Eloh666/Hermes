@@ -4,7 +4,6 @@ import os
 import MainWin
 import webbrowser
 
-
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
 except AttributeError:
@@ -64,7 +63,7 @@ class SreS(QtGui.QWidget):
                 if name.endswith('.txt'):
                     fullpath = os.path.join(path, name)
                     mail = self.open_close(fullpath)
-                    if mail.find(data) != -1 and results<64:
+                    if mail.find(data) != -1 and results < 64:
                         found = 1
                         self.buttonsStack.append(QtGui.QPushButton(self))
                         command = lambda checked, path=fullpath: webbrowser.open(path)

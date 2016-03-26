@@ -1,0 +1,27 @@
+Richiesta Assistenza PlayStation
+
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 4 (PS4).
+
+Da questo si evince che la tua console non emetta nessun tipo di segnale video o audio sulla tua TV.
+Nel caso la tua TV non venga riconosciuta, ti invitiamo a seguire i passi riportati:
+
+1 Verifica che la console sia impostata con uscita audio e video su HDMI se possibile
+2 Spengni TV e la PlayStation 4  (PS4)
+3 Scollega i cavi di alimentazione e poi HDMI da entrambe le unità
+4 Attendi 10 min
+5 Ricollega il cavo HDMI prima alla console poi alla Tv
+6 Ricollega la TV alla corrente e poi la PS4
+7 Accendi la TV ed attendi qualche momento
+8 Riaccendi la console 
+
+Nel caso il problema persista, prova a collegare la console su un'altra Televisione per verificare che l'incompatibilità non sia derivata dal tuo schermo.
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation

@@ -1,0 +1,19 @@
+Richiesta Assistenza PlayStation
+
+Ciao $contacts.name.first,
+
+Grazie per il tuo recente contatto con il Supporto PlayStation per quanto riguarda PlayStation 4 (PS4).
+
+Da quanto si evince ti consigliamo di procedere manualmente all'aggiornamento del software di sistema della tua PS4.
+
+Segui nel dettaglio le indicazioni del seguente link.
+
+https://www.playstation.com/it-it/get-help/ps4-system-software/
+
+Nel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.
+
+Grazie,
+
+
+[IL TUO NOME]
+Supporto PlayStation
