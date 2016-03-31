@@ -257,7 +257,7 @@ class Ui_MainWindow(QObject):
         self.pushButton_7.setObjectName(_fromUtf8("pushButton_7"))
 
         self.pushButton_10 = QtGui.QPushButton(self.centralwidget)
-        self.pushButton_10.setGeometry(QtCore.QRect(610, 10, 121, 31))
+        self.pushButton_10.setGeometry(QtCore.QRect(610, 10, 121, 32))
         self.pushButton_8 = QtGui.QPushButton(self.centralwidget)
         self.pushButton_8.setEnabled(True)
         self.pushButton_8.setGeometry(QtCore.QRect(929, 80, 61, 61))
@@ -323,6 +323,7 @@ class Ui_MainWindow(QObject):
         self.lineEdit_2 = QtGui.QLineEdit(self.centralwidget)
         self.lineEdit_2.setGeometry(QtCore.QRect(740, 20, 251, 21))
         self.lineEdit_2.setObjectName(_fromUtf8("lineEdit_2"))
+        self.lineEdit_2.setPlaceholderText(_translate("dialog", "Search...", None))
 
 #            MENU ------------------------------------------------------------------------------------------------------
 

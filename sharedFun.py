@@ -21,7 +21,10 @@ def OpenButton(line,textEdit):
     f = open(fname, 'r')
     with f:
         data = f.read()
-        textEdit.setText(unicode(data))
+        try:
+            data = unicode(data)
+        finally:
+            textEdit.setText(data)
 
 def SaveButton(line,textEdit):
     path = line.replace("\n","")
@@ -132,7 +135,7 @@ def AddTemplate(lng,lineEdit,comboBox, textEdit):
     newbody += '\n\n'
     newbody += data
     if lng == 1:
-        newbody += '\n\nNel caso avessi bisogno di ulteriore assistenza ti invitiamo a ricontattare il Supporto PlayStation citando il numero di Riferimento $incidents.ref_no, usando i dettagli in fondo a questa pagina, o rispondendo a questa e-mail, ed un membro del nostro team sarà lieto di aiutarti.'
+        newbody += '\n\nPer ulteriori informazioni ti invitiamo a contattare il supporto PlayStation al numero sotto indicato o rispondendo a questa email. Ricordati di citare il numero di riferimento $incidents.ref_no e un addetto del nostro team di assistenza sarà lieto di aiutarti.'
         newbody += '\n\nGrazie,'
     if lng == 2:
         newbody += "\n\nIf you are in need of further assistance please don't hesitate to contact us again, quoting this reference number $incidents.ref_no, through the details at the bottom of this page and by replying to this message. A member of our team will be happy to help."
