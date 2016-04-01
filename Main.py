@@ -3,6 +3,7 @@
 from PyQt4 import QtCore, QtGui
 import sys
 import MainWin
+import extendedCbox
 
 sys.stderr = sys.stdout
 reload(sys)

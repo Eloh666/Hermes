@@ -5,9 +5,11 @@ import enchant
 import Rep
 import diag
 import sres
-import miniMEG
 import about
 import sharedFun
+import extendedCbox
+import sqlite3
+import os
 
 from PyQt4 import QtCore, QtGui
 from PyQt4.Qt import *
@@ -57,8 +59,7 @@ except AttributeError:
 class Ui_MainWindow(QObject):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName(_fromUtf8("MainWindow"))
-        MainWindow.resize(1127, 880)
-
+        MainWindow.resize(1127, 900)
 
 
 #            Text EDIT ------------------------------------------------------------------------------------------------------
@@ -66,9 +67,11 @@ class Ui_MainWindow(QObject):
         self.centralwidget = QtGui.QWidget(MainWindow)
         self.centralwidget.setObjectName(_fromUtf8("centralwidget"))
         self.textEdit = QtGui.QTextEdit(self.centralwidget)
-        self.textEdit.setGeometry(QtCore.QRect(20, 150, 1081, 661))
+        self.textEdit.setGeometry(QtCore.QRect(20, 190, 1081, 661))
         self.textEdit.setObjectName(_fromUtf8("textEdit"))
         self.textEdit.isUndoRedoEnabled ()
+
+        self.textEdit.setFocusPolicy(Qt.StrongFocus)
 
             #Text EDIT ------------------------------------------------------------------------------------------------------
 
@@ -108,8 +111,12 @@ class Ui_MainWindow(QObject):
         icon8.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Security-Question-Shield-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.comboBox.addItem(icon8, _fromUtf8(""))
 
+        self.templatesComboBox = extendedCbox.ExtendedComboBox(MainWindow)
+        self.templatesComboBox.setGeometry(QtCore.QRect(20, 185, 500, 21))
+
         leHand = lambda checked, :sharedFun.leHandler(self.comboBox,self.lineEdit)
         self.comboBox.activated.connect(leHand)
+
 
     #   RADIOBUTTONS ------------------------------------------------------------------------------------------------------
 
@@ -280,12 +287,17 @@ class Ui_MainWindow(QObject):
         self.pushButton_10.setIcon(icon22)
         self.pushButton_10.setObjectName(_fromUtf8("pushButton_10"))
 
-        self.pushButton_9 = QtGui.QPushButton(self.centralwidget)
-        self.pushButton_9.setGeometry(QtCore.QRect(20, 810, 91, 21))
+        self.pushButton_13 = QtGui.QPushButton(self.centralwidget)
+        self.pushButton_13.setGeometry(QtCore.QRect(525, 161, 50, 26))
+        icon23 = QtGui.QIcon()
+        icon23.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\ok-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_13.setIcon(icon23)
+        self.pushButton_13.setObjectName(_fromUtf8("pushButton_13"))
+        self.pushButton_13.clicked.connect(self.addSoftTemplate)
+
         icon26 = QtGui.QIcon()
         icon26.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\green-document-plus-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.pushButton_9.setIcon(icon26)
-        self.pushButton_9.setObjectName(_fromUtf8("pushButton_9"))
+
 
         openConf = lambda checked, : sharedFun.confirmEvent(self.textEdit.clear,"This will delete your current work,\n\n Do you want to proceed?")
         ripLastConf = lambda checked, : sharedFun.confirmEvent(self.Clear_Last,"This will remove your changes,\n\n Do you want to proceed?")
@@ -304,7 +316,6 @@ class Ui_MainWindow(QObject):
         self.pushButton_10.clicked.connect(self.MainButton2) # archive
         self.pushButton_8.clicked.connect(CopyButton) # copy
         self.pushButton_12.clicked.connect(self.Search_Temp) # search
-        self.pushButton_9.clicked.connect(self.StartMiniMe) # minime
 
 
 #            LABEL -----------------------------------------------------------------------------------------------------
@@ -312,6 +323,10 @@ class Ui_MainWindow(QObject):
         self.label = QtGui.QLabel(self.centralwidget)
         self.label.setGeometry(QtCore.QRect(20, 70, 251, 20))
         self.label.setObjectName(_fromUtf8("label"))
+        self.label_2 =  QtGui.QLabel(self.centralwidget)
+        self.label_2.setGeometry(QtCore.QRect(20, 145, 251, 20))
+        self.label_2.setObjectName(_fromUtf8("label2"))
+
 
 #            LINE EDITS  -----------------------------------------------------------------------------------------------
 
@@ -418,7 +433,9 @@ class Ui_MainWindow(QObject):
         self.actionChangeMN.triggered.connect(self.nameDiag)
         self.actionAbout.triggered.connect(self.callAbout)
 
-
+        self.recentNumber = "0"
+        self.templatesList = []
+        self.fillRecent()
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
@@ -441,6 +458,7 @@ class Ui_MainWindow(QObject):
         self.pushButton_7.setToolTip(_translate("MainWindow", "Clear Last Change", None))
         self.pushButton_10.setText(_translate("MainWindow", "Archive", None))
         self.label.setText(_translate("MainWindow", "Topic", None))
+        self.label_2.setText(_translate("MainWindow", "Recently used templates: "+self.recentNumber+".\t\t      Browse:", None))
         self.textEdit.setDocumentTitle(_translate("MainWindow", "Sandwich", None))
         self.pushButton_8.setToolTip(_translate("MainWindow", "Clear Last Change", None))
         self.pushButton_12.setText(_translate("MainWindow", "Search", None))
@@ -461,17 +479,16 @@ class Ui_MainWindow(QObject):
         self.actionMini_SpellCheck.setText(_translate("MainWindow", "Mini-SpellCheck", None))
         self.actionUndo.setText(_translate("MainWindow", "Undo", None))
         self.actionRedo.setText(_translate("MainWindow", "Redo", None))
-        self.actionBrowse_Premade_Templates.setText(_translate("MainWindow", "Browse Premade Templates", None))
+        self.actionBrowse_Premade_Templates.setText(_translate("MainWindow", "Browse", None))
         self.actionAbout.setText(_translate("MainWindow", "About", None))
         self.actionHelp.setText(_translate("MainWindow", "Help!", None))
-        self.pushButton_9.setText(_translate("MainWindow", "ExtraPad", None))
 
         self.textEdit.installEventFilter(self)
 
     def eventFilter(self, source, event):
         if (event.type() == QtCore.QEvent.MouseButtonPress):
             selected = unicode(self.textEdit.textCursor().selectedText())
-            if selected.find(" ") == -1:
+            if not selected.__contains__(" "):
                 event = QMouseEvent(QEvent.MouseButtonPress, event.pos(),
                     Qt.LeftButton, Qt.LeftButton, Qt.NoModifier)
                 QTextEdit.mousePressEvent(self.textEdit, event)
@@ -507,12 +524,12 @@ class Ui_MainWindow(QObject):
 
 
     def MainButton2(self):
-	    self.myOtherWindow = Rep.Archive(self.textEdit)
-	    self.myOtherWindow.show()
+        self.myOtherWindow = Rep.Archive(self.textEdit, self.fillRecent)
+        self.myOtherWindow.show()
 
     def callAbout(self):
-	    self.myOtherWindow = about.Ui_Ermes()
-	    self.myOtherWindow.show()
+        self.myOtherWindow = about.Ui_Ermes()
+        self.myOtherWindow.show()
 
     def r_clicked(self, num, dictionary):
         global lng
@@ -533,15 +550,12 @@ class Ui_MainWindow(QObject):
             self.nameDiagConf()
 
     def nameDiagConf(self):
-	    self.myOtherWindow = diag.changedDiag()
-	    self.myOtherWindow.show()
+        self.myOtherWindow = diag.changedDiag()
+        self.myOtherWindow.show()
 
     def Clear_Last(self):
         self.textEdit.clear()
         self.textEdit.insertPlainText(sharedFun.lastPTR)
-
-
-
 
     def open_close(fullpath):
         f1 = open(fullpath, 'r')
@@ -551,7 +565,6 @@ class Ui_MainWindow(QObject):
 
     def Search_Temp(self):
         Scontent = self.lineEdit_2.displayText()
-        found = 0
         global Sresult
         Sresult = Scontent
         if len(Scontent) < 3:
@@ -564,11 +577,6 @@ class Ui_MainWindow(QObject):
             self.myOtherWindow.show()
 
 
-
-    def StartMiniMe(self):
-	    self.myOtherWindow = miniMEG.MiniMe()
-	    self.myOtherWindow.show()
-
     def closeEvent(self, event):
         quit_msg = "Are you sure you want to quit" \
                    "?"
@@ -579,6 +587,34 @@ class Ui_MainWindow(QObject):
             QtGui.qApp.quit()
         else:
             event.ignore()
+
+    def fillRecent(self):
+        if os.path.isfile("agentDatabase.db"):
+            self.templatesList = []
+            database = sqlite3.connect("agentDatabase.db")
+            visitCursor = database.cursor()
+            templateTuples = visitCursor.execute("SELECT  name, path FROM personal WHERE toUse != 0 ORDER BY toUse DESC LIMIT 10")
+            self.templatesComboBox.clear()
+            self.templatesComboBox.addItem("")
+            for j, i in enumerate(templateTuples):
+                self.templatesComboBox.addItem(i[0].replace(".txt",""))
+                self.templatesList.append((i[0],i[1]))
+                self.recentNumber = str(j+1)
+            if self.recentNumber == "10":
+                self.recentNumber += "+"
+            database.close()
+
+    def addSoftTemplate(self):
+        checkedTemplate = self.templatesComboBox.currentText()
+        for i, j in self.templatesList:
+            if i == checkedTemplate + ".txt":
+                templateFile = open(j, 'r')
+                with templateFile:
+                    self.textEdit.setText(templateFile.read())
+                    templateFile.close()
+                break
+        else:
+            self.textEdit.clear()
 
 
 

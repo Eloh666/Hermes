@@ -11,6 +11,7 @@
 from PyQt4.QtGui import *
 from PyQt4 import QtCore, QtGui
 
+
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
 except AttributeError:
@@ -85,7 +86,7 @@ class searchDialog(QMainWindow):
         self.lineEdit.returnPressed.connect(searchFunc)
 
     def retranslateUi(self, dialog):
-        dialog.setWindowTitle(_translate("dialog", "Dialog", None))
+        dialog.setWindowTitle(_translate("dialog", "Search...s", None))
         self.lineEdit.setPlaceholderText(_translate("dialog", "Search...", None))
         self.pushButton.setToolTip(_translate("dialog", "Search", None))
         self.pushButton.setText(_translate("dialog", "Search", None))
@@ -99,23 +100,24 @@ class searchDialog(QMainWindow):
 
     def searchTemplate(self, tree):
         key = self.lineEdit.text()
-        current = tree.selectedItems()
-        if len(current) != 0:
-            current[0].setSelected(False)
-        self.indexCount = 0
-        self.resultsList = []
-        self.pushButton_2.setEnabled(False)
-        self.pushButton_3.setEnabled(False)
-        self.navigateTree(tree.invisibleRootItem(), key)
-        self.researchResults = len(self.resultsList)
-        if self.researchResults == 0:
-            self.label.setText("0")
-            self.label_3.setText("0")
-        else:
-            self.label.setText("1")
-            self.label_3.setText(str(self.researchResults))
-            self.resultsList[self.indexCount].setSelected(True)
-            self.pushButton_3.setEnabled(True)
+        if len(key) > 0:
+            current = tree.selectedItems()
+            if len(current) != 0:
+                current[0].setSelected(False)
+            self.indexCount = 0
+            self.resultsList = []
+            self.pushButton_2.setEnabled(False)
+            self.pushButton_3.setEnabled(False)
+            self.navigateTree(tree.invisibleRootItem(), key)
+            self.researchResults = len(self.resultsList)
+            if self.researchResults == 0:
+                self.label.setText("0")
+                self.label_3.setText("0")
+            else:
+                self.label.setText("1")
+                self.label_3.setText(str(self.researchResults))
+                self.resultsList[self.indexCount].setSelected(True)
+                self.pushButton_3.setEnabled(True)
 
     def navigateTree(self, root, key):
         for i in range(root.childCount()):
@@ -161,4 +163,6 @@ class searchDialog(QMainWindow):
         model = QStringListModel()
         completer.setModel(model)
         model.setStringList(wordList)
+
+
 

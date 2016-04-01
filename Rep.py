@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 
+from PyQt4.Qt import *
 from PyQt4 import QtCore, QtGui
 from PyQt4.QtGui import *
 import MainWin
@@ -32,7 +33,7 @@ except AttributeError:
 
 class Archive(QtGui.QWidget):
 
-    def __init__(self, tedit):
+    def __init__(self, tedit, fillRecent):
         QMainWindow.__init__(self)
         self.setObjectName(_fromUtf8("self"))
         self.resultsList = []
@@ -115,7 +116,7 @@ class Archive(QtGui.QWidget):
         self.templatesLocations = self.initializeLists(self.treeWidget, self.selLang().replace("\n",""))
 
         self.databaseFill()
-        self.databaseTest()
+        fillRecent()
 
         command = lambda : self.displaySelected(self.treeWidget.selectedItems(), 6, self.templatesLocations)
         self.treeWidget.itemSelectionChanged.connect(command)
@@ -256,25 +257,22 @@ class Archive(QtGui.QWidget):
         for i in tuplesList:
             wordList.append(i[1])
         self.myOtherWindow = searchTab.searchDialog(tree, wordList)
+        self.myOtherWindow.setWindowModality(Qt.ApplicationModal)
         self.myOtherWindow.show()
 
     def databaseFill(self):
-        path = ""
-        if not os.path.isfile("agentDatabase.db"):
-            database = sqlite3.connect("agentDatabase.db")
-            visitCursor = database.cursor()
-            visitCursor.execute('''CREATE TABLE personal(
-                                used int,
-                                name text,
-                                toUse int
-                                )''')
-            for i,j in self.templatesLocations:
-                visitCursor.execute("INSERT INTO personal VALUES (?, ?, ?)", (0, j, 0))
-            database.commit()
-            database.close()
-
-    def databaseTest(self):
-        print 1
+        database = sqlite3.connect("agentDatabase.db")
+        visitCursor = database.cursor()
+        visitCursor.execute('''CREATE TABLE IF NOT EXISTS personal(
+                            used int,
+                            name text,
+                            path text,
+                            toUse int
+                            )''')
+        for i,j in self.templatesLocations:
+            visitCursor.execute("INSERT INTO personal VALUES (?, ?, ?, ?)", (0, j, i+"\\"+j, 0))
+        database.commit()
+        database.close()
 
 
 

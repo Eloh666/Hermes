@@ -6,21 +6,21 @@ Test2
 # Future use
 # Future use
 # Archive Directory 2
-C:\Users\elohi\Documents\GitHub\Hermes\Archive
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Italian Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # UK Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplatesUK
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Swedish Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Danish Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Norwegian Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Finnish Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Polish Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # My Archive directory
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 
