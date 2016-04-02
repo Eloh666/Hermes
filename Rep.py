@@ -8,6 +8,7 @@ import viewer
 import os
 import searchTab
 import sqlite3
+import sharedFun
 
 Config = open("Config.txt","r")
 lines=Config.readlines()
@@ -84,8 +85,10 @@ class Archive(QtGui.QWidget):
         self.pushButton_6.setObjectName(_fromUtf8("pushButton_6"))
         self.pushButton_7 = QtGui.QPushButton(self)
         self.pushButton_7.setGeometry(QtCore.QRect(740, 50, 181, 20))
-        self.pushButton_7.setIcon(icon2)
-        self.pushButton_7.setIconSize(QtCore.QSize(25, 25))
+        icon3 = QtGui.QIcon()
+        icon3.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\zoom-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_7.setIcon(icon3)
+        self.pushButton_7.setIconSize(QtCore.QSize(15, 15))
         self.pushButton_7.setObjectName(_fromUtf8("pushButton_7"))
 
         self.pushButton_3.clicked.connect(self.close)
@@ -166,6 +169,8 @@ class Archive(QtGui.QWidget):
 
     def zoomTemplate(self):
         self.myOtherWindow = viewer.Ui_zoomTem(htmlData, currentNum)
+        self.myOtherWindow.setStyleSheet(sharedFun.getColor())
+        self.myOtherWindow.setWindowModality(Qt.ApplicationModal)
         self.myOtherWindow.show()
 
     def addTemplate(self,editor,data):
@@ -196,7 +201,8 @@ class Archive(QtGui.QWidget):
                 locationTuples = self.addSubItems(tree, item, path+"\\"+files, locationTuples)
             else:
                 locationTuples.append((path,files))
-            tree.addTopLevelItem(item)
+            if os.path.isdir(os.path.join(path, files)) or files.endswith("txt") or files.endswith("html"):
+                tree.addTopLevelItem(item)
         return locationTuples
 
 
@@ -207,7 +213,8 @@ class Archive(QtGui.QWidget):
                     locationTuples = self.addSubItems(tree, newItem, path+"\\"+files, locationTuples)
                 else:
                     locationTuples.append((path,files))
-                item.addChild(newItem)
+                if os.path.isdir(os.path.join(path, files)) or files.endswith("txt") or files.endswith("html"):
+                    item.addChild(newItem)
         return locationTuples
 
     def displaySelected(self, tree, num, locations):
@@ -258,6 +265,7 @@ class Archive(QtGui.QWidget):
             wordList.append(i[1])
         self.myOtherWindow = searchTab.searchDialog(tree, wordList)
         self.myOtherWindow.setWindowModality(Qt.ApplicationModal)
+        self.myOtherWindow.setStyleSheet(sharedFun.getColor())
         self.myOtherWindow.show()
 
     def databaseFill(self):

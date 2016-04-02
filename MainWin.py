@@ -10,6 +10,8 @@ import sharedFun
 import extendedCbox
 import sqlite3
 import os
+import colorDiag
+import threading
 
 from PyQt4 import QtCore, QtGui
 from PyQt4.Qt import *
@@ -19,26 +21,6 @@ sys.stderr = sys.stdout
 reload(sys)
 sys.setdefaultencoding('utf8')
 
-Config = open("Config.txt","r")
-lines=Config.readlines()
-Config.close()
-
-lng = 1
-Sresult = ""
-
-try:
-    _fromUtf8 = QtCore.QString.fromUtf8
-except AttributeError:
-    def _fromUtf8(s):
-        return s
-
-try:
-    _encoding = QtGui.QApplication.UnicodeUTF8
-    def _translate(context, text, disambig):
-        return QtGui.QApplication.translate(context, text, disambig, _encoding)
-except AttributeError:
-    def _translate(context, text, disambig):
-        return QtGui.QApplication.translate(context, text, disambig)
 
 
 try:
@@ -55,9 +37,31 @@ except AttributeError:
     def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig)
 
+
+try:
+    _fromUtf8 = QtCore.QString.fromUtf8
+except AttributeError:
+    def _fromUtf8(s):
+        return s
+
+try:
+    _encoding = QtGui.QApplication.UnicodeUTF8
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig, _encoding)
+except AttributeError:
+    def _translate(context, text, disambig):
+        return QtGui.QApplication.translate(context, text, disambig)
 
 class Ui_MainWindow(QObject):
     def setupUi(self, MainWindow):
+
+        Config = open("Config.txt", "r")
+        self.lines = Config.readlines()
+        Config.close()
+
+        self.lng = 1
+        self.Sresult = ""
+
         MainWindow.setObjectName(_fromUtf8("MainWindow"))
         MainWindow.resize(1127, 900)
 
@@ -112,7 +116,7 @@ class Ui_MainWindow(QObject):
         self.comboBox.addItem(icon8, _fromUtf8(""))
 
         self.templatesComboBox = extendedCbox.ExtendedComboBox(MainWindow)
-        self.templatesComboBox.setGeometry(QtCore.QRect(20, 185, 500, 21))
+        self.templatesComboBox.setGeometry(QtCore.QRect(17, 187, 500, 21))
 
         leHand = lambda checked, :sharedFun.leHandler(self.comboBox,self.lineEdit)
         self.comboBox.activated.connect(leHand)
@@ -126,7 +130,7 @@ class Ui_MainWindow(QObject):
         icon9 = QtGui.QIcon()
         icon9.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Italy-ico.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.radioButton.setIcon(icon9)
-        self.radioButton.setIconSize(QtCore.QSize(50, 50))
+        self.radioButton.setIconSize(QtCore.QSize(40, 40))
         self.radioButton.setObjectName(_fromUtf8("radioButton"))
         self.radioButton_2 = QtGui.QRadioButton(self.centralwidget)
         self.radioButton_2.setGeometry(QtCore.QRect(390, 90, 77, 51))
@@ -134,7 +138,7 @@ class Ui_MainWindow(QObject):
         icon10 = QtGui.QIcon()
         icon10.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\United-Kingdom-ico.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.radioButton_2.setIcon(icon10)
-        self.radioButton_2.setIconSize(QtCore.QSize(50, 50))
+        self.radioButton_2.setIconSize(QtCore.QSize(40, 40))
         self.radioButton_2.setObjectName(_fromUtf8("radioButton_2"))
         self.radioButton_3 = QtGui.QRadioButton(self.centralwidget)
         self.radioButton_3.setGeometry(QtCore.QRect(480, 90, 77, 51))
@@ -142,7 +146,7 @@ class Ui_MainWindow(QObject):
         icon11 = QtGui.QIcon()
         icon11.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Sweden-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.radioButton_3.setIcon(icon11)
-        self.radioButton_3.setIconSize(QtCore.QSize(50, 50))
+        self.radioButton_3.setIconSize(QtCore.QSize(40, 40))
         self.radioButton_3.setObjectName(_fromUtf8("radioButton_3"))
         self.radioButton_4 = QtGui.QRadioButton(self.centralwidget)
         self.radioButton_4.setGeometry(QtCore.QRect(570, 90, 77, 51))
@@ -150,7 +154,7 @@ class Ui_MainWindow(QObject):
         icon12 = QtGui.QIcon()
         icon12.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Denmark-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.radioButton_4.setIcon(icon12)
-        self.radioButton_4.setIconSize(QtCore.QSize(50, 50))
+        self.radioButton_4.setIconSize(QtCore.QSize(40, 40))
         self.radioButton_4.setObjectName(_fromUtf8("radioButton_4"))
         self.radioButton_5 = QtGui.QRadioButton(self.centralwidget)
         self.radioButton_5.setGeometry(QtCore.QRect(750, 90, 77, 51))
@@ -158,7 +162,7 @@ class Ui_MainWindow(QObject):
         icon13 = QtGui.QIcon()
         icon13.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Norway-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.radioButton_5.setIcon(icon13)
-        self.radioButton_5.setIconSize(QtCore.QSize(50, 50))
+        self.radioButton_5.setIconSize(QtCore.QSize(40, 40))
         self.radioButton_5.setObjectName(_fromUtf8("radioButton_5"))
         self.radioButton_6 = QtGui.QRadioButton(self.centralwidget)
         self.radioButton_6.setGeometry(QtCore.QRect(660, 90, 77, 51))
@@ -166,7 +170,7 @@ class Ui_MainWindow(QObject):
         icon14 = QtGui.QIcon()
         icon14.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Finland-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.radioButton_6.setIcon(icon14)
-        self.radioButton_6.setIconSize(QtCore.QSize(50, 50))
+        self.radioButton_6.setIconSize(QtCore.QSize(40, 40))
         self.radioButton_6.setObjectName(_fromUtf8("radioButton_6"))
         self.radioButton_7 = QtGui.QRadioButton(self.centralwidget)
         self.radioButton_7.setGeometry(QtCore.QRect(840, 90, 77, 51))
@@ -175,7 +179,7 @@ class Ui_MainWindow(QObject):
         icon15 = QtGui.QIcon()
         icon15.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\Poland-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.radioButton_7.setIcon(icon15)
-        self.radioButton_7.setIconSize(QtCore.QSize(50, 50))
+        self.radioButton_7.setIconSize(QtCore.QSize(40, 40))
         self.radioButton_7.setObjectName(_fromUtf8("radioButton_7"))
 
         itaLan = lambda checked,: self.r_clicked(1,"it_IT")
@@ -205,66 +209,66 @@ class Ui_MainWindow(QObject):
 
         self.pushButton_2 = QtGui.QPushButton(self.centralwidget)
         self.pushButton_2.setEnabled(True)
-        self.pushButton_2.setGeometry(QtCore.QRect(20, 0, 50, 50))
+        self.pushButton_2.setGeometry(QtCore.QRect(5, 5, 50, 50))
         self.pushButton_2.setText(_fromUtf8(""))
         icon16 = QtGui.QIcon()
         icon16.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\document-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_2.setIcon(icon16)
-        self.pushButton_2.setIconSize(QtCore.QSize(50, 50))
+        self.pushButton_2.setIconSize(QtCore.QSize(40, 40))
         self.pushButton_2.setObjectName(_fromUtf8("pushButton_2"))
 
         self.pushButton_3 = QtGui.QPushButton(self.centralwidget)
         self.pushButton_3.setEnabled(True)
-        self.pushButton_3.setGeometry(QtCore.QRect(70, 0, 50, 50))
+        self.pushButton_3.setGeometry(QtCore.QRect(55, 5, 50, 50))
         self.pushButton_3.setText(_fromUtf8(""))
         icon17 = QtGui.QIcon()
         icon17.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\dolder-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_3.setIcon(icon17)
-        self.pushButton_3.setIconSize(QtCore.QSize(50, 50))
+        self.pushButton_3.setIconSize(QtCore.QSize(40, 40))
         self.pushButton_3.setObjectName(_fromUtf8("pushButton_3"))
 
         self.pushButton_4 = QtGui.QPushButton(self.centralwidget)
         self.pushButton_4.setEnabled(True)
-        self.pushButton_4.setGeometry(QtCore.QRect(120, 0, 50, 50))
+        self.pushButton_4.setGeometry(QtCore.QRect(105, 5, 50, 50))
         self.pushButton_4.setText(_fromUtf8(""))
         icon18 = QtGui.QIcon()
         icon18.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\disk-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_4.setIcon(icon18)
-        self.pushButton_4.setIconSize(QtCore.QSize(50, 50))
+        self.pushButton_4.setIconSize(QtCore.QSize(40, 40))
         self.pushButton_4.setObjectName(_fromUtf8("pushButton_4"))
 
         self.pushButton_5 = QtGui.QPushButton(self.centralwidget)
         self.pushButton_5.setEnabled(True)
-        self.pushButton_5.setGeometry(QtCore.QRect(170, 0, 50, 50))
+        self.pushButton_5.setGeometry(QtCore.QRect(155, 5, 50, 50))
         self.pushButton_5.setText(_fromUtf8(""))
         icon19 = QtGui.QIcon()
         icon19.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\mail-receive-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_5.setIcon(icon19)
-        self.pushButton_5.setIconSize(QtCore.QSize(50, 50))
+        self.pushButton_5.setIconSize(QtCore.QSize(40, 40))
         self.pushButton_5.setObjectName(_fromUtf8("pushButton_5"))
 
         self.pushButton_6 = QtGui.QPushButton(self.centralwidget)
         self.pushButton_6.setEnabled(True)
-        self.pushButton_6.setGeometry(QtCore.QRect(220, 0, 50, 50))
+        self.pushButton_6.setGeometry(QtCore.QRect(205, 5, 50, 50))
         self.pushButton_6.setText(_fromUtf8(""))
         icon20 = QtGui.QIcon()
         icon20.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\mail-send-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_6.setIcon(icon20)
-        self.pushButton_6.setIconSize(QtCore.QSize(50, 50))
+        self.pushButton_6.setIconSize(QtCore.QSize(40, 40))
         self.pushButton_6.setObjectName(_fromUtf8("pushButton_6"))
 
         self.pushButton_7 = QtGui.QPushButton(self.centralwidget)
         self.pushButton_7.setEnabled(True)
-        self.pushButton_7.setGeometry(QtCore.QRect(270, 0, 50, 50))
+        self.pushButton_7.setGeometry(QtCore.QRect(255, 5, 50, 50))
         self.pushButton_7.setText(_fromUtf8(""))
         icon21 = QtGui.QIcon()
         icon21.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\document-cross-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_7.setIcon(icon21)
-        self.pushButton_7.setIconSize(QtCore.QSize(50, 50))
+        self.pushButton_7.setIconSize(QtCore.QSize(40, 40))
         self.pushButton_7.setObjectName(_fromUtf8("pushButton_7"))
 
         self.pushButton_10 = QtGui.QPushButton(self.centralwidget)
-        self.pushButton_10.setGeometry(QtCore.QRect(610, 10, 121, 32))
+        self.pushButton_10.setGeometry(QtCore.QRect(610, 155, 121, 32))
         self.pushButton_8 = QtGui.QPushButton(self.centralwidget)
         self.pushButton_8.setEnabled(True)
         self.pushButton_8.setGeometry(QtCore.QRect(929, 80, 61, 61))
@@ -272,7 +276,7 @@ class Ui_MainWindow(QObject):
         icon23 = QtGui.QIcon()
         icon23.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\copy-xxl.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_8.setIcon(icon23)
-        self.pushButton_8.setIconSize(QtCore.QSize(50, 50))
+        self.pushButton_8.setIconSize(QtCore.QSize(40, 40))
         self.pushButton_8.setObjectName(_fromUtf8("pushButton_8"))
 
         self.pushButton_12 = QtGui.QPushButton(self.centralwidget)
@@ -281,14 +285,16 @@ class Ui_MainWindow(QObject):
         icon25.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\search-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_12.setIcon(icon25)
         self.pushButton_12.setObjectName(_fromUtf8("pushButton_12"))
+        self.pushButton_12.setIconSize(QtCore.QSize(26, 26))
+
 
         icon22 = QtGui.QIcon()
         icon22.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\chive-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_10.setIcon(icon22)
+        self.pushButton_10.setIconSize(QtCore.QSize(26, 26))
         self.pushButton_10.setObjectName(_fromUtf8("pushButton_10"))
-
         self.pushButton_13 = QtGui.QPushButton(self.centralwidget)
-        self.pushButton_13.setGeometry(QtCore.QRect(525, 161, 50, 26))
+        self.pushButton_13.setGeometry(QtCore.QRect(525, 159, 50, 26))
         icon23 = QtGui.QIcon()
         icon23.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\ok-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_13.setIcon(icon23)
@@ -301,10 +307,10 @@ class Ui_MainWindow(QObject):
 
         openConf = lambda checked, : sharedFun.confirmEvent(self.textEdit.clear,"This will delete your current work,\n\n Do you want to proceed?")
         ripLastConf = lambda checked, : sharedFun.confirmEvent(self.Clear_Last,"This will remove your changes,\n\n Do you want to proceed?")
-        opFile = lambda checked, : sharedFun.OpenButton(lines[24],self.textEdit)
-        savFile = lambda checked, : sharedFun.SaveButton(lines[24],self.textEdit)
+        opFile = lambda checked, : sharedFun.OpenButton(self.lines[24],self.textEdit)
+        savFile = lambda checked, : sharedFun.SaveButton(self.lines[24],self.textEdit)
         CopyButton = lambda checked, : sharedFun.CopyButton(self.textEdit)
-        MainButton = lambda checked, : sharedFun.AddTemplate(lng,self.lineEdit,self.comboBox,self.textEdit)
+        MainButton = lambda checked, : sharedFun.AddTemplate(self.lng, self.lineEdit,self.comboBox,self.textEdit)
 
         self.pushButton.clicked.connect(MainButton) # sand
         self.pushButton_5.clicked.connect(self.textEdit.undo) #undo
@@ -386,6 +392,8 @@ class Ui_MainWindow(QObject):
         self.actionRedo.setObjectName(_fromUtf8("actionRedo"))
         self.actionBrowse_Premade_Templates = QtGui.QAction(MainWindow)
         self.actionBrowse_Premade_Templates.setObjectName(_fromUtf8("actionBrowse_Premade_Templates"))
+        self.actionChangeTheme = QtGui.QAction(MainWindow)
+        self.actionChangeTheme.setObjectName(_fromUtf8("actionChangeTheme"))
         self.actionAbout = QtGui.QAction(MainWindow)
         self.actionAbout.setObjectName(_fromUtf8("actionAbout"))
         self.actionHelp = QtGui.QAction(MainWindow)
@@ -407,6 +415,7 @@ class Ui_MainWindow(QObject):
         self.menuEdit.addSeparator()
         self.menuEdit.addAction(self.actionMini_SpellCheck)
         self.menuEdit.addAction(self.actionConvert)
+        self.menuTools.addAction(self.actionChangeTheme)
         self.menuTools.addAction(self.actionChangeMN)
         self.menuTools.addSeparator()
         self.menuTools.addAction(self.actionBrowse_Premade_Templates)
@@ -432,6 +441,8 @@ class Ui_MainWindow(QObject):
         self.actionBrowse_Premade_Templates.triggered.connect(self.MainButton2)
         self.actionChangeMN.triggered.connect(self.nameDiag)
         self.actionAbout.triggered.connect(self.callAbout)
+        self.actionChangeTheme.triggered.connect(self.changeTheme)
+        self.actionHelp.triggered.connect(self.helpFunc)
 
         self.recentNumber = "0"
         self.templatesList = []
@@ -457,6 +468,9 @@ class Ui_MainWindow(QObject):
         self.pushButton_6.setToolTip(_translate("MainWindow", "Redo", None))
         self.pushButton_7.setToolTip(_translate("MainWindow", "Clear Last Change", None))
         self.pushButton_10.setText(_translate("MainWindow", "Archive", None))
+        self.pushButton_10.setToolTip(_translate("MainWindow", "Archive", None))
+        self.pushButton_13.setToolTip(_translate("MainWindow", "Add Template", None))
+        self.pushButton_12.setToolTip(_translate("MainWindow", "Search Template", None))
         self.label.setText(_translate("MainWindow", "Topic", None))
         self.label_2.setText(_translate("MainWindow", "Recently used templates: "+self.recentNumber+".\t\t      Browse:", None))
         self.textEdit.setDocumentTitle(_translate("MainWindow", "Sandwich", None))
@@ -464,8 +478,9 @@ class Ui_MainWindow(QObject):
         self.pushButton_12.setText(_translate("MainWindow", "Search", None))
         self.menuFile.setTitle(_translate("MainWindow", "File", None))
         self.menuEdit.setTitle(_translate("MainWindow", "Edit", None))
-        self.menuTools.setTitle(_translate("MainWindow", "Tools", None))
+        self.menuTools.setTitle(_translate("MainWindow", "Settings", None))
         self.menuAbout.setTitle(_translate("MainWindow", "Help", None))
+        self.actionChangeTheme.setText(_translate("MainWindow", "Set theme",None))
         self.newFile.setText(_translate("MainWindow", "New", None))
         self.openFile.setText(_translate("MainWindow", "Open", None))
         self.saveFile.setText(_translate("MainWindow", "Save", None))
@@ -505,6 +520,7 @@ class Ui_MainWindow(QObject):
             text = unicode(self.textEdit.textCursor().selectedText())
             if not self.dict.check(text):
                 spell_menu = QMenu('Spelling Suggestions')
+                spell_menu.setStyleSheet(sharedFun.getColor())
                 for word in self.dict.suggest(text):
                     action = sharedFun.SpellAction(word, spell_menu)
                     action.correct.connect(self.correctWord)
@@ -525,15 +541,17 @@ class Ui_MainWindow(QObject):
 
     def MainButton2(self):
         self.myOtherWindow = Rep.Archive(self.textEdit, self.fillRecent)
+        self.myOtherWindow.setStyleSheet(sharedFun.getColor())
         self.myOtherWindow.show()
 
     def callAbout(self):
         self.myOtherWindow = about.Ui_Ermes()
+        self.myOtherWindow.setStyleSheet(sharedFun.getColor())
+        self.myOtherWindow.setWindowModality(Qt.ApplicationModal)
         self.myOtherWindow.show()
 
     def r_clicked(self, num, dictionary):
-        global lng
-        lng = num
+        self.lng = num
         self.dict = enchant.Dict(dictionary)
         self.highlighter = sharedFun.Highlighter(self.textEdit.document())
         self.highlighter.setDict(self.dict)
@@ -544,13 +562,14 @@ class Ui_MainWindow(QObject):
 
         if ok:
             f1 = open("Config.txt", 'w')
-            lines[4] = text+"\n"
-            f1.writelines(lines)
+            self.lines[4] = text+"\n"
+            f1.writelines(self.lines)
             f1.close
             self.nameDiagConf()
 
     def nameDiagConf(self):
-        self.myOtherWindow = diag.changedDiag()
+        self.myOtherWindow = diag.changedDiag("Name Changed","Your name has been changed successfully.")
+        self.myOtherWindow.setStyleSheet(sharedFun.getColor())
         self.myOtherWindow.show()
 
     def Clear_Last(self):
@@ -565,28 +584,36 @@ class Ui_MainWindow(QObject):
 
     def Search_Temp(self):
         Scontent = self.lineEdit_2.displayText()
-        global Sresult
-        Sresult = Scontent
+        self.Sresult = Scontent
         if len(Scontent) < 3:
-            error = QtGui.QErrorMessage(None)
-            error.setWindowTitle(_translate("Length Error", "Length Error", None))
-            error.showMessage("The search parameter must be longer than 3 (three) characters.")
-            error.accept(self.close)
+            self.myOtherWindow = diag.changedDiag("Length Error", "The searched word be longer than 3 (three) characters.")
+            self.myOtherWindow.setStyleSheet(sharedFun.getColor())
+            self.myOtherWindow.setWindowModality(Qt.ApplicationModal)
+            self.myOtherWindow.show()
         else:
-            self.myOtherWindow = sres.SreS()
+            self.myOtherWindow = sres.SreS(self.Sresult, self.lng, self.lines)
+            self.myOtherWindow.setStyleSheet(sharedFun.getColor())
             self.myOtherWindow.show()
 
 
     def closeEvent(self, event):
-        quit_msg = "Are you sure you want to quit" \
-                   "?"
-        reply = QtGui.QMessageBox.question(None, 'Message',
-                         quit_msg, QtGui.QMessageBox.Yes, QtGui.QMessageBox.No)
-
+        quit_msg = "Are you sure you want to quit?"
+        closeDialog = QtGui.QMessageBox
+        reply = closeDialog.question(None, 'Message',
+                                           quit_msg, QtGui.QMessageBox.Yes, QtGui.QMessageBox.No)
         if reply == QtGui.QMessageBox.Yes:
             QtGui.qApp.quit()
         else:
             event.ignore()
+
+    def closeWarning(self):
+        quit_msg = "New color scheme applied. \nPlease start the application again."
+        self.myOtherWindow = diag.changedDiag("Rebooting...", quit_msg)
+        self.myOtherWindow.setStyleSheet(sharedFun.getColor())
+        self.myOtherWindow.setWindowModality(Qt.ApplicationModal)
+        self.myOtherWindow.show()
+        threading.Timer(3.0,QtGui.qApp.quit).start()
+
 
     def fillRecent(self):
         if os.path.isfile("agentDatabase.db"):
@@ -616,7 +643,17 @@ class Ui_MainWindow(QObject):
         else:
             self.textEdit.clear()
 
+    def changeTheme(self):
+        self.myOtherWindow = colorDiag.colorDialog(self.closeWarning)
+        self.myOtherWindow.setStyleSheet(sharedFun.getColor())
+        self.myOtherWindow.setWindowModality(Qt.ApplicationModal)
+        self.myOtherWindow.show()
 
+    def helpFunc(self):
+        self.myOtherWindow = diag.changedDiag("Help","Full Guide Coming soon!\n"
+                                              "Meanwhile for issues contact me at:\n\ndavide.morello@emea.sykes.com")
+        self.myOtherWindow.setStyleSheet(sharedFun.getColor())
+        self.myOtherWindow.show()
 
 
 

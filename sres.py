@@ -19,10 +19,10 @@ except AttributeError:
         return QtGui.QApplication.translate(context, text, disambig)
 
 class SreS(QtGui.QWidget):
-    def __init__(self):
+    def __init__(self, sResult, lang, lines):
         QMainWindow.__init__(self)
         self.buttonsStack = []
-        self.searchTheStuff()
+        self.searchTheStuff(sResult, lang, lines)
         self.setObjectName(_fromUtf8("self"))
         self.resize(500, 880)
         self.label = QtGui.QLabel(self)
@@ -49,11 +49,11 @@ class SreS(QtGui.QWidget):
     def closeEvent(self,event):
         self.close()
 
-    def searchTheStuff(self):
+    def searchTheStuff(self,sResult, lang, lines):
         found = 0
-        data = MainWin.Sresult
+        data = sResult
         Yinc = 25
-        path = self.selLang()
+        path = self.selLang(lang, lines)
         path = path.replace("\n","")
         Y = 40
         X = 20
@@ -80,21 +80,21 @@ class SreS(QtGui.QWidget):
             self.label.setGeometry(QtCore.QRect(20, 40, 321, 21))
             self.label.setText(_translate("self", "No templates have been found:", None))
 
-    def selLang(self):
-        if MainWin.lng == 1:
-            return MainWin.lines[10]
-        if MainWin.lng == 2:
-            return MainWin.lines[12]
-        if MainWin.lng == 3:
-            return MainWin.lines[14]
-        if MainWin.lng == 4:
-            return MainWin.lines[16]
-        if MainWin.lng == 5:
-            return MainWin.lines[18]
-        if MainWin.lng == 6:
-            return MainWin.lines[20]
-        if MainWin.lng == 7:
-            return MainWin.lines[22]
+    def selLang(self, lang, lines):
+        if lang == 1:
+            return lines[10]
+        if lang == 2:
+            return lines[12]
+        if lang == 3:
+            return lines[14]
+        if lang == 4:
+            return lines[16]
+        if lang == 5:
+            return lines[18]
+        if lang == 6:
+            return lines[20]
+        if lang == 7:
+            return lines[22]
 
 
     def open_close(self,fullpath):

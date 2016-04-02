@@ -2,9 +2,9 @@
 			    ####If you can use it, great! Else, dont touch it.####
 			
 # Name			
-Test2
+Jesus
 # Future use
-# Future use
+theme = light
 # Archive Directory 2
 C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Italian Folder Search Path	
@@ -23,4 +23,3 @@ C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # My Archive directory
 C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
-

@@ -6,6 +6,7 @@ from PyQt4 import QtGui
 from PyQt4.Qt import *
 
 lastPTR = ""
+colorInfo = -1 # -1 not checked, 0 light, 1 dark
 
 def leHandler(comboBox,lineEdit):
     checkFlag = comboBox.currentText()
@@ -15,27 +16,30 @@ def leHandler(comboBox,lineEdit):
         lineEdit.setEnabled(False)
 
 def OpenButton(line,textEdit):
-    path = line.replace("\n","")
-    fname = QtGui.QFileDialog.getOpenFileName(None, 'Open file',path,
-                        ("Text (*.txt *.rtf)"))
-    f = open(fname, 'r')
-    with f:
-        data = f.read()
-        try:
-            data = unicode(data)
-        finally:
-            textEdit.setText(data)
+    try:
+        path = line.replace("\n", "")
+        fname = QtGui.QFileDialog.getOpenFileName(None, 'Open file', path,
+                                                  ("Text (*.txt *.rtf)"))
+        with open(fname, 'r') as f:
+            data = f.read()
+            try:
+                data = unicode(data)
+            finally:
+                textEdit.setText(data)
+    finally:
+        return
 
 def SaveButton(line,textEdit):
-    path = line.replace("\n","")
-    data = textEdit.toPlainText()
-    fname = QtGui.QFileDialog.getSaveFileName(None,"Save File",
-                        path+"/myNewTemplate.txt",
-                        ("Text (*.txt *.rtf)"))
-    f = open(fname, 'w')
-    with f:
-        f.write(unicode(data))
-        f.close()
+    try:
+        path = line.replace("\n", "")
+        data = textEdit.toPlainText()
+        fname = QtGui.QFileDialog.getSaveFileName(None, "Save File",
+                                                  path + "/myNewTemplate.txt",
+                                                  ("Text (*.txt *.rtf)"))
+        with open(fname, 'w') as f:
+            f.write(unicode(data))
+    finally:
+        return
 
 def CopyButton(textEdit):
     data = textEdit.toPlainText()
@@ -183,6 +187,24 @@ def AddTemplate(lng,lineEdit,comboBox, textEdit):
     cb.setText(newbody, mode=cb.Clipboard)
 
 
+def getColor():
+    global colorInfo
+    if colorInfo == -1:
+        settings = open("Config.txt")
+        values = settings.readlines()
+        if values[6].__contains__("dark"):
+           colorInfo = 1
+        else:
+            colorInfo = 0
+        settings.close()
+    if colorInfo == 1:
+        stylesheet = open("do.stylesheet")
+        temp = stylesheet.read()
+        stylesheet.close()
+        return temp
+    else:
+        return ""
+
 class Highlighter(QSyntaxHighlighter):
 
     WORDS = u'(?iu)[\w\']+'
@@ -211,6 +233,8 @@ class Highlighter(QSyntaxHighlighter):
                     word_object.end() - word_object.start(), format)
 
 
+
+
 class SpellAction(QAction):
 
     '''
@@ -224,4 +248,5 @@ class SpellAction(QAction):
 
         self.triggered.connect(lambda x: self.correct.emit(
             unicode(self.text())))
+
 

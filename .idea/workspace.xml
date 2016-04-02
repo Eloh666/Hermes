@@ -2,15 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42fa7e09-1da5-4232-b90b-fcc2cd11919e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colorDiag.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/do.stylesheet" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheethelp.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icons/copy-gxxl.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icons/green-archive-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icons/green-disk-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icons/green-document-cross-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icons/green-document-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icons/green-document-plus-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icons/green-folder-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Icons/green-ok-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/miniMEG.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/myNewTemplate.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/olderinowin.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/chive-icon.png" afterPath="$PROJECT_DIR$/Icons/chive-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/copy-xxl.png" afterPath="$PROJECT_DIR$/Icons/copy-xxl.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/disk-icon.png" afterPath="$PROJECT_DIR$/Icons/disk-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/document-cross-icon.png" afterPath="$PROJECT_DIR$/Icons/document-cross-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/document-download-icon.png" afterPath="$PROJECT_DIR$/Icons/document-download-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/document-icon.png" afterPath="$PROJECT_DIR$/Icons/document-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/dolder-icon.png" afterPath="$PROJECT_DIR$/Icons/dolder-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/edit-icon.png" afterPath="$PROJECT_DIR$/Icons/edit-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/mail-receive-icon.png" afterPath="$PROJECT_DIR$/Icons/mail-receive-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/mail-send-icon.png" afterPath="$PROJECT_DIR$/Icons/mail-send-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/ok-icon.png" afterPath="$PROJECT_DIR$/Icons/ok-icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/search-icon.png" afterPath="$PROJECT_DIR$/Icons/search-icon.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agentDatabase.db" afterPath="$PROJECT_DIR$/agentDatabase.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Hermes.iml" afterPath="$PROJECT_DIR$/.idea/Hermes.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Config.txt" afterPath="$PROJECT_DIR$/Config.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MainWin.py" afterPath="$PROJECT_DIR$/MainWin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rep.py" afterPath="$PROJECT_DIR$/Rep.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.py" afterPath="$PROJECT_DIR$/about.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diag.py" afterPath="$PROJECT_DIR$/diag.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extendedCbox.py" afterPath="$PROJECT_DIR$/extendedCbox.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searchTab.py" afterPath="$PROJECT_DIR$/searchTab.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sharedFun.py" afterPath="$PROJECT_DIR$/sharedFun.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sres.py" afterPath="$PROJECT_DIR$/sres.py" />
     </list>
     <ignored path="Hermes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,7 +53,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Hermes$Main.coverage" NAME="Main Coverage Results" MODIFIED="1459521843215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Hermes$Main.coverage" NAME="Main Coverage Results" MODIFIED="1459626629777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -35,50 +64,114 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="searchTab.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/searchTab.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+              <folding>
+                <element signature="e#197#222#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="do.stylesheet" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/do.stylesheet">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Main.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="646">
+              <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="diag.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/diag.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Rep.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rep.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2227">
-              <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+            <state relative-caret-position="522">
+              <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
               <folding>
-                <element signature="e#25#47#0" expanded="true" />
-                <marker date="1459458582336" expanded="true" signature="10291:10511" placeholder="CREATE TABLE... personal" />
-                <marker date="1459458582336" expanded="true" signature="10593:10633" placeholder="INSERT INTO personal... " />
+                <marker date="1459623775310" expanded="true" signature="10868:11088" placeholder="CREATE TABLE... personal" />
+                <marker date="1459623775310" expanded="true" signature="11170:11210" placeholder="INSERT INTO personal... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainWin.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sharedFun.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sharedFun.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+              <folding>
+                <element signature="e#25#34#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainWin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MainWin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="802">
-              <caret line="605" column="0" selection-start-line="605" selection-start-column="0" selection-end-line="605" selection-end-column="0" />
+            <state relative-caret-position="352">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
                 <element signature="e#25#35#0" expanded="true" />
-                <marker date="1459520220664" expanded="true" signature="29819:29884" placeholder="SELECT * FRO... personal" />
-                <marker date="1459520220664" expanded="true" signature="29819:29897" placeholder="SELECT name,... personal" />
+                <marker date="1459626674369" expanded="true" signature="31631:31709" placeholder="SELECT name,... personal" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="extendedCbox.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/extendedCbox.py">
+      <file leaf-file-name="sres.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sres.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
+            <state relative-caret-position="411">
+              <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchTab.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/searchTab.py">
+      <file leaf-file-name="about.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/about.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="88" column="62" selection-start-line="88" selection-start-column="62" selection-end-line="88" selection-end-column="62" />
+            <state relative-caret-position="714">
+              <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="colorDiag.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/colorDiag.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1547">
+              <caret line="91" column="102" selection-start-line="91" selection-start-column="102" selection-end-line="91" selection-end-column="102" />
+              <folding>
+                <element signature="e#197#228#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -88,18 +181,28 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MainWin.py" root0="SKIP_INSPECTION" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/miniMEG.py" />
-        <option value="$PROJECT_DIR$/sres.py" />
         <option value="$PROJECT_DIR$/viewer.py" />
-        <option value="$PROJECT_DIR$/sharedFun.py" />
-        <option value="$PROJECT_DIR$/Main.py" />
-        <option value="$PROJECT_DIR$/Rep.py" />
-        <option value="$PROJECT_DIR$/MainWin.py" />
         <option value="$PROJECT_DIR$/extendedCbox.py" />
+        <option value="$PROJECT_DIR$/dg.stylesheet" />
+        <option value="$PROJECT_DIR$/gl.stylesheet" />
+        <option value="$PROJECT_DIR$/gl2.stylesheet" />
+        <option value="$PROJECT_DIR$/Main.py" />
         <option value="$PROJECT_DIR$/searchTab.py" />
+        <option value="$PROJECT_DIR$/diag.py" />
+        <option value="$PROJECT_DIR$/colorDiag.py" />
+        <option value="$PROJECT_DIR$/sharedFun.py" />
+        <option value="$PROJECT_DIR$/do.stylesheet" />
+        <option value="$PROJECT_DIR$/about.py" />
+        <option value="$PROJECT_DIR$/Rep.py" />
+        <option value="$PROJECT_DIR$/sres.py" />
+        <option value="$PROJECT_DIR$/MainWin.py" />
       </list>
     </option>
   </component>
@@ -139,41 +242,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hermes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hermes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hermes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hermes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hermes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyTemplatesUK" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -468,13 +540,14 @@
     <frame x="-8" y="-8" width="3456" height="1416" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.06918605" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32465544" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14701378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -485,7 +558,6 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -498,16 +570,16 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14701378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.52398723" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0625" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -523,74 +595,15 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/MainWin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="36" column="46" selection-start-line="36" selection-start-column="46" selection-end-line="36" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Rep.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#25#47#0" expanded="true" />
-            <marker date="1459458582336" expanded="true" signature="10291:10511" placeholder="CREATE TABLE... personal" />
-            <marker date="1459458582336" expanded="true" signature="10593:10633" placeholder="INSERT INTO personal... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/miniMEG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="228" column="65" selection-start-line="228" selection-start-column="65" selection-end-line="228" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sres.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="66" column="59" selection-start-line="66" selection-start-column="59" selection-end-line="66" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diag.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainWin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Rep.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#25#47#0" expanded="true" />
-            <marker date="1459458582336" expanded="true" signature="10291:10511" placeholder="CREATE TABLE... personal" />
-            <marker date="1459458582336" expanded="true" signature="10593:10633" placeholder="INSERT INTO personal... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -633,11 +646,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#25#47#0" expanded="true" />
-            <marker date="1459458582336" expanded="true" signature="10291:10511" placeholder="CREATE TABLE... personal" />
-            <marker date="1459458582336" expanded="true" signature="10593:10633" placeholder="INSERT INTO personal... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -680,11 +688,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#25#47#0" expanded="true" />
-            <marker date="1459458582336" expanded="true" signature="10291:10511" placeholder="CREATE TABLE... personal" />
-            <marker date="1459458582336" expanded="true" signature="10593:10633" placeholder="INSERT INTO personal... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -727,11 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-          <folding>
-            <element signature="e#25#47#0" expanded="true" />
-            <marker date="1459458582336" expanded="true" signature="10291:10511" placeholder="CREATE TABLE... personal" />
-            <marker date="1459458582336" expanded="true" signature="10593:10633" placeholder="INSERT INTO personal... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -774,11 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#25#47#0" expanded="true" />
-            <marker date="1459458582336" expanded="true" signature="10291:10511" placeholder="CREATE TABLE... personal" />
-            <marker date="1459458582336" expanded="true" signature="10593:10633" placeholder="INSERT INTO personal... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -831,34 +824,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myNewTemplate.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/olderinowin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diag.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="31" column="67" selection-start-line="31" selection-start-column="67" selection-end-line="31" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sres.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="24" column="29" selection-start-line="24" selection-start-column="29" selection-end-line="24" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/myNewTemplate.txt" />
+    <entry file="file://$PROJECT_DIR$/olderinowin.py" />
     <entry file="file://$PROJECT_DIR$/miniMEG.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3434">
@@ -873,57 +840,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheethelp.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dg.stylesheet" />
+    <entry file="file://$PROJECT_DIR$/extendedCbox.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          <folding>
+            <element signature="e#46#73#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl2.stylesheet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gl.stylesheet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="366">
+          <caret line="27" column="17" selection-start-line="18" selection-start-column="1" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="42" column="27" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
+        <state relative-caret-position="646">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/colorDiag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1547">
+          <caret line="91" column="102" selection-start-line="91" selection-start-column="102" selection-end-line="91" selection-end-column="102" />
+          <folding>
+            <element signature="e#197#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="33" column="55" selection-start-line="33" selection-start-column="55" selection-end-line="33" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/do.stylesheet">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/about.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="43" column="52" selection-start-line="43" selection-start-column="52" selection-end-line="43" selection-end-column="52" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Rep.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2227">
-          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        <state relative-caret-position="522">
+          <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
           <folding>
-            <element signature="e#25#47#0" expanded="true" />
-            <marker date="1459458582336" expanded="true" signature="10291:10511" placeholder="CREATE TABLE... personal" />
-            <marker date="1459458582336" expanded="true" signature="10593:10633" placeholder="INSERT INTO personal... " />
+            <marker date="1459623775310" expanded="true" signature="10868:11088" placeholder="CREATE TABLE... personal" />
+            <marker date="1459623775310" expanded="true" signature="11170:11210" placeholder="INSERT INTO personal... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sharedFun.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="194" column="28" selection-start-line="194" selection-start-column="28" selection-end-line="194" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/MainWin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="802">
-          <caret line="605" column="0" selection-start-line="605" selection-start-column="0" selection-end-line="605" selection-end-column="0" />
+        <state relative-caret-position="731">
+          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
           <folding>
-            <element signature="e#25#35#0" expanded="true" />
-            <marker date="1459520220664" expanded="true" signature="29819:29884" placeholder="SELECT * FRO... personal" />
-            <marker date="1459520220664" expanded="true" signature="29819:29897" placeholder="SELECT name,... personal" />
+            <element signature="e#25#34#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/extendedCbox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/searchTab.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="88" column="62" selection-start-line="88" selection-start-column="62" selection-end-line="88" selection-end-column="62" />
+        <state relative-caret-position="284">
+          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+          <folding>
+            <element signature="e#197#222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sres.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MainWin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+            <marker date="1459626674369" expanded="true" signature="31631:31709" placeholder="SELECT name,... personal" />
+          </folding>
         </state>
       </provider>
     </entry>

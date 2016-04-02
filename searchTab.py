@@ -10,7 +10,7 @@
 
 from PyQt4.QtGui import *
 from PyQt4 import QtCore, QtGui
-
+import sharedFun
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
@@ -26,10 +26,10 @@ except AttributeError:
     def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig)
 
-class searchDialog(QMainWindow):
+class searchDialog(QtGui.QWidget):
 
     def __init__(self, tree, wordList):
-        QMainWindow.__init__(self)
+        QtGui.QWidget.__init__(self)
         self.setupUi(self, tree, wordList)
         self.indexCount = 0
         self.researchResults = 0
@@ -37,7 +37,7 @@ class searchDialog(QMainWindow):
 
     def setupUi(self, dialog, tree, wordList):
         dialog.setObjectName(_fromUtf8("dialog"))
-        dialog.resize(457, 99)
+        dialog.resize(457, 80)
         sizePolicy = QtGui.QSizePolicy(QtGui.QSizePolicy.Fixed, QtGui.QSizePolicy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -46,28 +46,28 @@ class searchDialog(QMainWindow):
         dialog.setFocusPolicy(QtCore.Qt.StrongFocus)
         dialog.setContextMenuPolicy(QtCore.Qt.DefaultContextMenu)
         self.lineEdit = QtGui.QLineEdit(dialog)
-        self.lineEdit.setGeometry(QtCore.QRect(20, 30, 311, 20))
+        self.lineEdit.setGeometry(QtCore.QRect(20, 15, 311, 20))
         self.lineEdit.setText(_fromUtf8(""))
         self.lineEdit.setObjectName(_fromUtf8("lineEdit"))
         self.pushButton = QtGui.QPushButton(dialog)
-        self.pushButton.setGeometry(QtCore.QRect(350, 30, 75, 23))
+        self.pushButton.setGeometry(QtCore.QRect(350, 15, 75, 23))
         self.pushButton.setAutoFillBackground(True)
         self.pushButton.setObjectName(_fromUtf8("pushButton"))
         self.pushButton_2 = QtGui.QPushButton(dialog)
-        self.pushButton_2.setGeometry(QtCore.QRect(20, 60, 81, 23))
+        self.pushButton_2.setGeometry(QtCore.QRect(20, 45, 81, 23))
         self.pushButton_2.setDefault(False)
         self.pushButton_2.setObjectName(_fromUtf8("pushButton_2"))
         self.pushButton_3 = QtGui.QPushButton(dialog)
-        self.pushButton_3.setGeometry(QtCore.QRect(240, 60, 91, 23))
+        self.pushButton_3.setGeometry(QtCore.QRect(240, 45, 91, 23))
         self.pushButton_3.setObjectName(_fromUtf8("pushButton_3"))
         self.label = QtGui.QLabel(dialog)
-        self.label.setGeometry(QtCore.QRect(130, 70, 47, 13))
+        self.label.setGeometry(QtCore.QRect(130, 55, 47, 13))
         self.label.setObjectName(_fromUtf8("label"))
         self.label_2 = QtGui.QLabel(dialog)
-        self.label_2.setGeometry(QtCore.QRect(160, 70, 47, 13))
+        self.label_2.setGeometry(QtCore.QRect(160, 55, 47, 13))
         self.label_2.setObjectName(_fromUtf8("label_2"))
         self.label_3 = QtGui.QLabel(dialog)
-        self.label_3.setGeometry(QtCore.QRect(190, 70, 47, 13))
+        self.label_3.setGeometry(QtCore.QRect(190, 55, 47, 13))
         self.label_3.setObjectName(_fromUtf8("label_3"))
 
         self.completeSearch(wordList)
@@ -86,7 +86,7 @@ class searchDialog(QMainWindow):
         self.lineEdit.returnPressed.connect(searchFunc)
 
     def retranslateUi(self, dialog):
-        dialog.setWindowTitle(_translate("dialog", "Search...s", None))
+        dialog.setWindowTitle(_translate("dialog", "Search...", None))
         self.lineEdit.setPlaceholderText(_translate("dialog", "Search...", None))
         self.pushButton.setToolTip(_translate("dialog", "Search", None))
         self.pushButton.setText(_translate("dialog", "Search", None))
@@ -162,6 +162,7 @@ class searchDialog(QMainWindow):
         completer.setCaseSensitivity(QtCore.Qt.CaseInsensitive)
         model = QStringListModel()
         completer.setModel(model)
+        completer.popup().setStyleSheet(sharedFun.getColor())
         model.setStringList(wordList)
 
 

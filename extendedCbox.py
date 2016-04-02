@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from PyQt4.QtCore import Qt
 from PyQt4.QtGui import QCompleter, QComboBox, QSortFilterProxyModel
-from PyQt4 import QtCore
+import sharedFun
 
 class ExtendedComboBox(QComboBox):
     def __init__(self, parent=None):
@@ -17,6 +17,7 @@ class ExtendedComboBox(QComboBox):
 
         # add a completer, which uses the filter model
         self.completer = QCompleter(self.pFilterModel, self)
+        self.completer.popup().setStyleSheet(sharedFun.getColor())
         # always show all (filtered) completions
         self.completer.setCompletionMode(QCompleter.UnfilteredPopupCompletion)
         self.setCompleter(self.completer)

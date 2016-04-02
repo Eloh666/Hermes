@@ -3,7 +3,10 @@
 from PyQt4 import QtCore, QtGui
 import sys
 import MainWin
-import extendedCbox
+import sharedFun
+import stylesheethelp
+
+
 
 sys.stderr = sys.stdout
 reload(sys)
@@ -33,23 +36,11 @@ class Main(QtGui.QMainWindow, MainWin.Ui_MainWindow):
         self.ui = MainWin.Ui_MainWindow()
         self.ui.setupUi(self)
 
-    def OpenButton(self):
-
-        fname = QtGui.QFileDialog.getOpenFileName(self, 'Open file')
-
-        f = open(fname, 'r')
-
-        with f:
-            data = f.read()
-            self.textEdit.setText(data)
-
 if __name__ == "__main__":
     app = QtGui.QApplication(sys.argv)
+    app.setStyle("plastique")
     app.setWindowIcon(QtGui.QIcon('Icons\winged_foot.png'))
     window = Main()
+    window.setStyleSheet(sharedFun.getColor())
     window.show()
     sys.exit(app.exec_())
-
-
-
-

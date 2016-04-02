@@ -41,7 +41,7 @@ class Ui_Ermes(QMainWindow):
         self.label.setWordWrap(True)
         self.label.setObjectName(_fromUtf8("label"))
         self.label_2 = QtGui.QLabel(self.centralwidget)
-        self.label_2.setGeometry(QtCore.QRect(15, 170, 301, 300))
+        self.label_2.setGeometry(QtCore.QRect(15, 180, 301, 300))
         self.label_2.setAutoFillBackground(False)
         self.label_2.setText(_fromUtf8(""))
         self.label_2.setPixmap(QtGui.QPixmap(_fromUtf8("Icons\hermes.png")))
@@ -63,11 +63,11 @@ class Ui_Ermes(QMainWindow):
 
     def retranslateUi(self):
         self.setWindowTitle(_translate("self", "About", None))
-        self.label.setText(_translate("self", "Hermes is a Customer Service oriented email writing help program with intergrated template archive and browser.\n"
+        self.label.setText(_translate("self", "Hermes is a Customer Service oriented email writing help program with intergrated template archive and browser."
 "\n"
-"Every right reserved to Davide Maurilio Morello, coder and lead designer. We hope that using this program will ease out your work days and make your hours more bearable. \n"
+"Every right reserved to Davide Maurilio Morello, coder and designer. This software is FREE and Open Source. \n\nI hope that using this program will ease your workload and make your days more enjoyable. \n"
 "\n"
-"For any further information or bug report please do refer to:\n"
+"Full documentation Coming Soon! \nFor any further information or bug report please do refer to:\n"
 "\n"
 "davidemaurilio.morello@gmail.com\n"
 "", None))
