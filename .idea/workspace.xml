@@ -2,42 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42fa7e09-1da5-4232-b90b-fcc2cd11919e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/colorDiag.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/do.stylesheet" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stylesheethelp.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Icons/copy-gxxl.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Icons/green-archive-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Icons/green-disk-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Icons/green-document-cross-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Icons/green-document-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Icons/green-document-plus-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Icons/green-folder-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Icons/green-ok-icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/miniMEG.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/myNewTemplate.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/olderinowin.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/chive-icon.png" afterPath="$PROJECT_DIR$/Icons/chive-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/copy-xxl.png" afterPath="$PROJECT_DIR$/Icons/copy-xxl.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/disk-icon.png" afterPath="$PROJECT_DIR$/Icons/disk-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/document-cross-icon.png" afterPath="$PROJECT_DIR$/Icons/document-cross-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/document-download-icon.png" afterPath="$PROJECT_DIR$/Icons/document-download-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/document-icon.png" afterPath="$PROJECT_DIR$/Icons/document-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/dolder-icon.png" afterPath="$PROJECT_DIR$/Icons/dolder-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/edit-icon.png" afterPath="$PROJECT_DIR$/Icons/edit-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/mail-receive-icon.png" afterPath="$PROJECT_DIR$/Icons/mail-receive-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/mail-send-icon.png" afterPath="$PROJECT_DIR$/Icons/mail-send-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/ok-icon.png" afterPath="$PROJECT_DIR$/Icons/ok-icon.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Icons/search-icon.png" afterPath="$PROJECT_DIR$/Icons/search-icon.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agentDatabase.db" afterPath="$PROJECT_DIR$/agentDatabase.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Config.txt" afterPath="$PROJECT_DIR$/Config.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Main.py" afterPath="$PROJECT_DIR$/Main.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MainWin.py" afterPath="$PROJECT_DIR$/MainWin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rep.py" afterPath="$PROJECT_DIR$/Rep.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.py" afterPath="$PROJECT_DIR$/about.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diag.py" afterPath="$PROJECT_DIR$/diag.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/extendedCbox.py" afterPath="$PROJECT_DIR$/extendedCbox.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searchTab.py" afterPath="$PROJECT_DIR$/searchTab.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sharedFun.py" afterPath="$PROJECT_DIR$/sharedFun.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sres.py" afterPath="$PROJECT_DIR$/sres.py" />
     </list>
@@ -53,7 +22,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Hermes$Main.coverage" NAME="Main Coverage Results" MODIFIED="1459626629777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Hermes$Main.coverage" NAME="Main Coverage Results" MODIFIED="1459699044876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -67,8 +36,8 @@
       <file leaf-file-name="searchTab.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/searchTab.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+            <state relative-caret-position="102">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="25" />
               <folding>
                 <element signature="e#197#222#0" expanded="true" />
               </folding>
@@ -109,11 +78,11 @@
       <file leaf-file-name="Rep.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Rep.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="522">
-              <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
               <folding>
-                <marker date="1459623775310" expanded="true" signature="10868:11088" placeholder="CREATE TABLE... personal" />
-                <marker date="1459623775310" expanded="true" signature="11170:11210" placeholder="INSERT INTO personal... " />
+                <marker date="1459698975140" expanded="true" signature="10420:10640" placeholder="CREATE TABLE... personal" />
+                <marker date="1459698975140" expanded="true" signature="10722:10762" placeholder="INSERT INTO personal... " />
               </folding>
             </state>
           </provider>
@@ -122,8 +91,8 @@
       <file leaf-file-name="sharedFun.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sharedFun.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="731">
-              <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+            <state relative-caret-position="474">
+              <caret line="208" column="12" selection-start-line="208" selection-start-column="12" selection-end-line="208" selection-end-column="12" />
               <folding>
                 <element signature="e#25#34#0" expanded="true" />
               </folding>
@@ -134,11 +103,11 @@
       <file leaf-file-name="MainWin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MainWin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+            <state relative-caret-position="709">
+              <caret line="564" column="40" selection-start-line="564" selection-start-column="40" selection-end-line="564" selection-end-column="40" />
               <folding>
                 <element signature="e#25#35#0" expanded="true" />
-                <marker date="1459626674369" expanded="true" signature="31631:31709" placeholder="SELECT name,... personal" />
+                <marker date="1459699001092" expanded="true" signature="31705:31783" placeholder="SELECT name,... personal" />
               </folding>
             </state>
           </provider>
@@ -147,8 +116,8 @@
       <file leaf-file-name="sres.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sres.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+            <state relative-caret-position="-256">
+              <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -167,7 +136,7 @@
       <file leaf-file-name="colorDiag.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/colorDiag.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
+            <state relative-caret-position="1052">
               <caret line="91" column="102" selection-start-line="91" selection-start-column="102" selection-end-line="91" selection-end-column="102" />
               <folding>
                 <element signature="e#197#228#0" expanded="true" />
@@ -197,11 +166,11 @@
         <option value="$PROJECT_DIR$/searchTab.py" />
         <option value="$PROJECT_DIR$/diag.py" />
         <option value="$PROJECT_DIR$/colorDiag.py" />
-        <option value="$PROJECT_DIR$/sharedFun.py" />
         <option value="$PROJECT_DIR$/do.stylesheet" />
         <option value="$PROJECT_DIR$/about.py" />
-        <option value="$PROJECT_DIR$/Rep.py" />
         <option value="$PROJECT_DIR$/sres.py" />
+        <option value="$PROJECT_DIR$/sharedFun.py" />
+        <option value="$PROJECT_DIR$/Rep.py" />
         <option value="$PROJECT_DIR$/MainWin.py" />
       </list>
     </option>
@@ -544,7 +513,6 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.14701378" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -558,6 +526,7 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -595,7 +564,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="5" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -607,13 +576,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miniMEG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="228" column="65" selection-start-line="228" selection-start-column="65" selection-end-line="228" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/miniMEG.py" />
     <entry file="file://$PROJECT_DIR$/sres.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -649,13 +612,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miniMEG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="228" column="65" selection-start-line="228" selection-start-column="65" selection-end-line="228" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/miniMEG.py" />
     <entry file="file://$PROJECT_DIR$/sres.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -691,13 +648,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miniMEG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="228" column="65" selection-start-line="228" selection-start-column="65" selection-end-line="228" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/miniMEG.py" />
     <entry file="file://$PROJECT_DIR$/sres.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -733,13 +684,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miniMEG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="228" column="65" selection-start-line="228" selection-start-column="65" selection-end-line="228" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/miniMEG.py" />
     <entry file="file://$PROJECT_DIR$/sres.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -817,22 +762,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/miniMEG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/miniMEG.py" />
     <entry file="file://$PROJECT_DIR$/myNewTemplate.txt" />
     <entry file="file://$PROJECT_DIR$/olderinowin.py" />
-    <entry file="file://$PROJECT_DIR$/miniMEG.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3434">
-          <caret line="208" column="51" selection-start-line="208" selection-start-column="51" selection-end-line="208" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/miniMEG.py" />
     <entry file="file://$PROJECT_DIR$/viewer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -852,46 +785,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-          <folding>
-            <element signature="e#46#73#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gl2.stylesheet">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gl.stylesheet">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="27" column="17" selection-start-line="18" selection-start-column="1" selection-end-line="27" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorDiag.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="91" column="102" selection-start-line="91" selection-start-column="102" selection-end-line="91" selection-end-column="102" />
-          <folding>
-            <element signature="e#197#228#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/gl2.stylesheet" />
+    <entry file="file://$PROJECT_DIR$/gl.stylesheet" />
     <entry file="file://$PROJECT_DIR$/diag.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
@@ -916,21 +814,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rep.py">
+    <entry file="file://$PROJECT_DIR$/sres.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="206" column="0" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
-          <folding>
-            <marker date="1459623775310" expanded="true" signature="10868:11088" placeholder="CREATE TABLE... personal" />
-            <marker date="1459623775310" expanded="true" signature="11170:11210" placeholder="INSERT INTO personal... " />
-          </folding>
+        <state relative-caret-position="-256">
+          <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sharedFun.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="731">
-          <caret line="43" column="25" selection-start-line="43" selection-start-column="25" selection-end-line="43" selection-end-column="25" />
+        <state relative-caret-position="474">
+          <caret line="208" column="12" selection-start-line="208" selection-start-column="12" selection-end-line="208" selection-end-column="12" />
           <folding>
             <element signature="e#25#34#0" expanded="true" />
           </folding>
@@ -939,29 +834,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/searchTab.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="86" column="0" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="25" />
           <folding>
             <element signature="e#197#222#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sres.py">
+    <entry file="file://$PROJECT_DIR$/colorDiag.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="78" column="43" selection-start-line="78" selection-start-column="43" selection-end-line="78" selection-end-column="43" />
+        <state relative-caret-position="1052">
+          <caret line="91" column="102" selection-start-line="91" selection-start-column="102" selection-end-line="91" selection-end-column="102" />
+          <folding>
+            <element signature="e#197#228#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <marker date="1459698975140" expanded="true" signature="10420:10640" placeholder="CREATE TABLE... personal" />
+            <marker date="1459698975140" expanded="true" signature="10722:10762" placeholder="INSERT INTO personal... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="42" column="18" selection-start-line="42" selection-start-column="18" selection-end-line="42" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MainWin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="709">
+          <caret line="564" column="40" selection-start-line="564" selection-start-column="40" selection-end-line="564" selection-end-column="40" />
           <folding>
             <element signature="e#25#35#0" expanded="true" />
-            <marker date="1459626674369" expanded="true" signature="31631:31709" placeholder="SELECT name,... personal" />
+            <marker date="1459699001092" expanded="true" signature="31705:31783" placeholder="SELECT name,... personal" />
           </folding>
         </state>
       </provider>

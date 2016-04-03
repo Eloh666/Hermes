@@ -1,7 +1,7 @@
 from PyQt4 import QtCore, QtGui
 from PyQt4.QtGui import *
 import os
-import MainWin
+import sharedFun
 import webbrowser
 
 try:
@@ -53,7 +53,7 @@ class SreS(QtGui.QWidget):
         found = 0
         data = sResult
         Yinc = 25
-        path = self.selLang(lang, lines)
+        path = sharedFun.selLang(lang, lines)
         path = path.replace("\n","")
         Y = 40
         X = 20
@@ -79,22 +79,6 @@ class SreS(QtGui.QWidget):
             self.label = QtGui.QLabel(self)
             self.label.setGeometry(QtCore.QRect(20, 40, 321, 21))
             self.label.setText(_translate("self", "No templates have been found:", None))
-
-    def selLang(self, lang, lines):
-        if lang == 1:
-            return lines[10]
-        if lang == 2:
-            return lines[12]
-        if lang == 3:
-            return lines[14]
-        if lang == 4:
-            return lines[16]
-        if lang == 5:
-            return lines[18]
-        if lang == 6:
-            return lines[20]
-        if lang == 7:
-            return lines[22]
 
 
     def open_close(self,fullpath):

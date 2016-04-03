@@ -34,7 +34,7 @@ except AttributeError:
 
 class Archive(QtGui.QWidget):
 
-    def __init__(self, tedit, fillRecent):
+    def __init__(self, tedit, fillRecent, selectedLang):
         QMainWindow.__init__(self)
         self.setObjectName(_fromUtf8("self"))
         self.resultsList = []
@@ -116,7 +116,7 @@ class Archive(QtGui.QWidget):
         self.treeWidget.setObjectName(_fromUtf8("treeWidget"))
         self.treeWidget.headerItem().setText(0, _translate("self", "Topics", None))
 
-        self.templatesLocations = self.initializeLists(self.treeWidget, self.selLang().replace("\n",""))
+        self.templatesLocations = self.initializeLists(self.treeWidget, sharedFun.selLang(selectedLang, lines).replace("\n",""))
 
         self.databaseFill()
         fillRecent()
@@ -176,22 +176,6 @@ class Archive(QtGui.QWidget):
     def addTemplate(self,editor,data):
         editor.setText(data)
         self.close()
-
-    def selLang(self):
-        if MainWin.lng == 1:
-            return MainWin.lines[10]
-        if MainWin.lng == 2:
-            return MainWin.lines[12]
-        if MainWin.lng == 3:
-            return MainWin.lines[14]
-        if MainWin.lng == 4:
-            return MainWin.lines[16]
-        if MainWin.lng == 5:
-            return MainWin.lines[18]
-        if MainWin.lng == 6:
-            return MainWin.lines[20]
-        if MainWin.lng == 7:
-            return MainWin.lines[22]
 
     def initializeLists(self, tree, path):
         locationTuples = []

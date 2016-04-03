@@ -205,6 +205,23 @@ def getColor():
     else:
         return ""
 
+
+def selLang(lang, lines):
+    if lang == 1:
+        return lines[10]
+    if lang == 2:
+        return lines[12]
+    if lang == 3:
+        return lines[14]
+    if lang == 4:
+        return lines[16]
+    if lang == 5:
+        return lines[18]
+    if lang == 6:
+        return lines[20]
+    if lang == 7:
+        return lines[22]
+
 class Highlighter(QSyntaxHighlighter):
 
     WORDS = u'(?iu)[\w\']+'

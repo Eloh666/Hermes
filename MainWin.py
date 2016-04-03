@@ -345,6 +345,7 @@ class Ui_MainWindow(QObject):
         self.lineEdit_2.setGeometry(QtCore.QRect(740, 20, 251, 21))
         self.lineEdit_2.setObjectName(_fromUtf8("lineEdit_2"))
         self.lineEdit_2.setPlaceholderText(_translate("dialog", "Search...", None))
+        self.lineEdit_2.returnPressed.connect(self.Search_Temp)
 
 #            MENU ------------------------------------------------------------------------------------------------------
 
@@ -540,7 +541,7 @@ class Ui_MainWindow(QObject):
 
 
     def MainButton2(self):
-        self.myOtherWindow = Rep.Archive(self.textEdit, self.fillRecent)
+        self.myOtherWindow = Rep.Archive(self.textEdit, self.fillRecent, self.lng)
         self.myOtherWindow.setStyleSheet(sharedFun.getColor())
         self.myOtherWindow.show()
 
