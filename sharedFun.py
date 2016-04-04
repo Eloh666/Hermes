@@ -111,8 +111,6 @@ def proofreader(lng, text):
 def AddTemplate(lng,lineEdit,comboBox, textEdit):
     data = textEdit.toPlainText()
     data = proofreader(lng, data)
-    global lastPTR
-    lastPTR = data
     newbody = ""
     if lng == 1:
         newbody += 'Ciao $contacts.name.first,\n\n'
@@ -139,6 +137,8 @@ def AddTemplate(lng,lineEdit,comboBox, textEdit):
     if data.__contains__(newbody):
         cbCopy(data)
         return
+    global lastPTR
+    lastPTR = data
     if lng ==1 or lng == 2:
         issue = InitIssue(lng,lineEdit,comboBox)
         newbody += issue
