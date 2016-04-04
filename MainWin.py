@@ -601,25 +601,24 @@ class Ui_MainWindow(QObject):
         threading.Timer(3.0,QtGui.qApp.quit).start()
 
     def fillRecent(self):
-        if os.path.isfile("agentDatabase.db"):
-            self.recentNumber = 0
-            self.templatesList = []
-            database = sqlite3.connect("agentDatabase.db")
-            visitCursor = database.cursor()
-            # templateTuples = visitCursor.execute(
-            #     "SELECT  name, path FROM personal WHERE usedTimes != 0 ORDER BY usedTimes DESC LIMIT 10")
-            templateTuples = visitCursor.execute(
-                "SELECT  name, path FROM personal WHERE lastUsed != 0 ORDER BY lastUsed DESC LIMIT 10")
-            self.templatesComboBox.clear()
-            # self.templatesComboBox.addItem("")
-            for j, i in enumerate(templateTuples):
-                if os.path.isfile(i[1]):
-                    self.templatesComboBox.addItem(i[0].replace(".txt",""))
-                    self.templatesList.append((i[0],i[1]))
-                    self.recentNumber += 1
-            database.close()
-            self.label_2.setText(
-                _translate("MainWindow", "Recently used templates: " + str(self.recentNumber) + ".\t\t      Browse:", None))
+        self.recentNumber = 0
+        self.templatesList = []
+        database = sqlite3.connect("agentDatabase.db")
+        visitCursor = database.cursor()
+        # templateTuples = visitCursor.execute(
+        #     "SELECT  name, path FROM personal WHERE usedTimes != 0 ORDER BY usedTimes DESC LIMIT 10")
+        templateTuples = visitCursor.execute(
+            "SELECT  name, path FROM personal WHERE lastUsed != 0 ORDER BY lastUsed DESC LIMIT 10")
+        self.templatesComboBox.clear()
+        # self.templatesComboBox.addItem("")
+        for j, i in enumerate(templateTuples):
+            if os.path.isfile(i[1]):
+                self.templatesComboBox.addItem(i[0].replace(".txt",""))
+                self.templatesList.append((i[0],i[1]))
+                self.recentNumber += 1
+        database.close()
+        self.label_2.setText(
+            _translate("MainWindow", "Recently used templates: " + str(self.recentNumber) + ".\t\t      Browse:", None))
 
     def addSoftTemplate(self):
         checkedTemplate = self.templatesComboBox.currentText()
