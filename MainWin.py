@@ -87,10 +87,8 @@ class Ui_MainWindow(QObject):
 #            COMBO BOX ------------------------------------------------------------------------------------------------------
 
 
-        # self.comboBox = QtGui.QComboBox(self.centralwidget)
-        self.comboBox = extendedCbox.ExtendedComboBox(MainWindow)
-        # self.comboBox.setGeometry(QtCore.QRect(20, 90, 251, 21))
-        self.comboBox.setGeometry(QtCore.QRect(20, 120, 251, 21))
+        self.comboBox = QtGui.QComboBox(self.centralwidget)
+        self.comboBox.setGeometry(QtCore.QRect(20, 90, 251, 21))
         self.comboBox.setObjectName(_fromUtf8("comboBox"))
         icon1 = QtGui.QIcon()
         icon1.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\PlayStation-4-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -630,7 +628,7 @@ class Ui_MainWindow(QObject):
             templateTuples = visitCursor.execute(
                 "SELECT  name, path FROM personal WHERE lastUsed != 0 ORDER BY lastUsed DESC LIMIT 10")
             self.templatesComboBox.clear()
-            self.templatesComboBox.addItem("")
+            # self.templatesComboBox.addItem("")
             for j, i in enumerate(templateTuples):
                 if os.path.isfile(i[1]):
                     self.templatesComboBox.addItem(i[0].replace(".txt",""))
@@ -650,8 +648,8 @@ class Ui_MainWindow(QObject):
                     templateFile.close()
                 sharedFun.increaseDBValue(i)
                 break
-        else:
-            self.textEdit.clear()
+        sharedFun.increaseDBValue(str(checkedTemplate+".txt"))
+        self.fillRecent()
 
     def changeTheme(self):
         self.myOtherWindow = colorDiag.colorDialog(self.closeWarning)
@@ -666,10 +664,12 @@ class Ui_MainWindow(QObject):
         self.myOtherWindow.show()
 
     def changeIcon(self):
-        if self.templatesComboBox.currentText() == "":
-            self.pushButton_13.setEnabled(False)
+        for i, j in  self.templatesList:
+            if i == self.templatesComboBox.currentText()+".txt":
+                self.pushButton_13.setEnabled(True)
+                break;
         else:
-            self.pushButton_13.setEnabled(True)
+            self.pushButton_13.setEnabled(False)
 
 
 

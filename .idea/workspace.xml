@@ -3,13 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="42fa7e09-1da5-4232-b90b-fcc2cd11919e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/agentDatabase.db" afterPath="$PROJECT_DIR$/agentDatabase.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Hermes.iml" afterPath="$PROJECT_DIR$/.idea/Hermes.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Config.txt" afterPath="$PROJECT_DIR$/Config.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MainWin.py" afterPath="$PROJECT_DIR$/MainWin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colorDiag.py" afterPath="$PROJECT_DIR$/colorDiag.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sharedFun.py" afterPath="$PROJECT_DIR$/sharedFun.py" />
     </list>
     <ignored path="Hermes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,7 +18,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Hermes$Main.coverage" NAME="Main Coverage Results" MODIFIED="1459780122397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Hermes$Main.coverage" NAME="Main Coverage Results" MODIFIED="1459781287721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -34,14 +29,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainWin.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainWin.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MainWin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1326">
-              <caret line="92" column="53" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
+            <state relative-caret-position="255">
+              <caret line="631" column="11" selection-start-line="631" selection-start-column="11" selection-end-line="631" selection-end-column="11" />
               <folding>
                 <element signature="e#25#35#0" expanded="true" />
-                <marker date="1459779574386" expanded="true" signature="32175:32259" placeholder="SELECT name,... personal" />
+                <marker date="1459781287711" expanded="true" signature="32039:32123" placeholder="SELECT name,... personal" />
               </folding>
             </state>
           </provider>
@@ -62,20 +57,20 @@
       <file leaf-file-name="sharedFun.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sharedFun.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="438">
-              <caret line="144" column="21" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
+            <state relative-caret-position="81">
+              <caret line="234" column="27" selection-start-line="234" selection-start-column="27" selection-end-line="234" selection-end-column="27" />
               <folding>
-                <marker date="1459779981654" expanded="true" signature="9493:9554" placeholder="UPDATE perso... " />
-                <marker date="1459779981654" expanded="true" signature="9645:9697" placeholder="UPDATE perso... " />
+                <marker date="1459781163442" expanded="true" signature="9493:9554" placeholder="UPDATE perso... " />
+                <marker date="1459781163442" expanded="true" signature="9645:9697" placeholder="UPDATE perso... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="colorDiag.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="colorDiag.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/colorDiag.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
+            <state relative-caret-position="387">
               <caret line="101" column="31" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
               <folding />
             </state>
@@ -85,7 +80,7 @@
       <file leaf-file-name="searchTab.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/searchTab.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2295">
+            <state relative-caret-position="608">
               <caret line="137" column="56" selection-start-line="137" selection-start-column="56" selection-end-line="137" selection-end-column="56" />
               <folding />
             </state>
@@ -116,9 +111,9 @@
         <option value="$PROJECT_DIR$/viewer.py" />
         <option value="$PROJECT_DIR$/searchTab.py" />
         <option value="$PROJECT_DIR$/Rep.py" />
-        <option value="$PROJECT_DIR$/MainWin.py" />
-        <option value="$PROJECT_DIR$/sharedFun.py" />
         <option value="$PROJECT_DIR$/colorDiag.py" />
+        <option value="$PROJECT_DIR$/sharedFun.py" />
+        <option value="$PROJECT_DIR$/MainWin.py" />
       </list>
     </option>
   </component>
@@ -158,7 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -179,6 +173,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -799,41 +794,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MainWin.py">
+    <entry file="file://$PROJECT_DIR$/colorDiag.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1326">
-          <caret line="92" column="53" selection-start-line="92" selection-start-column="53" selection-end-line="92" selection-end-column="53" />
-          <folding>
-            <element signature="e#25#35#0" expanded="true" />
-            <marker date="1459779574386" expanded="true" signature="32175:32259" placeholder="SELECT name,... personal" />
-          </folding>
+        <state relative-caret-position="387">
+          <caret line="101" column="31" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sharedFun.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="438">
-          <caret line="144" column="21" selection-start-line="144" selection-start-column="21" selection-end-line="144" selection-end-column="21" />
+        <state relative-caret-position="81">
+          <caret line="234" column="27" selection-start-line="234" selection-start-column="27" selection-end-line="234" selection-end-column="27" />
           <folding>
-            <marker date="1459779981654" expanded="true" signature="9493:9554" placeholder="UPDATE perso... " />
-            <marker date="1459779981654" expanded="true" signature="9645:9697" placeholder="UPDATE perso... " />
+            <marker date="1459781163442" expanded="true" signature="9493:9554" placeholder="UPDATE perso... " />
+            <marker date="1459781163442" expanded="true" signature="9645:9697" placeholder="UPDATE perso... " />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/searchTab.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2295">
+        <state relative-caret-position="608">
           <caret line="137" column="56" selection-start-line="137" selection-start-column="56" selection-end-line="137" selection-end-column="56" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/colorDiag.py">
+    <entry file="file://$PROJECT_DIR$/MainWin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="101" column="31" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="631" column="11" selection-start-line="631" selection-start-column="11" selection-end-line="631" selection-end-column="11" />
+          <folding>
+            <element signature="e#25#35#0" expanded="true" />
+            <marker date="1459781287711" expanded="true" signature="32039:32123" placeholder="SELECT name,... personal" />
+          </folding>
         </state>
       </provider>
     </entry>
