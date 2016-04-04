@@ -18,7 +18,7 @@ except AttributeError:
 
 class Ui_zoomTem(QMainWindow):
 
-    def __init__(self,content,num):
+    def __init__(self,content):
         QMainWindow.__init__(self)
         self.setObjectName(_fromUtf8("self"))
         self.resize(820, 977)
@@ -38,10 +38,8 @@ class Ui_zoomTem(QMainWindow):
         self.pushButton.clicked.connect(self.close)
         self.textBrowser.setOpenExternalLinks(True)
 
-        if num == 6:
-            self.textBrowser.setText(content)
-        if num == 8:
-            self.textBrowser.setHtml(content)
+
+        self.textBrowser.setHtml(content)
 
         self.retranslateUi()
         QtCore.QMetaObject.connectSlotsByName(self)

@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
 
 import re
+import sqlite3
+import os
+import datetime
 
 from PyQt4 import QtGui
 from PyQt4.Qt import *
@@ -221,6 +224,17 @@ def selLang(lang, lines):
         return lines[20]
     if lang == 7:
         return lines[22]
+
+
+def increaseDBValue(value):
+    if os.path.isfile("agentDatabase.db"):
+        database = sqlite3.connect("agentDatabase.db")
+        visitCursor = database.cursor()
+        visitCursor.execute("UPDATE personal SET usedTimes = usedTimes + 1 WHERE name == ?", (value,))
+        timeValue = str(datetime.datetime.now())
+        visitCursor.execute("UPDATE personal SET lastUsed = (?) WHERE name == (?)", (timeValue, value,))
+        database.commit()
+        database.close()
 
 class Highlighter(QSyntaxHighlighter):
 

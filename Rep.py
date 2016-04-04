@@ -3,7 +3,6 @@
 from PyQt4.Qt import *
 from PyQt4 import QtCore, QtGui
 from PyQt4.QtGui import *
-import MainWin
 import viewer
 import os
 import searchTab
@@ -13,9 +12,6 @@ import sharedFun
 Config = open("Config.txt","r")
 lines=Config.readlines()
 Config.close()
-
-htmlData = ""
-currentNum = 6
 
 try:
     _fromUtf8 = QtCore.QString.fromUtf8
@@ -40,6 +36,8 @@ class Archive(QtGui.QWidget):
         self.resultsList = []
         self.templatesLocations = []
         self.guidesLocations = []
+        self.currentlyDisplayedTemplate = ""
+        self.htmlData = ""
         self.resize(1198, 636)
 
 #           TEXT BROWSER
@@ -92,9 +90,10 @@ class Archive(QtGui.QWidget):
         self.pushButton_7.setObjectName(_fromUtf8("pushButton_7"))
 
         self.pushButton_3.clicked.connect(self.close)
-        command3 = lambda checked, : self.addTemplate(tedit,self.textBrowser.toPlainText())
+        command3 = lambda checked, : self.addTemplate(tedit,self.textBrowser.toPlainText(),fillRecent)
         self.pushButton_2.clicked.connect(command3)
-        self.pushButton_4.clicked.connect(self.copyTemplate)
+        command4 = lambda checked,: self.copyTemplate(fillRecent)
+        self.pushButton_4.clicked.connect(command4)
         self.pushButton_7.clicked.connect(self.zoomTemplate)
         self.pushButton_2.setEnabled(False)
         self.pushButton_7.setEnabled(False)
@@ -160,21 +159,25 @@ class Archive(QtGui.QWidget):
 #Label
         self.label.setText(_translate("self", "Welcome to the Archive! Please select a template.", None))
 
-    def copyTemplate(self):
+    def copyTemplate(self, fillRecent):
         data = self.textBrowser.toPlainText()
         data = unicode(data)
         cb = QtGui.QApplication.clipboard()
         cb.clear(mode=cb.Clipboard )
         cb.setText(data, mode=cb.Clipboard)
+        sharedFun.increaseDBValue(self.currentlyDisplayedTemplate)
+        fillRecent()
 
     def zoomTemplate(self):
-        self.myOtherWindow = viewer.Ui_zoomTem(htmlData, currentNum)
+        self.myOtherWindow = viewer.Ui_zoomTem(self.htmlData)
         self.myOtherWindow.setStyleSheet(sharedFun.getColor())
         self.myOtherWindow.setWindowModality(Qt.ApplicationModal)
         self.myOtherWindow.show()
 
-    def addTemplate(self,editor,data):
+    def addTemplate(self,editor,data, fillRecent):
         editor.setText(data)
+        sharedFun.increaseDBValue(self.currentlyDisplayedTemplate)
+        fillRecent()
         self.close()
 
     def initializeLists(self, tree, path):
@@ -202,15 +205,13 @@ class Archive(QtGui.QWidget):
         return locationTuples
 
     def displaySelected(self, tree, num, locations):
-        global currentNum
-        currentNum = num
         if len(tree) != 0:
             Node = tree[0].text(0)
             Node = str(Node)
             self.label.setText("Category Selected: please pick a template")
             self.textBrowser.setText("");
             self.pushButton_2.setEnabled(False)
-            self.pushButton_2.setEnabled(False)
+            self.pushButton_7.setEnabled(False)
             if num == 6:
                 for i,j in locations:
                     if j == Node+".txt":
@@ -218,8 +219,6 @@ class Archive(QtGui.QWidget):
                         self.openTemplate(value, num, Node)
                         break
             else:
-                self.pushButton_2.setEnabled(False)
-                self.pushButton_7.setEnabled(False)
                 prePath = lines[num].replace("\n","\\")
                 self.openTemplate(prePath+Node+".txt", num, Node)
 
@@ -232,16 +231,22 @@ class Archive(QtGui.QWidget):
             self.pushButton_7.setEnabled(True)
             if num == 8:
                 self.textBrowser.setHtml(data)
+                self.pushButton_2.setEnabled(False)
+                self.pushButton_4.setEnabled(False)
             if num == 6:
                 self.textBrowser.setText(data)
                 self.pushButton_2.setEnabled(True)
+                self.pushButton_4.setEnabled(True)
                 self.label.setText(title)
-                f1.close()
+                self.currentlyDisplayedTemplate = title+".txt"
+            f1.close()
+            self.htmlData = data
         except:
             self.textBrowser.setPlainText("Template invalid, please check if the file has been modified.")
             self.label.setText("Please select a template")
             self.pushButton_2.setEnabled(False)
-            self.pushButton_2.setEnabled(False)
+            self.pushButton_4.setEnabled(False)
+            self.pushButton_7.setEnabled(False)
 
     def searchButton(self, tree, tuplesList):
         wordList = []
@@ -256,13 +261,16 @@ class Archive(QtGui.QWidget):
         database = sqlite3.connect("agentDatabase.db")
         visitCursor = database.cursor()
         visitCursor.execute('''CREATE TABLE IF NOT EXISTS personal(
-                            used int,
+                            usedTimes int,
                             name text,
                             path text,
-                            toUse int
+                            lastUsed datetime,
+                            UNIQUE(name,
+                            path)
                             )''')
         for i,j in self.templatesLocations:
-            visitCursor.execute("INSERT INTO personal VALUES (?, ?, ?, ?)", (0, j, i+"\\"+j, 0))
+            visitCursor.execute("INSERT OR IGNORE INTO personal "
+                                "VALUES (?, ?, ?, ?)", (0, j, i+"\\"+j, 0))
         database.commit()
         database.close()
 

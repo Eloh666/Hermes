@@ -445,7 +445,7 @@ class Ui_MainWindow(QObject):
         self.actionChangeTheme.triggered.connect(self.changeTheme)
         self.actionHelp.triggered.connect(self.helpFunc)
 
-        self.recentNumber = "0"
+        self.recentNumber = 0
         self.templatesList = []
         self.fillRecent()
         self.retranslateUi(MainWindow)
@@ -473,7 +473,7 @@ class Ui_MainWindow(QObject):
         self.pushButton_13.setToolTip(_translate("MainWindow", "Add Template", None))
         self.pushButton_12.setToolTip(_translate("MainWindow", "Search Template", None))
         self.label.setText(_translate("MainWindow", "Topic", None))
-        self.label_2.setText(_translate("MainWindow", "Recently used templates: "+self.recentNumber+".\t\t      Browse:", None))
+        self.label_2.setText(_translate("MainWindow", "Recently used templates: "+str(self.recentNumber)+".\t\t      Browse:", None))
         self.textEdit.setDocumentTitle(_translate("MainWindow", "Sandwich", None))
         self.pushButton_8.setToolTip(_translate("MainWindow", "Clear Last Change", None))
         self.pushButton_12.setText(_translate("MainWindow", "Search", None))
@@ -498,7 +498,6 @@ class Ui_MainWindow(QObject):
         self.actionBrowse_Premade_Templates.setText(_translate("MainWindow", "Browse", None))
         self.actionAbout.setText(_translate("MainWindow", "About", None))
         self.actionHelp.setText(_translate("MainWindow", "Help!", None))
-
         self.textEdit.installEventFilter(self)
 
     def eventFilter(self, source, event):
@@ -618,19 +617,24 @@ class Ui_MainWindow(QObject):
 
     def fillRecent(self):
         if os.path.isfile("agentDatabase.db"):
+            self.recentNumber = 0
             self.templatesList = []
             database = sqlite3.connect("agentDatabase.db")
             visitCursor = database.cursor()
-            templateTuples = visitCursor.execute("SELECT  name, path FROM personal WHERE toUse != 0 ORDER BY toUse DESC LIMIT 10")
+            # templateTuples = visitCursor.execute(
+            #     "SELECT  name, path FROM personal WHERE usedTimes != 0 ORDER BY usedTimes DESC LIMIT 10")
+            templateTuples = visitCursor.execute(
+                "SELECT  name, path FROM personal WHERE lastUsed != 0 ORDER BY lastUsed DESC LIMIT 10")
             self.templatesComboBox.clear()
             self.templatesComboBox.addItem("")
             for j, i in enumerate(templateTuples):
-                self.templatesComboBox.addItem(i[0].replace(".txt",""))
-                self.templatesList.append((i[0],i[1]))
-                self.recentNumber = str(j+1)
-            if self.recentNumber == "10":
-                self.recentNumber += "+"
+                if os.path.isfile(i[1]):
+                    self.templatesComboBox.addItem(i[0].replace(".txt",""))
+                    self.templatesList.append((i[0],i[1]))
+                    self.recentNumber += 1
             database.close()
+            self.label_2.setText(
+                _translate("MainWindow", "Recently used templates: " + str(self.recentNumber) + ".\t\t      Browse:", None))
 
     def addSoftTemplate(self):
         checkedTemplate = self.templatesComboBox.currentText()
@@ -640,6 +644,7 @@ class Ui_MainWindow(QObject):
                 with templateFile:
                     self.textEdit.setText(templateFile.read())
                     templateFile.close()
+                sharedFun.increaseDBValue(i)
                 break
         else:
             self.textEdit.clear()
@@ -655,9 +660,6 @@ class Ui_MainWindow(QObject):
                                               "Meanwhile for issues contact me at:\n\ndavide.morello@emea.sykes.com")
         self.myOtherWindow.setStyleSheet(sharedFun.getColor())
         self.myOtherWindow.show()
-
-
-
 
 
 

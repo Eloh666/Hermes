@@ -163,7 +163,10 @@ class searchDialog(QtGui.QWidget):
         model = QStringListModel()
         completer.setModel(model)
         completer.popup().setStyleSheet(sharedFun.getColor())
-        model.setStringList(wordList)
+        fixedList = []
+        for i in wordList:
+            fixedList.append(i.replace(".txt",""))
+        model.setStringList(fixedList)
 
 
 
