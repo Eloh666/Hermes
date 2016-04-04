@@ -86,7 +86,6 @@ class colorDialog(QtGui.QWidget):
         elif self.selectedValue == 0:
             replaced = "dark"
             replacer = "light"
-        print self.configData[6]
         if self.configData[6].__contains__(replacer):
             print self.configData[6]
             self.myOtherWindow = diag.changedDiag("Reboot not necessary", "No changes made, theme already active.")

@@ -136,6 +136,9 @@ def AddTemplate(lng,lineEdit,comboBox, textEdit):
         newbody +='Szanowny Panie/Szanowna Pani,\n\n'
         newbody +='Dzi\xc4\x99kuj\xc4\x99 za skontaktowanie si\xc4\x99 z Centrum Obs\xc5\x82ugi Klienta PlayStation.'
         newbody +='\nDotyczy zg\xc5\x82oszenia o numerze: $incidents.ref_no '
+    if data.__contains__(newbody):
+        cbCopy(data)
+        return
     if lng ==1 or lng == 2:
         issue = InitIssue(lng,lineEdit,comboBox)
         newbody += issue
@@ -185,9 +188,12 @@ def AddTemplate(lng,lineEdit,comboBox, textEdit):
     newbody = unicode(newbody)
     textEdit.clear()
     textEdit.insertPlainText(newbody)
+    cbCopy(newbody)
+
+def cbCopy(data):
     cb = QtGui.QApplication.clipboard()
-    cb.clear(mode=cb.Clipboard )
-    cb.setText(newbody, mode=cb.Clipboard)
+    cb.clear(mode=cb.Clipboard)
+    cb.setText(data, mode=cb.Clipboard)
 
 
 def getColor():

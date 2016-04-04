@@ -87,8 +87,10 @@ class Ui_MainWindow(QObject):
 #            COMBO BOX ------------------------------------------------------------------------------------------------------
 
 
-        self.comboBox = QtGui.QComboBox(self.centralwidget)
-        self.comboBox.setGeometry(QtCore.QRect(20, 90, 251, 21))
+        # self.comboBox = QtGui.QComboBox(self.centralwidget)
+        self.comboBox = extendedCbox.ExtendedComboBox(MainWindow)
+        # self.comboBox.setGeometry(QtCore.QRect(20, 90, 251, 21))
+        self.comboBox.setGeometry(QtCore.QRect(20, 120, 251, 21))
         self.comboBox.setObjectName(_fromUtf8("comboBox"))
         icon1 = QtGui.QIcon()
         icon1.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\PlayStation-4-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -300,6 +302,7 @@ class Ui_MainWindow(QObject):
         self.pushButton_13.setIcon(icon23)
         self.pushButton_13.setObjectName(_fromUtf8("pushButton_13"))
         self.pushButton_13.clicked.connect(self.addSoftTemplate)
+        self.pushButton_13.setEnabled(False)
 
         icon26 = QtGui.QIcon()
         icon26.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\green-document-plus-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -450,6 +453,8 @@ class Ui_MainWindow(QObject):
         self.fillRecent()
         self.retranslateUi(MainWindow)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
+
+        self.templatesComboBox.currentIndexChanged.connect(self.changeIcon)
 
     def retranslateUi(self, MainWindow):
         MainWindow.setWindowTitle(_translate("Sandwich Reborn", "Hermes Beta 0.91C", None))
@@ -614,7 +619,6 @@ class Ui_MainWindow(QObject):
         self.myOtherWindow.show()
         threading.Timer(3.0,QtGui.qApp.quit).start()
 
-
     def fillRecent(self):
         if os.path.isfile("agentDatabase.db"):
             self.recentNumber = 0
@@ -661,6 +665,11 @@ class Ui_MainWindow(QObject):
         self.myOtherWindow.setStyleSheet(sharedFun.getColor())
         self.myOtherWindow.show()
 
+    def changeIcon(self):
+        if self.templatesComboBox.currentText() == "":
+            self.pushButton_13.setEnabled(False)
+        else:
+            self.pushButton_13.setEnabled(True)
 
 
 
