@@ -90,14 +90,14 @@ class Archive(QtGui.QWidget):
         self.pushButton_7.setObjectName(_fromUtf8("pushButton_7"))
 
         self.pushButton_3.clicked.connect(self.close)
-        command3 = lambda checked, : self.addTemplate(tedit,self.textBrowser.toPlainText(),fillRecent)
+        command3 = lambda checked, : self.addTemplate(tedit,self.textBrowser.toPlainText(),fillRecent, selectedLang)
         self.pushButton_2.clicked.connect(command3)
-        command4 = lambda checked,: self.copyTemplate(fillRecent)
+        command4 = lambda checked,: self.copyTemplate(fillRecent, selectedLang)
         self.pushButton_4.clicked.connect(command4)
         self.pushButton_7.clicked.connect(self.zoomTemplate)
         self.pushButton_2.setEnabled(False)
         self.pushButton_7.setEnabled(False)
-
+        self.pushButton_4.setEnabled(False)
 #           LABELS
 
         self.label = QtGui.QLabel(self)
@@ -120,7 +120,7 @@ class Archive(QtGui.QWidget):
         self.databaseFill()
         fillRecent()
 
-        command = lambda : self.displaySelected(self.treeWidget.selectedItems(), 6, self.templatesLocations)
+        command = lambda : self.displaySelected(self.treeWidget.selectedItems(), 6, selectedLang)
         self.treeWidget.itemSelectionChanged.connect(command)
 
 #            TREE WIDGET 2
@@ -159,13 +159,16 @@ class Archive(QtGui.QWidget):
 #Label
         self.label.setText(_translate("self", "Welcome to the Archive! Please select a template.", None))
 
-    def copyTemplate(self, fillRecent):
+    def copyTemplate(self, fillRecent, selectedLang):
         data = self.textBrowser.toPlainText()
         data = unicode(data)
         cb = QtGui.QApplication.clipboard()
         cb.clear(mode=cb.Clipboard )
         cb.setText(data, mode=cb.Clipboard)
-        sharedFun.increaseDBValue(self.currentlyDisplayedTemplate)
+        node = self.treeWidget.selectedItems()
+        selectedNode = node[0]
+        path = sharedFun.selLang(selectedLang, lines).replace("\n","")+self.backWardPath(selectedNode)+self.currentlyDisplayedTemplate
+        sharedFun.increaseDBValue(self.currentlyDisplayedTemplate, str(path), lines[26])
         fillRecent()
 
     def zoomTemplate(self):
@@ -174,9 +177,13 @@ class Archive(QtGui.QWidget):
         self.myOtherWindow.setWindowModality(Qt.ApplicationModal)
         self.myOtherWindow.show()
 
-    def addTemplate(self,editor,data, fillRecent):
+    def addTemplate(self,editor,data, fillRecent, selectedLang):
         editor.setText(data)
-        sharedFun.increaseDBValue(self.currentlyDisplayedTemplate)
+        node = self.treeWidget.selectedItems()
+        selectedNode = node[0]
+        path = sharedFun.selLang(selectedLang, lines).replace("\n", "") + self.backWardPath(
+        selectedNode) + self.currentlyDisplayedTemplate
+        sharedFun.increaseDBValue(self.currentlyDisplayedTemplate, str(path), lines[26])
         fillRecent()
         self.close()
 
@@ -204,24 +211,41 @@ class Archive(QtGui.QWidget):
                     item.addChild(newItem)
         return locationTuples
 
-    def displaySelected(self, tree, num, locations):
-        if len(tree) != 0:
-            Node = tree[0].text(0)
-            Node = str(Node)
-            self.label.setText("Category Selected: please pick a template")
-            self.textBrowser.setText("");
-            self.pushButton_2.setEnabled(False)
-            self.pushButton_7.setEnabled(False)
-            if num == 6:
-                for i,j in locations:
-                    if j == Node+".txt":
-                        value = i+"\\"+Node+".txt"
-                        self.openTemplate(value, num, Node)
-                        break
-            else:
-                prePath = lines[num].replace("\n","\\")
-                self.openTemplate(prePath+Node+".txt", num, Node)
+    def searchButton(self, tree, tuplesList):
+        wordList = []
+        for i in tuplesList:
+            wordList.append(i[1])
+        self.myOtherWindow = searchTab.searchDialog(tree, wordList)
+        self.myOtherWindow.setWindowModality(Qt.ApplicationModal)
+        self.myOtherWindow.setStyleSheet(sharedFun.getColor())
+        self.myOtherWindow.show()
 
+    def databaseFill(self):
+        database = sqlite3.connect("Database\\agentDatabase.db")
+        visitCursor = database.cursor()
+        visitCursor.execute('''CREATE TABLE IF NOT EXISTS personal(
+                            usedTimes int,
+                            name text,
+                            path text,
+                            lastUsed datetime,
+                            UNIQUE(name,
+                            path)
+                            )''')
+        for i,j in self.templatesLocations:
+            visitCursor.execute("INSERT OR IGNORE INTO personal "
+                                "VALUES (?, ?, ?, ?)", (0, j, i+"\\"+j, 0))
+        database.commit()
+        database.close()
+        self.updateMainDB()
+
+    def displaySelected(self, tree, num, selectedLang):
+        if len(tree) != 0:
+            node = tree[0]
+            if num == 6:
+                path =  sharedFun.selLang(selectedLang, lines).replace("\n","") + self.backWardPath(node) + node.text(0) + ".txt"
+            else:
+                path = lines[num].replace("\n", "") + self.backWardPath(node) + node.text(0) + ".txt"
+            self.openTemplate(path, num, str(node.text(0)))
 
     def openTemplate(self, value, num, title):
         try:
@@ -238,7 +262,7 @@ class Archive(QtGui.QWidget):
                 self.pushButton_2.setEnabled(True)
                 self.pushButton_4.setEnabled(True)
                 self.label.setText(title)
-                self.currentlyDisplayedTemplate = title+".txt"
+                self.currentlyDisplayedTemplate = title + ".txt"
             f1.close()
             self.htmlData = data
         except:
@@ -248,31 +272,41 @@ class Archive(QtGui.QWidget):
             self.pushButton_4.setEnabled(False)
             self.pushButton_7.setEnabled(False)
 
-    def searchButton(self, tree, tuplesList):
-        wordList = []
-        for i in tuplesList:
-            wordList.append(i[1])
-        self.myOtherWindow = searchTab.searchDialog(tree, wordList)
-        self.myOtherWindow.setWindowModality(Qt.ApplicationModal)
-        self.myOtherWindow.setStyleSheet(sharedFun.getColor())
-        self.myOtherWindow.show()
+    def backWardPath(self, item):
+        parents = []
+        path = "\\"
+        cursor = item.parent()
+        while cursor != None:
+            parents.append(cursor.text(0) + "\\")
+            cursor = cursor.parent()
+        for i in reversed(parents):
+            path += i
+        return path
 
-    def databaseFill(self):
-        database = sqlite3.connect("agentDatabase.db")
-        visitCursor = database.cursor()
-        visitCursor.execute('''CREATE TABLE IF NOT EXISTS personal(
-                            usedTimes int,
-                            name text,
-                            path text,
-                            lastUsed datetime,
-                            UNIQUE(name,
-                            path)
-                            )''')
-        for i,j in self.templatesLocations:
-            visitCursor.execute("INSERT OR IGNORE INTO personal "
-                                "VALUES (?, ?, ?, ?)", (0, j, i+"\\"+j, 0))
-        database.commit()
-        database.close()
+    def updateMainDB(self):
+        mainDatabasePath = lines[26] + "\\mainDatabase.db"
+        mainDatabase = sqlite3.connect(mainDatabasePath)
+        mainDatabaseCursor = mainDatabase.cursor()
+        mainDatabaseCursor.execute('''CREATE TABLE IF NOT EXISTS usageInformation(
+                                usedTimes int,
+                                name text,
+                                path text,
+                                lastUsed datetime,
+                                UNIQUE(name,
+                                path)
+                                )''')
+        personalDatabasePath = "Database\\agentDatabase.db"
+        agentDatabase = sqlite3.connect(personalDatabasePath)
+        agentDatabaseCursor = agentDatabase.cursor()
+        agentDatabaseData = agentDatabaseCursor.execute(
+            "SELECT * FROM personal")
+        for usedTimes, name, path, lastUsed in agentDatabaseData:
+            mainDatabaseCursor.execute("INSERT OR IGNORE INTO usageInformation "
+                                       "VALUES (?, ?, ?, ?)", (usedTimes, name, path, lastUsed))
+        mainDatabase.commit()
+        mainDatabase.close()
+        agentDatabase.close()
+
 
 
 

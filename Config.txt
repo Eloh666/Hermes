@@ -6,20 +6,22 @@ Jesus
 # Future use
 theme = light
 # Archive Directory 2
-C:\Users\elohi\Documents\GitHub\Hermes\Archive
+C:\Users\Eloh\Documents\GitHub\Hermes\Archive
 # Italian Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # UK Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Swedish Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Danish Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Norwegian Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Finnish Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Polish Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # My Archive directory
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
+# Usage Datbase Directory
+C:\Users\Eloh\Documents\GitHub\Hermes\Database

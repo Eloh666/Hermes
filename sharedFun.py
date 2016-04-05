@@ -232,15 +232,27 @@ def selLang(lang, lines):
         return lines[22]
 
 
-def increaseDBValue(value):
-    if os.path.isfile("agentDatabase.db"):
-        database = sqlite3.connect("agentDatabase.db")
-        visitCursor = database.cursor()
-        visitCursor.execute("UPDATE personal SET usedTimes = usedTimes + 1 WHERE name == ?", (value,))
+def increaseDBValue(value, path, mainLocation):
+    if os.path.isfile("Database\\agentDatabase.db"):
+        agentDatabase = sqlite3.connect("Database\\agentDatabase.db")
+        agentCursor = agentDatabase.cursor()
         timeValue = str(datetime.datetime.now())
-        visitCursor.execute("UPDATE personal SET lastUsed = (?) WHERE name == (?)", (timeValue, value,))
-        database.commit()
-        database.close()
+        agentCursor.execute("UPDATE personal SET usedTimes = usedTimes + 1, lastUsed = (?) WHERE name == (?) and path == (?)", (timeValue, value, path,))
+        agentDatabase.commit()
+        agentDatabase.close()
+    if os.path.isfile(mainLocation+"\\"+"mainDatabase.db"):
+        mainDatabase = sqlite3.connect(mainLocation +"\\"+ "mainDatabase.db")
+        mainCursor = mainDatabase.cursor()
+        mainCursor.execute("UPDATE usageInformation SET usedTimes = usedTimes + 1, lastUsed = (?) WHERE name == (?) and path == (?)", (timeValue, value, path,))
+        mainDatabase.commit()
+        agentDatabase.close()
+
+def dropTable(database):
+    database = sqlite3.connect(database)
+    visitCursor = database.cursor()
+    visitCursor.execute("SELECT * FROM sqlite_master WHERE name = 'personal' and type = 'table'")
+    if visitCursor.fetchone() != None:
+        visitCursor.execute("DROP TABLE 'personal'")
 
 class Highlighter(QSyntaxHighlighter):
 

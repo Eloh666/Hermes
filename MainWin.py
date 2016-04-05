@@ -283,7 +283,7 @@ class Ui_MainWindow(QObject):
         self.pushButton_13.setIcon(icon23)
         self.pushButton_13.setObjectName(_fromUtf8("pushButton_13"))
         self.pushButton_13.clicked.connect(self.addSoftTemplate)
-        self.pushButton_13.setEnabled(False)
+        self.pushButton_13.setEnabled(True)
 
         icon26 = QtGui.QIcon()
         icon26.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\green-document-plus-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -383,6 +383,8 @@ class Ui_MainWindow(QObject):
         self.actionAbout.setObjectName(_fromUtf8("actionAbout"))
         self.actionHelp = QtGui.QAction(MainWindow)
         self.actionHelp.setObjectName(_fromUtf8("actionHelp"))
+        self.actionDropDB = QtGui.QAction(MainWindow)
+        self.actionDropDB.setObjectName(_fromUtf8("actionDropDB"))
         self.menuFile.addSeparator()
         self.menuFile.addAction(self.newFile)
         self.menuFile.addAction(self.openFile)
@@ -404,6 +406,7 @@ class Ui_MainWindow(QObject):
         self.menuTools.addAction(self.actionChangeMN)
         self.menuTools.addSeparator()
         self.menuTools.addAction(self.actionBrowse_Premade_Templates)
+        self.menuTools.addAction(self.actionDropDB)
         self.menuAbout.addAction(self.actionAbout)
         self.menuAbout.addSeparator()
         self.menuAbout.addAction(self.actionHelp)
@@ -428,6 +431,7 @@ class Ui_MainWindow(QObject):
         self.actionAbout.triggered.connect(self.callAbout)
         self.actionChangeTheme.triggered.connect(self.changeTheme)
         self.actionHelp.triggered.connect(self.helpFunc)
+        self.actionDropDB.triggered.connect(self.clearDatabase)
 
         self.recentNumber = 0
         self.templatesList = []
@@ -484,6 +488,7 @@ class Ui_MainWindow(QObject):
         self.actionBrowse_Premade_Templates.setText(_translate("MainWindow", "Browse", None))
         self.actionAbout.setText(_translate("MainWindow", "About", None))
         self.actionHelp.setText(_translate("MainWindow", "Help!", None))
+        self.actionDropDB.setText(_translate("MainWindow", "Clear Database", None))
         self.textEdit.installEventFilter(self)
 
     def eventFilter(self, source, event):
@@ -601,25 +606,26 @@ class Ui_MainWindow(QObject):
         threading.Timer(3.0,QtGui.qApp.quit).start()
 
     def fillRecent(self):
-        if os.path.isfile("agentDatabase.db"):
+        if os.path.isfile("Database\\agentDatabase.db"):
             self.recentNumber = 0
             self.templatesList = []
-            database = sqlite3.connect("agentDatabase.db")
+            database = sqlite3.connect("Database\\agentDatabase.db")
             visitCursor = database.cursor()
-            # templateTuples = visitCursor.execute(
-            #     "SELECT  name, path FROM personal WHERE usedTimes != 0 ORDER BY usedTimes DESC LIMIT 10")
-            templateTuples = visitCursor.execute(
-                "SELECT  name, path FROM personal WHERE lastUsed != 0 ORDER BY lastUsed DESC LIMIT 10")
-            self.templatesComboBox.clear()
-            # self.templatesComboBox.addItem("")
-            for j, i in enumerate(templateTuples):
-                if os.path.isfile(i[1]):
-                    self.templatesComboBox.addItem(i[0].replace(".txt",""))
-                    self.templatesList.append((i[0],i[1]))
-                    self.recentNumber += 1
-            database.close()
-            self.label_2.setText(
-                _translate("MainWindow", "Recently used templates: " + str(self.recentNumber) + ".\t\t      Browse:", None))
+            visitCursor.execute("SELECT * FROM sqlite_master WHERE name = 'personal' and type = 'table'")
+            if visitCursor.fetchone() != None:
+                templateTuples = visitCursor.execute(
+                    "SELECT  name, path FROM personal WHERE lastUsed != 0 ORDER BY lastUsed DESC LIMIT 10")
+                self.templatesComboBox.clear()
+                for j, i in enumerate(templateTuples):
+                    if os.path.isfile(i[1]):
+                        self.templatesComboBox.addItem(i[0].replace(".txt",""))
+                        self.templatesList.append((i[0],i[1]))
+                        self.recentNumber += 1
+                database.close()
+                self.label_2.setText(
+                    _translate("MainWindow", "Recently used templates: " + str(self.recentNumber) + ".\t\t      Browse:", None))
+                if(self.recentNumber != 0):
+                    self.pushButton_13.setEnabled(True)
 
     def addSoftTemplate(self):
         checkedTemplate = self.templatesComboBox.currentText()
@@ -629,9 +635,8 @@ class Ui_MainWindow(QObject):
                 with templateFile:
                     self.textEdit.setText(templateFile.read())
                     templateFile.close()
-                sharedFun.increaseDBValue(i)
+                sharedFun.increaseDBValue(i, j, self.lines[26])
                 break
-        sharedFun.increaseDBValue(str(checkedTemplate+".txt"))
         self.fillRecent()
 
     def changeTheme(self):
@@ -647,12 +652,28 @@ class Ui_MainWindow(QObject):
         self.myOtherWindow.show()
 
     def changeIcon(self):
-        for i, j in  self.templatesList:
-            if i == self.templatesComboBox.currentText()+".txt":
+        checkedTemplate = self.templatesComboBox.currentText()
+        for i, j in self.templatesList:
+            if i == checkedTemplate + ".txt":
                 self.pushButton_13.setEnabled(True)
-                break;
+                break
         else:
             self.pushButton_13.setEnabled(False)
+
+    def clearDatabase(self):
+        quit_msg = "This well clear your history and wipe the database. Proceed?"
+        closeDialog = QtGui.QMessageBox
+        reply = closeDialog.question(None, 'Message',
+                                     quit_msg, QtGui.QMessageBox.Yes, QtGui.QMessageBox.No)
+        if reply == QtGui.QMessageBox.Yes:
+            sharedFun.dropTable("Database\\agentDatabase.db")
+            self.fillRecent()
+            self.templatesComboBox.clear()
+            self.recentNumber = 0
+            self.label_2.setText(
+                _translate("MainWindow", "Recently used templates: " + str(self.recentNumber) + ".\t\t      Browse:",
+                           None))
+
 
 
 
