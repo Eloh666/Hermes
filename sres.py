@@ -45,6 +45,14 @@ class SreS(QtGui.QWidget):
         self.setWindowTitle(_translate("self", "Search Results", None))
         self.label.setText(_translate("self", "Search Results:", None))
         self.pushButton.setText(_translate("self", "Ok", None))
+        self.setFont()
+
+    def setFont(self):
+        font = QtGui.QFont()
+        font.setPointSize(8)
+        font.setBold(True)
+        self.pushButton.setFont(font)
+
 
     def closeEvent(self,event):
         self.close()

@@ -270,12 +270,12 @@ class Ui_MainWindow(QObject):
         self.pushButton_12.setObjectName(_fromUtf8("pushButton_12"))
         self.pushButton_12.setIconSize(QtCore.QSize(26, 26))
 
-
         icon22 = QtGui.QIcon()
         icon22.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\chive-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
         self.pushButton_10.setIcon(icon22)
         self.pushButton_10.setIconSize(QtCore.QSize(26, 26))
         self.pushButton_10.setObjectName(_fromUtf8("pushButton_10"))
+
         self.pushButton_13 = QtGui.QPushButton(self.centralwidget)
         self.pushButton_13.setGeometry(QtCore.QRect(525, 159, 50, 26))
         icon23 = QtGui.QIcon()
@@ -283,7 +283,20 @@ class Ui_MainWindow(QObject):
         self.pushButton_13.setIcon(icon23)
         self.pushButton_13.setObjectName(_fromUtf8("pushButton_13"))
         self.pushButton_13.clicked.connect(self.addSoftTemplate)
-        self.pushButton_13.setEnabled(True)
+
+        self.pushButton_14 = QtGui.QPushButton(self.centralwidget)
+        self.pushButton_14.setGeometry(QtCore.QRect(950, 159, 50, 26))
+        icon24 = QtGui.QIcon()
+        icon24.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\senIcon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        self.pushButton_14.setIcon(icon24)
+        self.pushButton_14.setObjectName(_fromUtf8("pushButton_13"))
+        self.pushButton_14.setIconSize(QtCore.QSize(46, 46))
+
+        self.pushButton_15 = QtGui.QPushButton(self.centralwidget)
+        self.pushButton_15.setGeometry(QtCore.QRect(825, 159, 50, 26))
+        self.pushButton_15.setIcon(icon1)
+        self.pushButton_15.setObjectName(_fromUtf8("pushButton_13"))
+        self.pushButton_15.setIconSize(QtCore.QSize(31, 31))
 
         icon26 = QtGui.QIcon()
         icon26.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\green-document-plus-icon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
@@ -316,7 +329,12 @@ class Ui_MainWindow(QObject):
         self.label_2 =  QtGui.QLabel(self.centralwidget)
         self.label_2.setGeometry(QtCore.QRect(20, 145, 251, 20))
         self.label_2.setObjectName(_fromUtf8("label2"))
-
+        self.label_3 = QtGui.QLabel(self.centralwidget)
+        self.label_3.setGeometry(QtCore.QRect(900, 155, 50, 30))
+        self.label_3.setObjectName(_fromUtf8("label2"))
+        self.label_4 = QtGui.QLabel(self.centralwidget)
+        self.label_4.setGeometry(QtCore.QRect(775, 155, 50, 30))
+        self.label_4.setObjectName(_fromUtf8("label2"))
 
 #            LINE EDITS  -----------------------------------------------------------------------------------------------
 
@@ -442,7 +460,7 @@ class Ui_MainWindow(QObject):
         self.templatesComboBox.currentIndexChanged.connect(self.changeIcon)
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(_translate("Sandwich Reborn", "Hermes Beta 0.91C", None))
+        MainWindow.setWindowTitle(_translate("Sandwich Reborn", "Hermes v1.9.8", None))
         self.pushButton.setText(_translate("MainWindow", "Convert", None))
         self.comboBox.setItemText(0, _translate("MainWindow", "PlayStation 4 (PS4)", None))
         self.comboBox.setItemText(1, _translate("MainWindow", "DualShock 4 (DS4)", None))
@@ -463,7 +481,9 @@ class Ui_MainWindow(QObject):
         self.pushButton_13.setToolTip(_translate("MainWindow", "Add Template", None))
         self.pushButton_12.setToolTip(_translate("MainWindow", "Search Template", None))
         self.label.setText(_translate("MainWindow", "Topic", None))
-        self.label_2.setText(_translate("MainWindow", "Recently used templates: "+str(self.recentNumber)+".\t\t      Browse:", None))
+        self.label_2.setText(_translate("MainWindow", "Recently used templates: "+str(self.recentNumber)+".\tBrowse:", None))
+        self.label_3.setText(_translate("MainWindow", "PS4\nQuery", None))
+        self.label_4.setText(_translate("MainWindow", "SEN\nQuery", None))
         self.textEdit.setDocumentTitle(_translate("MainWindow", "Sandwich", None))
         self.pushButton_8.setToolTip(_translate("MainWindow", "Clear Last Change", None))
         self.pushButton_12.setText(_translate("MainWindow", "Search", None))
@@ -490,6 +510,35 @@ class Ui_MainWindow(QObject):
         self.actionHelp.setText(_translate("MainWindow", "Help!", None))
         self.actionDropDB.setText(_translate("MainWindow", "Clear Database", None))
         self.textEdit.installEventFilter(self)
+        self.setFont()
+
+    def setFont(self):
+        font = QtGui.QFont()
+        font.setPointSize(7)
+        font.setBold(True)
+        self.label.setFont(font)
+        self.label_2.setFont(font)
+        self.label_3.setFont(font)
+        self.label_4.setFont(font)
+        self.comboBox.setFont(font)
+        self.pushButton.setFont(font)
+        self.pushButton_2.setFont(font)
+        self.pushButton_3.setFont(font)
+        self.pushButton_4.setFont(font)
+        self.pushButton_5.setFont(font)
+        self.pushButton_6.setFont(font)
+        self.pushButton_7.setFont(font)
+        self.pushButton_8.setFont(font)
+        self.pushButton_10.setFont(font)
+        self.pushButton_12.setFont(font)
+        self.pushButton_13.setFont(font)
+        self.templatesComboBox.setFont(font)
+        font.setPointSize(8)
+        self.menuFile.setFont(font)
+        self.menuTools.setFont(font)
+        self.menuAbout.setFont(font)
+        self.menubar.setFont(font)
+        self.menuEdit.setFont(font)
 
     def eventFilter(self, source, event):
         if (event.type() == QtCore.QEvent.MouseButtonPress):
@@ -673,8 +722,5 @@ class Ui_MainWindow(QObject):
             self.label_2.setText(
                 _translate("MainWindow", "Recently used templates: " + str(self.recentNumber) + ".\t\t      Browse:",
                            None))
-
-
-
 
 

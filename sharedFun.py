@@ -283,7 +283,6 @@ class Highlighter(QSyntaxHighlighter):
 
 
 
-
 class SpellAction(QAction):
 
     '''

@@ -159,6 +159,25 @@ class Archive(QtGui.QWidget):
 #Label
         self.label.setText(_translate("self", "Welcome to the Archive! Please select a template.", None))
 
+        self.setFont()
+
+    def setFont(self):
+        font = QtGui.QFont()
+        font.setPointSize(7)
+        font.setBold(True)
+        self.pushButton_2.setFont(font)
+        self.pushButton_3.setFont(font)
+        self.pushButton_4.setFont(font)
+        self.pushButton_5.setFont(font)
+        self.pushButton_6.setFont(font)
+        self.pushButton_7.setFont(font)
+        font.setPointSize(8)
+        self.textBrowser.setFont(font)
+        self.treeWidget.setFont(font)
+        self.treeWidget_2.setFont(font)
+        font.setBold(False)
+        self.textBrowser.setFont(font)
+
     def copyTemplate(self, fillRecent, selectedLang):
         data = self.textBrowser.toPlainText()
         data = unicode(data)

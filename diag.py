@@ -17,7 +17,7 @@ except AttributeError:
     def _translate(context, text, disambig):
         return QtGui.QApplication.translate(context, text, disambig)
 
-class changedDiag(QMainWindow):
+class changedDiag(QWidget):
     def __init__(self, title, message):
         QMainWindow.__init__(self)
         self.setObjectName(_fromUtf8("self"))

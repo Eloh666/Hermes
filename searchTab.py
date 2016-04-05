@@ -98,6 +98,19 @@ class searchDialog(QtGui.QWidget):
         self.label_2.setText(_translate("dialog", "of", None))
         self.label_3.setText(_translate("dialog", "0", None))
 
+        self.setFont()
+
+    def setFont(self):
+        font = QtGui.QFont()
+        font.setPointSize(7)
+        font.setBold(True)
+        self.pushButton.setFont(font)
+        self.pushButton_2.setFont(font)
+        self.pushButton_3.setFont(font)
+        self.label.setFont(font)
+        self.label_2.setFont(font)
+        self.label_3.setFont(font)
+
     def searchTemplate(self, tree):
         key = self.lineEdit.text()
         if len(key) > 0:
@@ -117,6 +130,7 @@ class searchDialog(QtGui.QWidget):
                 self.label.setText("1")
                 self.label_3.setText(str(self.researchResults))
                 self.resultsList[self.indexCount].setSelected(True)
+                self.expandAll(self.resultsList[self.indexCount])
                 self.pushButton_3.setEnabled(True)
 
     def navigateTree(self, root, key):
@@ -137,6 +151,7 @@ class searchDialog(QtGui.QWidget):
             self.indexCount += 1
             self.label.setText(str(self.indexCount + 1))
             self.resultsList[self.indexCount].setSelected(True)
+            self.expandAll(self.resultsList[self.indexCount])
             if self.indexCount >= self.researchResults -1:
                 self.pushButton_3.setEnabled(False)
             if self.indexCount != 0:
@@ -151,6 +166,7 @@ class searchDialog(QtGui.QWidget):
             self.indexCount -= 1
             self.label.setText(str(self.indexCount + 1))
             self.resultsList[self.indexCount].setSelected(True)
+            self.expandAll(self.resultsList[self.indexCount])
             if self.indexCount == 0:
                 self.pushButton_2.setEnabled(False)
             if self.indexCount < self.researchResults -1:
@@ -168,5 +184,9 @@ class searchDialog(QtGui.QWidget):
             fixedList.append(i.replace(".txt",""))
         model.setStringList(fixedList)
 
-
+    def expandAll(self, item):
+        item = item.parent()
+        if item != None:
+            item.setExpanded(True)
+            self.expandAll(item)
 

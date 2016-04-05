@@ -34,7 +34,7 @@ class colorDialog(QtGui.QWidget):
 
 
     def setupUi(self, Form, closeFunc):
-        Form.setObjectName(_fromUtf8("Form"))
+        Form.setObjectName(_fromUtf8("Change Theme"))
         Form.resize(501, 121)
         self.radioButton = QtGui.QRadioButton(Form)
         self.radioButton.setGeometry(QtCore.QRect(30, 50, 82, 17))
@@ -75,6 +75,17 @@ class colorDialog(QtGui.QWidget):
         self.pushButton.setText(_translate("Form", "Ok (Restart Required)", None))
         self.pushButton_2.setText(_translate("Form", "Cancel", None))
 
+        self.setFont()
+
+    def setFont(self):
+        font = QtGui.QFont()
+        font.setPointSize(8)
+        font.setBold(True)
+        self.pushButton.setFont(font)
+        self.pushButton_2.setFont(font)
+        self.radioButton.setFont(font)
+        self.radioButton_2.setFont(font)
+        self.label.setFont(font)
 
     def changeColor(self, value):
         self.selectedValue = value
