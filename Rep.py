@@ -40,6 +40,8 @@ class Archive(QtGui.QWidget):
         self.htmlData = ""
         self.resize(1198, 636)
 
+
+
 #           TEXT BROWSER
 
         self.textBrowser = QtGui.QTextBrowser(self)
@@ -117,7 +119,7 @@ class Archive(QtGui.QWidget):
 
         self.templatesLocations = self.initializeLists(self.treeWidget, sharedFun.selLang(selectedLang, lines).replace("\n",""))
 
-        self.databaseFill()
+        self.databaseFill(selectedLang)
         fillRecent()
 
         command = lambda : self.displaySelected(self.treeWidget.selectedItems(), 6, selectedLang)
@@ -187,7 +189,7 @@ class Archive(QtGui.QWidget):
         node = self.treeWidget.selectedItems()
         selectedNode = node[0]
         path = sharedFun.selLang(selectedLang, lines).replace("\n","")+self.backWardPath(selectedNode)+self.currentlyDisplayedTemplate
-        sharedFun.increaseDBValue(self.currentlyDisplayedTemplate, str(path), lines[26])
+        sharedFun.increaseDBValue(str(path), lines[26])
         fillRecent()
 
     def zoomTemplate(self):
@@ -202,7 +204,7 @@ class Archive(QtGui.QWidget):
         selectedNode = node[0]
         path = sharedFun.selLang(selectedLang, lines).replace("\n", "") + self.backWardPath(
         selectedNode) + self.currentlyDisplayedTemplate
-        sharedFun.increaseDBValue(self.currentlyDisplayedTemplate, str(path), lines[26])
+        sharedFun.increaseDBValue(str(path), lines[26])
         fillRecent()
         self.close()
 
@@ -239,20 +241,22 @@ class Archive(QtGui.QWidget):
         self.myOtherWindow.setStyleSheet(sharedFun.getColor())
         self.myOtherWindow.show()
 
-    def databaseFill(self):
+    def databaseFill(self, selectedLang):
         database = sqlite3.connect("Database\\agentDatabase.db")
         visitCursor = database.cursor()
         visitCursor.execute('''CREATE TABLE IF NOT EXISTS personal(
+                            ID INTEGER PRIMARY KEY AUTOINCREMENT,
                             usedTimes int,
                             name text,
                             path text,
                             lastUsed datetime,
+                            lang text,
                             UNIQUE(name,
-                            path)
+                            path, lang)
                             )''')
         for i,j in self.templatesLocations:
-            visitCursor.execute("INSERT OR IGNORE INTO personal "
-                                "VALUES (?, ?, ?, ?)", (0, j, i+"\\"+j, 0))
+            visitCursor.execute("INSERT OR IGNORE INTO personal (usedTimes, name, path, lastUsed, lang) "
+                                "VALUES (?, ?, ?, ?, ?)", (0, j, i+"\\"+j, 0, sharedFun.langToText(selectedLang)))
         database.commit()
         database.close()
         self.updateMainDB()
@@ -307,24 +311,28 @@ class Archive(QtGui.QWidget):
         mainDatabase = sqlite3.connect(mainDatabasePath)
         mainDatabaseCursor = mainDatabase.cursor()
         mainDatabaseCursor.execute('''CREATE TABLE IF NOT EXISTS usageInformation(
+                                ID INTEGER PRIMARY KEY   AUTOINCREMENT,
                                 usedTimes int,
                                 name text,
                                 path text,
                                 lastUsed datetime,
+                                lang text,
                                 UNIQUE(name,
-                                path)
+                                path, lang)
                                 )''')
         personalDatabasePath = "Database\\agentDatabase.db"
         agentDatabase = sqlite3.connect(personalDatabasePath)
         agentDatabaseCursor = agentDatabase.cursor()
         agentDatabaseData = agentDatabaseCursor.execute(
-            "SELECT * FROM personal")
-        for usedTimes, name, path, lastUsed in agentDatabaseData:
+            "SELECT * FROM personal ORDER BY  ID")
+        for key, usedTimes, name, path, lastUsed, lang in agentDatabaseData:
             mainDatabaseCursor.execute("INSERT OR IGNORE INTO usageInformation "
-                                       "VALUES (?, ?, ?, ?)", (usedTimes, name, path, lastUsed))
+                                       "VALUES (?, ?, ?, ?, ?, ?)", (key, usedTimes, name, path, lastUsed, lang))
         mainDatabase.commit()
         mainDatabase.close()
         agentDatabase.close()
+
+
 
 
 

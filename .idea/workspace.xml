@@ -2,19 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42fa7e09-1da5-4232-b90b-fcc2cd11919e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Database/agentDatabase.db" afterPath="$PROJECT_DIR$/Database/agentDatabase.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Database/mainDatabase.db" afterPath="$PROJECT_DIR$/Database/mainDatabase.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Hermes.iml" afterPath="$PROJECT_DIR$/.idea/Hermes.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Database/agentDatabase.db" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Database/mainDatabase.db" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Config.txt" afterPath="$PROJECT_DIR$/Config.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MainWin.py" afterPath="$PROJECT_DIR$/MainWin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Rep.py" afterPath="$PROJECT_DIR$/Rep.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/colorDiag.py" afterPath="$PROJECT_DIR$/colorDiag.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/diag.py" afterPath="$PROJECT_DIR$/diag.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/searchTab.py" afterPath="$PROJECT_DIR$/searchTab.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sharedFun.py" afterPath="$PROJECT_DIR$/sharedFun.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sres.py" afterPath="$PROJECT_DIR$/sres.py" />
     </list>
     <ignored path="Hermes.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +22,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Hermes$Main.coverage" NAME="Main Coverage Results" MODIFIED="1459889921689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Hermes$Main.coverage" NAME="Main Coverage Results" MODIFIED="1459965927122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -39,14 +33,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainWin.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainWin.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MainWin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="540" column="35" selection-start-line="540" selection-start-column="35" selection-end-line="540" selection-end-column="35" />
+            <state relative-caret-position="834">
+              <caret line="687" column="38" selection-start-line="687" selection-start-column="38" selection-end-line="687" selection-end-column="38" />
               <folding>
-                <marker date="1459889927862" expanded="true" signature="33971:34041" placeholder="SELECT * FRO... sqlite_master" />
-                <marker date="1459889927862" expanded="true" signature="34166:34250" placeholder="SELECT name,... personal" />
+                <marker date="1459965911993" expanded="true" signature="33971:34041" placeholder="SELECT * FRO... sqlite_master" />
+                <marker date="1459965911993" expanded="true" signature="34167:34257" placeholder="SELECT name,... personal" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sharedFun.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sharedFun.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="448">
+              <caret line="233" column="0" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+              <folding>
+                <marker date="1459965899189" expanded="true" signature="9585:9664" placeholder="UPDATE perso... " />
+                <marker date="1459965899189" expanded="true" signature="9957:10044" placeholder="UPDATE usage... " />
+                <marker date="1459965899189" expanded="true" signature="10255:10325" placeholder="SELECT * FRO... sqlite_master" />
+                <marker date="1459965899189" expanded="true" signature="10396:10417" placeholder="DROP TABLE '... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Rep.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Rep.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="274">
+              <caret line="211" column="27" selection-start-line="211" selection-start-column="27" selection-end-line="211" selection-end-column="27" />
+              <folding>
+                <marker date="1459965926221" expanded="true" signature="10201:10621" placeholder="CREATE TABLE... personal" />
+                <marker date="1459965926221" expanded="true" signature="10703:10831" placeholder="INSERT OR IG... personal" />
+                <marker date="1459965926221" expanded="true" signature="12986:13452" placeholder="CREATE TABLE... usageInformation" />
+                <marker date="1459965926221" expanded="true" signature="13702:13724" placeholder="SELECT * FRO... personal" />
+                <marker date="1459965926221" expanded="true" signature="13702:13737" placeholder="SELECT * FRO... personal" />
+                <marker date="1459965926221" expanded="true" signature="13857:13963" placeholder="INSERT OR IG... usageInformation" />
               </folding>
             </state>
           </provider>
@@ -55,7 +81,7 @@
       <file leaf-file-name="colorDiag.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/colorDiag.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
+            <state relative-caret-position="408">
               <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
               <folding />
             </state>
@@ -82,14 +108,14 @@
         <option value="$PROJECT_DIR$/do.stylesheet" />
         <option value="$PROJECT_DIR$/about.py" />
         <option value="$PROJECT_DIR$/viewer.py" />
-        <option value="$PROJECT_DIR$/Rep.py" />
         <option value="$PROJECT_DIR$/searchTab.py" />
         <option value="$PROJECT_DIR$/diag.py" />
         <option value="$PROJECT_DIR$/questionDiag.py" />
-        <option value="$PROJECT_DIR$/sharedFun.py" />
         <option value="$PROJECT_DIR$/sres.py" />
         <option value="$PROJECT_DIR$/colorDiag.py" />
+        <option value="$PROJECT_DIR$/sharedFun.py" />
         <option value="$PROJECT_DIR$/MainWin.py" />
+        <option value="$PROJECT_DIR$/Rep.py" />
       </list>
     </option>
   </component>
@@ -99,9 +125,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1713" />
-    <option name="width" value="1734" />
-    <option name="height" value="1407" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="3456" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -128,7 +155,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -148,36 +174,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hermes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hermes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyTemplatesUK" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hermes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Hermes" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -469,16 +468,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1713" y="0" width="1734" height="1407" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="3456" height="1416" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21653084" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10813954" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28989977" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.287902" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -532,7 +531,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/miniMEG.py" />
     <entry file="file://$PROJECT_DIR$/sres.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -771,9 +769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="e#25#56#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -781,68 +776,68 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2210">
           <caret line="132" column="65" selection-start-line="132" selection-start-column="65" selection-end-line="132" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/questionDiag.py" />
+    <entry file="file://$PROJECT_DIR$/sres.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="53" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TODO.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rep.py">
+    <entry file="file://$PROJECT_DIR$/colorDiag.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="166" column="26" selection-start-line="161" selection-start-column="1" selection-end-line="166" selection-end-column="26" />
-          <folding>
-            <marker date="1459886697649" expanded="true" signature="10239:10548" placeholder="CREATE TABLE... IF" />
-            <marker date="1459886697649" expanded="true" signature="12834:13179" placeholder="CREATE TABLE... IF" />
-            <marker date="1459886697649" expanded="true" signature="13429:13451" placeholder="SELECT * FRO... personal" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/questionDiag.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        <state relative-caret-position="408">
+          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sharedFun.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-654">
-          <caret line="215" column="0" selection-start-line="215" selection-start-column="0" selection-end-line="215" selection-end-column="0" />
+        <state relative-caret-position="448">
+          <caret line="233" column="0" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
           <folding>
-            <marker date="1459888600890" expanded="true" signature="9592:9687" placeholder="UPDATE perso... " />
-            <marker date="1459888600890" expanded="true" signature="9987:10090" placeholder="UPDATE usage... " />
-            <marker date="1459888600890" expanded="true" signature="10308:10378" placeholder="SELECT * FRO... sqlite_master" />
-            <marker date="1459888600890" expanded="true" signature="10449:10470" placeholder="DROP TABLE '... " />
+            <marker date="1459965899189" expanded="true" signature="9585:9664" placeholder="UPDATE perso... " />
+            <marker date="1459965899189" expanded="true" signature="9957:10044" placeholder="UPDATE usage... " />
+            <marker date="1459965899189" expanded="true" signature="10255:10325" placeholder="SELECT * FRO... sqlite_master" />
+            <marker date="1459965899189" expanded="true" signature="10396:10417" placeholder="DROP TABLE '... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sres.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="53" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/colorDiag.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="36" column="50" selection-start-line="36" selection-start-column="50" selection-end-line="36" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/MainWin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="540" column="35" selection-start-line="540" selection-start-column="35" selection-end-line="540" selection-end-column="35" />
+        <state relative-caret-position="834">
+          <caret line="687" column="38" selection-start-line="687" selection-start-column="38" selection-end-line="687" selection-end-column="38" />
           <folding>
-            <marker date="1459889927862" expanded="true" signature="33971:34041" placeholder="SELECT * FRO... sqlite_master" />
-            <marker date="1459889927862" expanded="true" signature="34166:34250" placeholder="SELECT name,... personal" />
+            <marker date="1459965911993" expanded="true" signature="33971:34041" placeholder="SELECT * FRO... sqlite_master" />
+            <marker date="1459965911993" expanded="true" signature="34167:34257" placeholder="SELECT name,... personal" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Rep.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="211" column="27" selection-start-line="211" selection-start-column="27" selection-end-line="211" selection-end-column="27" />
+          <folding>
+            <marker date="1459965926221" expanded="true" signature="10201:10621" placeholder="CREATE TABLE... personal" />
+            <marker date="1459965926221" expanded="true" signature="10703:10831" placeholder="INSERT OR IG... personal" />
+            <marker date="1459965926221" expanded="true" signature="12986:13452" placeholder="CREATE TABLE... usageInformation" />
+            <marker date="1459965926221" expanded="true" signature="13702:13724" placeholder="SELECT * FRO... personal" />
+            <marker date="1459965926221" expanded="true" signature="13702:13737" placeholder="SELECT * FRO... personal" />
+            <marker date="1459965926221" expanded="true" signature="13857:13963" placeholder="INSERT OR IG... usageInformation" />
           </folding>
         </state>
       </provider>

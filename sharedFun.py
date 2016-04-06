@@ -232,18 +232,18 @@ def selLang(lang, lines):
         return lines[22]
 
 
-def increaseDBValue(value, path, mainLocation):
+def increaseDBValue(path, mainLocation):
     if os.path.isfile("Database\\agentDatabase.db"):
         agentDatabase = sqlite3.connect("Database\\agentDatabase.db")
         agentCursor = agentDatabase.cursor()
         timeValue = str(datetime.datetime.now())
-        agentCursor.execute("UPDATE personal SET usedTimes = usedTimes + 1, lastUsed = (?) WHERE name == (?) and path == (?)", (timeValue, value, path,))
+        agentCursor.execute("UPDATE personal SET usedTimes = usedTimes + 1, lastUsed = (?) WHERE path == (?)", (timeValue, path,))
         agentDatabase.commit()
         agentDatabase.close()
     if os.path.isfile(mainLocation+"\\"+"mainDatabase.db"):
         mainDatabase = sqlite3.connect(mainLocation +"\\"+ "mainDatabase.db")
         mainCursor = mainDatabase.cursor()
-        mainCursor.execute("UPDATE usageInformation SET usedTimes = usedTimes + 1, lastUsed = (?) WHERE name == (?) and path == (?)", (timeValue, value, path,))
+        mainCursor.execute("UPDATE usageInformation SET usedTimes = usedTimes + 1, lastUsed = (?) WHERE path == (?)", (timeValue, path,))
         mainDatabase.commit()
         agentDatabase.close()
 
@@ -253,6 +253,17 @@ def dropTable(database):
     visitCursor.execute("SELECT * FROM sqlite_master WHERE name = 'personal' and type = 'table'")
     if visitCursor.fetchone() != None:
         visitCursor.execute("DROP TABLE 'personal'")
+
+def langToText(number):
+    switcher = {
+        1: "IT",
+        2: "EN",
+        3: "SE",
+        4: "DK",
+        5: "NO",
+        6: "PL"
+    }
+    return switcher.get(number, "nothing")
 
 class Highlighter(QSyntaxHighlighter):
 

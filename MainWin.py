@@ -662,12 +662,12 @@ class Ui_MainWindow(QObject):
             visitCursor = database.cursor()
             visitCursor.execute("SELECT * FROM sqlite_master WHERE name = 'personal' and type = 'table'")
             if visitCursor.fetchone() != None:
-                templateTuples = visitCursor.execute(
-                    "SELECT  name, path FROM personal WHERE lastUsed != 0 ORDER BY lastUsed DESC LIMIT 10")
+                templateTriples = visitCursor.execute(
+                    "SELECT  name, path, lang FROM personal WHERE lastUsed != 0 ORDER BY lastUsed DESC LIMIT 10")
                 self.templatesComboBox.clear()
-                for j, i in enumerate(templateTuples):
+                for j, i in enumerate(templateTriples):
                     if os.path.isfile(i[1]):
-                        self.templatesComboBox.addItem(i[0].replace(".txt",""))
+                        self.templatesComboBox.addItem(i[2]+" - "+i[0].replace(".txt",""), i[1])
                         self.templatesList.append((i[0],i[1]))
                         self.recentNumber += 1
                 database.close()
@@ -678,15 +678,16 @@ class Ui_MainWindow(QObject):
 
     def addSoftTemplate(self):
         checkedTemplate = self.templatesComboBox.currentText()
-        for i, j in self.templatesList:
-            if i == checkedTemplate + ".txt":
-                templateFile = open(j, 'r')
-                with templateFile:
-                    self.textEdit.setText(templateFile.read())
-                    templateFile.close()
-                sharedFun.increaseDBValue(i, j, self.lines[26])
-                break
-        self.fillRecent()
+        variant = self.templatesComboBox.itemData(self.templatesComboBox.currentIndex())
+        path = variant.toString()
+        try:
+            templateFile = open(path, 'r')
+            with templateFile:
+                self.textEdit.setText(templateFile.read())
+                templateFile.close()
+            sharedFun.increaseDBValue(str(path), self.lines[26])
+        finally:
+            self.fillRecent()
 
     def changeTheme(self):
         self.myOtherWindow = colorDiag.colorDialog(self.closeWarning)

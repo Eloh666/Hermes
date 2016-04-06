@@ -10,7 +10,7 @@ C:\Users\Eloh\Documents\GitHub\Hermes\Archive
 # Italian Folder Search Path	
 C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # UK Folder Search Path	
-C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
+C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplatesUK
 # Swedish Folder Search Path	
 C:\Users\Eloh\Documents\GitHub\Hermes\MyTemplates
 # Danish Folder Search Path	

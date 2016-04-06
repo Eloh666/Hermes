@@ -1,0 +1,5 @@
+Must:
+
+- Add title functions
+- Add language to database
+- Fix double name addSoft (database + object name)
