@@ -4,7 +4,10 @@ from PyQt4 import QtCore, QtGui
 import sys
 import MainWin
 import sharedFun
+import time
 import stylesheethelp
+from PyQt4.QtCore import *
+from PyQt4.QtGui import *
 
 
 
@@ -38,9 +41,15 @@ class Main(QtGui.QMainWindow, MainWin.Ui_MainWindow):
 
 if __name__ == "__main__":
     app = QtGui.QApplication(sys.argv)
+    splash_pix = QPixmap('Icons\loading.png')
+    splash = QSplashScreen(splash_pix, Qt.WindowStaysOnTopHint)
+    splash.setMask(splash_pix.mask())
+    splash.show()
+    time.sleep(1)
     app.setStyle("plastique")
     app.setWindowIcon(QtGui.QIcon('Icons\winged_foot.png'))
     window = Main()
     window.setStyleSheet(sharedFun.getColor())
     window.show()
+    splash.finish(window)
     sys.exit(app.exec_())
