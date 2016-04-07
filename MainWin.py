@@ -288,13 +288,13 @@ class Ui_MainWindow(QObject):
         self.pushButton_14.setGeometry(QtCore.QRect(950, 159, 50, 26))
         icon24 = QtGui.QIcon()
         icon24.addPixmap(QtGui.QPixmap(_fromUtf8("Icons\senIcon.png")), QtGui.QIcon.Normal, QtGui.QIcon.Off)
-        self.pushButton_14.setIcon(icon24)
+        self.pushButton_14.setIcon(icon1)
         self.pushButton_14.setObjectName(_fromUtf8("pushButton_13"))
         self.pushButton_14.setIconSize(QtCore.QSize(46, 46))
 
         self.pushButton_15 = QtGui.QPushButton(self.centralwidget)
         self.pushButton_15.setGeometry(QtCore.QRect(825, 159, 50, 26))
-        self.pushButton_15.setIcon(icon1)
+        self.pushButton_15.setIcon(icon24)
         self.pushButton_15.setObjectName(_fromUtf8("pushButton_13"))
         self.pushButton_15.setIconSize(QtCore.QSize(31, 31))
 
@@ -319,6 +319,13 @@ class Ui_MainWindow(QObject):
         self.pushButton_10.clicked.connect(self.MainButton2) # archive
         self.pushButton_8.clicked.connect(CopyButton) # copy
         self.pushButton_12.clicked.connect(self.Search_Temp) # search
+
+        consoleTitle = lambda checked : sharedFun.consoleField(self.lng)
+        senTitle = lambda checked : sharedFun.senField(self.lng)
+
+        self.pushButton_14.clicked.connect(consoleTitle)
+        self.pushButton_15.clicked.connect(senTitle)
+
 
 
 #            LABEL -----------------------------------------------------------------------------------------------------
@@ -702,11 +709,8 @@ class Ui_MainWindow(QObject):
         self.myOtherWindow.show()
 
     def changeIcon(self):
-        checkedTemplate = self.templatesComboBox.currentText()
-        for i, j in self.templatesList:
-            if i == checkedTemplate + ".txt":
-                self.pushButton_13.setEnabled(True)
-                break
+        if self.templatesComboBox.count() != 0:
+            self.pushButton_13.setEnabled(True)
         else:
             self.pushButton_13.setEnabled(False)
 

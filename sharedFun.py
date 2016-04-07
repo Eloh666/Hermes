@@ -191,9 +191,12 @@ def AddTemplate(lng,lineEdit,comboBox, textEdit):
     cbCopy(newbody)
 
 def cbCopy(data):
-    cb = QtGui.QApplication.clipboard()
-    cb.clear(mode=cb.Clipboard)
-    cb.setText(data, mode=cb.Clipboard)
+    try:
+        data = unicode(data)
+    finally:
+        cb = QtGui.QApplication.clipboard()
+        cb.clear(mode=cb.Clipboard)
+        cb.setText(data, mode=cb.Clipboard)
 
 
 def getColor():
@@ -254,17 +257,6 @@ def dropTable(database):
     if visitCursor.fetchone() != None:
         visitCursor.execute("DROP TABLE 'personal'")
 
-def langToText(number):
-    switcher = {
-        1: "IT",
-        2: "EN",
-        3: "SE",
-        4: "DK",
-        5: "NO",
-        6: "PL"
-    }
-    return switcher.get(number, "nothing")
-
 class Highlighter(QSyntaxHighlighter):
 
     WORDS = u'(?iu)[\w\']+'
@@ -308,4 +300,39 @@ class SpellAction(QAction):
         self.triggered.connect(lambda x: self.correct.emit(
             unicode(self.text())))
 
+def consoleField (number):
+    switcher = {
+        1: "Richiesta Assistenza Sony Entertainment Network",
+        2: "Your PlayStation Query",
+        3: "Din PlayStation fråga",
+        4: "Din PlayStation forespørsel",
+        5: "PlayStation- asianne",
+        6: "Din PlayStation forespørsel",
+        7: "Zapytanie: Sony Entertainment Network"
+    }
+    cbCopy(switcher.get(number, "nothing"))
 
+def senField(number):
+    switcher = {
+        1: "Richiesta Assistenza PlayStation",
+        2: "Your Sony Entertainment Network Query",
+        3: "Din Sony Entertainment Network fråga",
+        4: "Din Sony Entertainment Network forespørsel",
+        5: "Sony Entertainment Network- asianne",
+        6: "Din Sony Entertainment Network forespørsel",
+        7: "Zapytanie: PlayStation"
+    }
+    cbCopy(unicode(switcher.get(number, "nothing")))
+
+
+def langToText(number):
+    switcher = {
+        1: "IT",
+        2: "EN",
+        3: "SE",
+        4: "DK",
+        5: "FI",
+        6: "NO",
+        7: "PL"
+    }
+    return switcher.get(number, "nothing")
