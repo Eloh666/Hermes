@@ -45,7 +45,7 @@ if __name__ == "__main__":
     splash = QSplashScreen(splash_pix, Qt.WindowStaysOnTopHint)
     splash.setMask(splash_pix.mask())
     splash.show()
-    time.sleep(1)
+    time.sleep(1.5)
     app.setStyle("plastique")
     app.setWindowIcon(QtGui.QIcon('Icons\winged_foot.png'))
     window = Main()

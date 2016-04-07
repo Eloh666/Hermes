@@ -6,22 +6,22 @@ asd
 # Future use
 theme = light
 # Archive Directory 2
-Archive\
-# Italian Folder Search Path 
-J:\CG14\CG14 Everyone\Italian Team\ITALIAN TEAM\TEMPLATES
-# UK Folder Search Path 
-J:\CG14\CG14 Everyone\Email Crew\aaa e-mail collection2015
-# Swedish Folder Search Path 
+Archive
+# Italian Folder Search Path	
 MyTemplates
-# Danish Folder Search Path 
-J:\CG14\CG14 Everyone\Email Crew\Nordic Email Templates\Danish Templates
-# Finnish Folder Search Path 
-J:\CG14\CG14 Everyone\Email Crew\Nordic Email Templates\Finnish Templates
-# Norwegian Folder Search Path 
-J:\CG14\CG14 Everyone\Email Crew\Nordic Email Templates\Norwegian Templates
-# Polish Folder Search Path 
-J:\CG14\CG14 Everyone\Email Crew\Poland
+# UK Folder Search Path	
+C:\Users\elohi\Documents\GitHub\Hermes\MyTemplatesUK
+# Swedish Folder Search Path	
+C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+# Danish Folder Search Path	
+C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+# Norwegian Folder Search Path	
+C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+# Finnish Folder Search Path	
+C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+# Polish Folder Search Path	
+C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
 # My Archive directory
-J:\CG14\CG14 Everyone\Italian Team\ITALIAN TEAM\Awaiting Approval
+C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
 # Usage Datbase Directory
--------------------------
+Database
