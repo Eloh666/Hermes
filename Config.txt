@@ -4,24 +4,24 @@
 # Name			
 asd
 # Future use
-theme = light
+theme = dark
 # Archive Directory 2
 Archive
 # Italian Folder Search Path	
 MyTemplates
 # UK Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplatesUK
+MyTemplatesUK
 # Swedish Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+MyTemplates
 # Danish Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+MyTemplates
 # Norwegian Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+MyTemplates
 # Finnish Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+MyTemplates
 # Polish Folder Search Path	
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+MyTemplates
 # My Archive directory
-C:\Users\elohi\Documents\GitHub\Hermes\MyTemplates
+MyTemplates
 # Usage Datbase Directory
 Database

@@ -210,7 +210,7 @@ def getColor():
             colorInfo = 0
         settings.close()
     if colorInfo == 1:
-        stylesheet = open("do.stylesheet")
+        stylesheet = open("Icons\do.stylesheet")
         temp = stylesheet.read()
         stylesheet.close()
         return temp

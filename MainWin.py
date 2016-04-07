@@ -471,7 +471,7 @@ class Ui_MainWindow(QObject):
         self.templatesComboBox.currentIndexChanged.connect(self.changeIcon)
 
     def retranslateUi(self, MainWindow):
-        MainWindow.setWindowTitle(_translate("Sandwich Reborn", "Hermes v1.9.8", None))
+        MainWindow.setWindowTitle(_translate("Sandwich Reborn", "Hermes v2.0.0", None))
         self.pushButton.setText(_translate("MainWindow", "Convert", None))
         self.comboBox.setItemText(0, _translate("MainWindow", "PlayStation 4 (PS4)", None))
         self.comboBox.setItemText(1, _translate("MainWindow", "DualShock 4 (DS4)", None))
